@@ -1,5 +1,5 @@
 We're happy to receive contributions anytime!
-You can help the project by helping [translate](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Translations) it, [sponsor](https://www.patreon.com/heroicgameslauncher) it, test new features, or of course, by directly contributing code!
+You can help the project by helping [translate](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Translations) it, [sponsor](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/Support.md) it, test new features, or of course, by directly contributing code!
 
 ## Development
 This section is WIP (probably will link to a seperate article).

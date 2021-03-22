@@ -2,7 +2,15 @@ We're happy to receive contributions anytime!
 You can help the project by helping [translate](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Translations) it, [sponsor](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/Support.md) it, test new features, or of course, by directly contributing code!
 
 ## Development
-This section is WIP (probably will link to a seperate article).
+
+### Programming/Style Guidelines Guidelines
+
+1. Never use `--no-verify`.
+2. Use `rebase` instead of `merge` when resolving conflicts. It keeps commit history pollution to the minimum.
+3. Respect linting rules. We have pre-commit hooks for the job.
+4. Code will not be merged if the checks fail.
+5. Please tell us over on Discord what you are working on. It helps keep track of project progress.
+6. Signing commits isn't necessary, but you can if you want to.
 
 ## Testing
 Join us over on [Discord](https://discord.gg/rHJ2uqdquK) to help test new features.

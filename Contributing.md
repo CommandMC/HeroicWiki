@@ -3,7 +3,7 @@ You can help the project by helping [translate](https://github.com/Heroic-Games-
 
 ## Development
 
-### Programming/Style Guidelines Guidelines
+### Programming/Style Guidelines
 
 1. Never use `--no-verify`.
 2. Use `rebase` instead of `merge` when resolving conflicts. It keeps commit history pollution to the minimum.

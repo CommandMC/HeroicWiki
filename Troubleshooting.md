@@ -11,7 +11,7 @@ The Game settings and Game Logs (Installation and PlayLogs) are on the `GameConf
 
 ### Not Supported Games
 
-Right now Heroic doesn't Support downloading and installing games that need selective download. As far as we know, only **Fortnite **and **Cyberpunk ** has that so far. 
+Right now Heroic doesn't Support downloading and installing games that need selective download. As far as we know, only **Fortnite** and **Cyberpunk** has that so far. 
 
 If you still need to download those games you can:
 * Open Heroic from the terminal

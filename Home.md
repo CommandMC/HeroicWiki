@@ -1,7 +1,7 @@
 Welcome to the Heroic Games Launcher wiki!
 
 ### What is Heroic?
-Heroic is a native GUI alternative to the Epic Games Launcher for Linux. With upcoming support for Windows and MacOSX as well.
+Heroic is a native GUI alternative to the Epic Games Launcher for Linux. With upcoming support for Windows and MacOS as well.
 It is open source under GPLv3 and is maintained by a community of developers that works for FREE on their FREE TIME.
 Heroic for now is just a GUI for Legendary, which is a CLI tool that deals with the login, download and launch the games.
 Support for other stores is planned in the future.

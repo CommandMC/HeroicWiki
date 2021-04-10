@@ -25,7 +25,7 @@ If you still need to download those games you can:
 ### How to read output from game launch
 
 First, you can launch Heroic from the terminal and check if the Launch command is right with the correct wine, prefix, and settings that you have set up. 
-Second, you can go to the GamePage, clicking on the GameCard and then click on the Settings Button and on the SubMenu, click on LatestLog.
+Second, you can go to the GamePage, clicking on the GameCard, and then click on the Settings Button, and on the SubMenu, click on LatestLog.
 That will open a log file with everything that happened when you tried to launch the game.
 With that, you can start troubleshooting and use it to get help on our Discord Server or on any Linux Community.
 
@@ -40,13 +40,13 @@ Close the App or kill the process if necessary then:
 ### Game Won't Launch
 
 Several things can cause that and probably Heroic has little or nothing to do with it.
-But, one thing you can check is the Compatibility with the game on ProtonDB, even though there you will find more things related with the game on Steam and might not apply to the Epic Games version.
+But, one thing you can check is the Compatibility with the game on ProtonDB, even though there you will find more things related to the game on Steam and might not apply to the Epic Games version.
 
 Another thing is to check the latest log like was said above.
 
-Some games like Borderlands 2 and Borderlands: The Pre-Sequel, need that you install some things on the prefix first. Normally the needed files stay under a folder called `redist` or something similar under the game folder and has all the necessary `exe `or `msi `files. To install then, open the Game Settings and go to the Wine Tab. Then you can use the feature called Install EXE on prefix to install those files.
+Some games like Borderlands 2 and Borderlands: The Pre-Sequel, need that you install some things on the prefix first. Normally the needed files stay under a folder called `redist` or something similar under the game folder and have all the necessary `exe` or `msi` files. To install then, open the Game Settings and go to the Wine Tab. Then you can use the feature called Install EXE on prefix to install those files.
 
-Sometimes, after a long time without using Heroic, your credentials might expire, we are working on showing a message about that and ask to login again, but for now, nothing is shown and when trying to launch the game, nothing will happen. So you will need to manually click logout and restart Heroic. Login again and then launches the game. All your games will be there, don't worry about they being uninstalled.
+Sometimes, after a long time without using Heroic, your credentials might expire, we are working on showing a message about that and ask to login again, but for now, nothing is shown and when trying to launch the game, nothing will happen. So you will need to manually click logout and restart Heroic. Login again and then launches the game. All your games will be there, don't worry about them being uninstalled.
 
 ### Game still shows as installed after uninstalling or uninstalled after installing
 

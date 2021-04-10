@@ -1,13 +1,13 @@
 ## How to use Wine and Proton on Heroic
 
 Heroic can use both Wine and Proton in any version.
-For wine, Heroic passes to Legendary the selected version on the Game Settings along with the `WINEPREFIX`. 
+For wine, Heroic passes the selected version on the Game Settings along with the `WINEPREFIX` to Legendary.
 For Proton, Heroic uses the `--wrapper` and `--no-wine` flags on Legendary, to use the Proton wrapper and have Proton-specific configs and libraries to increase compatibility and fix bugs. Also, instead of a `WINEPREFIX`, Heroic uses the `STEAM_COMPAT_DATA_PATH `for it, using the prefix specified on settings.
 
-## Where do Heroic searches for Wine and Proton versions?
+## Where does Heroic search for Wine and Proton versions?
 
 Heroic searches for the default installed wine, normally in `/usr/bin/wine`, and uses it as the default to launch the games. For now, Heroic does not support Wine Flatpak.
-For Steam Proton, we know that depending on the distro, the steam path can be different so there are a few default folders pre-defined and you can also extract the custom proton/wine on `.config/heroic/tools/wine` for wine or `.config/heroic/tools/proton` for proton. It is also possible to go to the global settings >  Wine and add a custom wine. 
+For Steam Proton, we know that depending on the distro, the steam path can be different so there are a few default folders pre-defined and you can also extract the custom proton/wine on `.config/heroic/tools/wine` for wine or `.config/heroic/tools/proton` for proton. It is also possible to go to the global settings >  Wine and add a custom Wine installation. 
 For that, you can select the wine binary that you want to use or the proton binary. On the custom wine list, they will show as `Proton Custom` or `Wine Custom`.
 
 Those are the default folders that Heroic looks for Proton:

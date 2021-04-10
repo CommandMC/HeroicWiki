@@ -29,14 +29,6 @@ Second, you can go to the GamePage, clicking on the GameCard, and then click on 
 That will open a log file with everything that happened when you tried to launch the game.
 With that, you can start troubleshooting and use it to get help on our Discord Server or on any Linux Community.
 
-### Heroic doesn't open or shows a Blank Window
-
-Close the App or kill the process if necessary then:
-* Try removing/renaming the Heroic folder: `~/.config/heroic`.
-* Try removing/renaming the Legendary folder: `~/.config/legendary`.
-
-![image](https://user-images.githubusercontent.com/77377160/112746130-a63b4500-8fca-11eb-8b72-461f5b80e8f6.png)
-
 ### Game Won't Launch
 
 Several things can cause that and probably Heroic has little or nothing to do with it.
@@ -58,3 +50,12 @@ If that doesn't fix it. Call for help on our Discord Server.
 For that, you can use the helper on the GamePage that fixes the installed path.
 Go to the game page, click on the settings button and choose to change the installed path.
 If that doesn't work for some reason. Fix it manually by changing the path on the `.config/legendary/installed.json` file.
+
+
+### Heroic doesn't open or shows a Blank Window
+
+Close the App or kill the process if necessary then:
+* Try removing/renaming the Heroic folder: `~/.config/heroic`.
+* Try removing/renaming the Legendary folder: `~/.config/legendary`.
+
+![image](https://user-images.githubusercontent.com/77377160/112746130-a63b4500-8fca-11eb-8b72-461f5b80e8f6.png)

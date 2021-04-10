@@ -6,7 +6,7 @@ You can help the project by helping [translate](https://github.com/Heroic-Games-
 ### Programming/Style Guidelines
 
 1. Never use `--no-verify`.
-2. Use `rebase` instead of `merge` when resolving conflicts. It keeps commit history pollution to the minimum.
+2. Follow the coding style used in the file.
 3. Respect linting rules. We have pre-commit hooks for the job.
 4. Code will not be merged if the checks fail.
 5. Please tell us over on Discord what you are working on. It helps keep track of project progress.

@@ -46,4 +46,15 @@ Another thing is to check the latest log like was said above.
 
 Some games like Borderlands 2 and Borderlands: The Pre-Sequel, need that you install some things on the prefix first. Normally the needed files stay under a folder called `redist` or something similar under the game folder and has all the necessary `exe `or `msi `files. To install then, open the Game Settings and go to the Wine Tab. Then you can use the feature called Install EXE on prefix to install those files.
 
-Sometimes, after a long time without using Heroic, your credentials might expire, we are working on showing a message about that and ask to login again, but for now, nothing is shown and when trying to launch the game, nothing will happen. So you will need to manually click logout and restart Heroic. Login again and then launch the game. All your games will be there, don't worry about they being uninstalled.
+Sometimes, after a long time without using Heroic, your credentials might expire, we are working on showing a message about that and ask to login again, but for now, nothing is shown and when trying to launch the game, nothing will happen. So you will need to manually click logout and restart Heroic. Login again and then launches the game. All your games will be there, don't worry about they being uninstalled.
+
+### Game still shows as installed after uninstalling or uninstalled after installing
+
+Most of the time, this can be fixed by Refreshing the Library (found under the User Submenu).
+If that doesn't fix it. Call for help on our Discord Server.
+
+### Game installed but on a different path and Heroic can't launch it
+
+For that, you can use the helper on the GamePage that fixes the installed path.
+Go to the game page, click on the settings button and choose to change the installed path.
+If that doesn't work for some reason. Fix it manually by changing the path on the `.config/legendary/installed.json` file.

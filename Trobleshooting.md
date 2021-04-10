@@ -6,8 +6,8 @@
 
 Those are stored under:
 `~/.config/heroic` and `~/.config/legendary`
-The General settings for Heroic is the file called config.json. Sometimes this file, for some unknown reason so far, can get format issues (with extra brackets for instance) or even corrupted. Fixing it or removing it can fix some issues.
-The Game settings and Game Logs (Installation and PlayLogs) are on the GameConfig under the Heroic folder.
+The General settings for Heroic is the file called `config.json`. Sometimes this file, for some unknown reason so far, can get format issues (with extra brackets for instance) or even corrupted. Fixing it or removing it can fix some issues.
+The Game settings and Game Logs (Installation and PlayLogs) are on the `GameConfig `folder under the Heroic folder.
 
 ### Not Supported Games
 

@@ -52,10 +52,12 @@ Go to the game page, click on the settings button and choose to change the insta
 If that doesn't work for some reason. Fix it manually by changing the path on the `.config/legendary/installed.json` file.
 
 
-### Heroic doesn't open or shows a Blank Window
+### Heroic doesn't open, never load games after login or shows a Blank Window
 
 Close the App or kill the process if necessary then:
 * Try removing/renaming the Heroic folder: `~/.config/heroic`.
 * Try removing/renaming the Legendary folder: `~/.config/legendary`.
+
+And Login again with a NEW SID. It is important that you generate a new SID because after using it the first time it becomes invalid.
 
 ![image](https://user-images.githubusercontent.com/77377160/112746130-a63b4500-8fca-11eb-8b72-461f5b80e8f6.png)

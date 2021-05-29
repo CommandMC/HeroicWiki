@@ -15,10 +15,9 @@ Those are the default folders that Heroic looks for Proton:
           <i>
             <li>`~/.config/heroic/tools/wine`</li>
             <li>`~/.config/heroic/tools/proton`</li>
-            <li>`~/.local/share/Steam/compatibilitytools.d`</li>
-            <li>`~/.local/share/Steam/steamapps/common`</li>
+            <li>`~/.steam/root/compatibilitytools.d`</li>
+            <li>`~/.steam/steam/steamapps/common`</li>
             <li>`~/.local/share/lutris/runners/wine`</li>
-            <li>`~/.var/app/com.valvesoftware.Steam (Steam Flatpak)`</li>
             <li>`/usr/share/steam`</li>
           </i>
         </ul>

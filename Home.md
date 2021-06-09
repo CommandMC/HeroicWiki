@@ -8,7 +8,7 @@ Support for other stores is planned in the future.
 
 ### Why do you need Heroic?
 Heroic is an easier and faster launcher than the official launcher from Epic, since it doesn't have trackers, doesn't do several network requests while supposed to be idle, etc.
-You can use it to download games, with a few exceptions, and also to download Unreal Engine Assets in the future (the feature is WIP for now).
+You can use it to download games, with a few exceptions, and also to download Unreal Engine Assets.
 
 ### Which games does Heroic not Support?
 For now, Heroic does not support games that:

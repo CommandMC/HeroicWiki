@@ -1,5 +1,5 @@
 ## List with several Legendary and Wine Workarounds:
-[EpicLinux Wiki](https://github.com/CommandMC/EpicLinux/wiki/GTA-V)
+[EpicLinux Wiki](https://github.com/CommandMC/EpicLinux/wiki)
 
 ## Heroic Specific
 

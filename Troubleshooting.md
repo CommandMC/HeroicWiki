@@ -51,7 +51,6 @@ For that, you can use the helper on the GamePage that fixes the installed path.
 Go to the game page, click on the settings button and choose to change the installed path.
 If that doesn't work for some reason. Fix it manually by changing the path on the `.config/legendary/installed.json` file.
 
-
 ### Heroic doesn't open, never load games after login or shows a Blank Window
 
 Close the App or kill the process if necessary then:
@@ -61,3 +60,8 @@ Close the App or kill the process if necessary then:
 And Login again with a NEW SID. It is important that you generate a new SID because after using it the first time it becomes invalid.
 
 ![image](https://user-images.githubusercontent.com/77377160/112746130-a63b4500-8fca-11eb-8b72-461f5b80e8f6.png)
+
+### Interesting solved issues
+- Protocol Not registered: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/577
+- Heroic doesn't load games because of locale issue: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/526
+- Issues with missing python libs (especially OpenSuse Tumbleweed): https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/310

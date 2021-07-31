@@ -61,6 +61,15 @@ And Login again with a NEW SID. It is important that you generate a new SID beca
 
 ![image](https://user-images.githubusercontent.com/77377160/112746130-a63b4500-8fca-11eb-8b72-461f5b80e8f6.png)
 
+### Running Heroic from Terminal/Powershell to debug errors
+- Linux: Just open the terminal and type `heroic` if it's installed globally or launch the AppImage from it.
+- Windows: Open Powershell and Navigate until `%USER%/AppData/Local/Programs/heroic`. Run `.\Heroic.exe`
+- Mac: Open the terminal, navigate to `/Applications/Heroic.app/ContentsqMacOS` and run `./Heroic` 
+
+### Debugging frontend Errors
+
+By default, when launching Heroic from the terminal, you will be able to see all the backend messages, errors, warnings, etc. But not from the frontend. To enable the frontend logs to show on the terminal, launch heroic with the `--enable-logging` flag. Like: `heroic --enable-logging`
+
 ### Interesting solved issues
 - Protocol Not registered: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/577
 - Heroic doesn't load games because of locale issue: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/526

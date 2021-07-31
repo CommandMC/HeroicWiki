@@ -24,7 +24,12 @@ If you still need to download those games you can:
 
 ### How to read output from game launch
 
-First, you can launch Heroic from the terminal and check if the Launch command is right with the correct wine, prefix, and settings that you have set up. 
+On Heroic 1.10+, Heroic saves the logs to a file. Now, where it is depends on what OS you're using.
+
+- **Linux: ** `$HOME/.config/heroic/Crash Reports`
+- **Windows: ** `%APPDATA%/heroic/Crashpad`
+
+You also can launch Heroic from the terminal and check if the Launch command is right with the correct wine, prefix, and settings that you have set up. 
 Second, you can go to the GamePage, clicking on the GameCard, and then click on the Settings Button, and on the SubMenu, click on LatestLog.
 That will open a log file with everything that happened when you tried to launch the game.
 With that, you can start troubleshooting and use it to get help on our Discord Server or on any Linux Community.

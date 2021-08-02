@@ -14,6 +14,3 @@ You can use it to download games, with a few exceptions, and also to download Un
 For now, Heroic does not support games that:
 * Needs Origin or UPlay to be downloaded, since those games need to be activated in another launcher and are not downloaded even on Epic's official Launcher.
 * Games that have optional downloads, like Fortnite and Cyberpunk 2077. For those games what you can do is to use the official launcher or Legendary to download them and then import the game on Heroic.
-
-### Are there other alternatives?
-Yes. Right now there is another launcher for Linux called [Rare](https://github.com/Dummerle/Rare) that uses Legendary to download and launch games as well. 

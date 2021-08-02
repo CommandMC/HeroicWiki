@@ -9,6 +9,9 @@ Support for other stores is planned in the future.
 ### Why do you need Heroic?
 Heroic is an easier and faster launcher than the official launcher from Epic, since it doesn't have trackers, doesn't do several network requests while supposed to be idle, etc.
 You can use it to download games, with a few exceptions, and also to download Unreal Engine Assets.
+On Linux, it's your only way to do it if you want a native and light GUI, using EGS on wine is possible but it uses a lot of resources.
+On Windows, here is a comparison on the resources usage with both, EGS and Heroic, idle:
+![EGS_Heroic_RAM_Usage](https://media.discordapp.net/attachments/860634841431408690/869195742068228097/ram_usage_heroic_egs.png)
 
 ### Which games does Heroic not Support?
 For now, Heroic does not support games that:

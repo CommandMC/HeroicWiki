@@ -79,3 +79,4 @@ By default, when launching Heroic from the terminal, you will be able to see all
 - Protocol Not registered: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/577
 - Heroic doesn't load games because of locale issue: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/526
 - Issues with missing python libs (especially OpenSuse Tumbleweed): https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/310
+- Legendary Issues on MacOS M1 or older versions: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/642#issuecomment-913739810

@@ -69,7 +69,7 @@ And Login again with a NEW SID. It is important that you generate a new SID beca
 ### Running Heroic from Terminal/Powershell to debug errors
 - Linux: Just open the terminal and type `heroic` if it's installed globally or launch the AppImage from it.
 - Windows: Open Powershell and Navigate until `%USER%/AppData/Local/Programs/heroic`. Run `.\Heroic.exe`
-- Mac: Open the terminal, navigate to `/Applications/Heroic.app/ContentsqMacOS` and run `./Heroic` 
+- Mac: Open the terminal, navigate to `/Applications/Heroic.app/Contents/MacOS` and run `./Heroic` 
 
 ### Debugging frontend Errors
 

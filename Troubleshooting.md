@@ -73,7 +73,7 @@ And Login again with a NEW SID. It is important that you generate a new SID beca
 
 ### Debugging frontend Errors
 
-By default, when launching Heroic from the terminal, you will be able to see all the backend messages, errors, warnings, etc. But not from the frontend. To enable the frontend logs to show on the terminal, launch heroic with the `--enable-logging` flag. Like: `heroic --enable-logging`
+By default, when launching Heroic from the terminal, you will be able to see all the backend messages, errors, warnings, etc. But not from the frontend. To enable the frontend logs to show on the terminal, launch heroic with the `--enable-logging` flag. Like: `heroic --enable-logging` or `ELECTRON_ENABLE_LOGGING=true heroic` on Linux and MacOSX.
 
 ### Interesting solved issues
 - Protocol Not registered: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/577

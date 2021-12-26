@@ -24,7 +24,8 @@ Because of that, Heroic is way faster than the EGL and uses far less resources.
 | CPU usage while idle | 0-10%** | 50-70%** |
 | Linux support?       | Yes     | No       |
 
-\* Initially, RAM usage was higher for both Heroic and the EGL. After around 10 seconds, the values shown were observed.
+In addition to using more resources, the EGL also performed far worse usability-wise. For example, switching from the Store to the Library took 5-8 seconds. This might've been influenced by the VMs limited GPU power.  
+\* Initially, RAM usage was higher for both Heroic and the EGL. After around 10 seconds, the values shown were observed.  
 \** Tested on a Windows 10 VM with 6 CPU cores
 
 ### Which games are not supported by Heroic?

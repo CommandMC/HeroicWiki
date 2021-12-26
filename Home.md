@@ -1,18 +1,31 @@
 Welcome to the Heroic Games Launcher wiki!
 
 ### What is Heroic?
-Heroic is a native GUI alternative to the Epic Games Launcher for Linux, Windows and MacOS.
-It is open source under GPLv3 and is maintained by a community of developers that work for FREE on their FREE TIME.
-Heroic for now is just a GUI for Legendary, which is a CLI tool that deals with the login, download and launch the games.
-Support for other stores is planned in the future.
+Heroic is a native GUI alternative to the Epic Games Launcher for Linux, Windows and MacOS.  
+It is open source under GPLv3 and is maintained by a community of developers that work **for free on their free time**.
+
+For now, Heroic is mostly a GUI for Legendary (which is a CLI tool that deals with the login and downloading & launching of games).  
+Support for other storefronts & adding your own games (think Steam's "Add Non-Steam Game" feature) is planned in the future.
 
 ### Why do you need Heroic?
-Heroic is an easier and faster launcher than the official launcher from Epic, since it doesn't have trackers, doesn't do several network requests while supposed to be idle, etc.
-You can use it to download games, with a few exceptions, and also to download Unreal Engine Assets.
-On Linux, it's your only way to do it if you want a native and light GUI, using EGS on wine is possible but it uses a lot of resources.
-On Windows, here is a comparison on the resources usage with both, EGS and Heroic, idle:
-![EGS_Heroic_RAM_Usage](https://media.discordapp.net/attachments/860634841431408690/869195742068228097/ram_usage_heroic_egs.png)
 
-### Which games does Heroic not Support?
-For now, Heroic does not support games that:
-* Needs Origin or UPlay to be downloaded, since those games need to be activated in another launcher and are not downloaded even on Epic's official Launcher.
+<!-- For now this only compares Heroic and the EGL. Once other stores are supported, they should be added here -->
+
+Heroic is a community-built, open-source launcher. This means that you can see for yourself what it does in the background and anyone can suggest changes or find optimizations.  
+Because of that, Heroic is way faster than the EGL and uses far less resources.  
+|                      | Heroic  | EGL    |
+| -------------------- | ------- | ------ |
+| Installer size       | 92MB    | 153MB  |
+| First-launch updates | /       | 529MB  |
+| Requires admin?      | No      | Yes    |
+| Disk space used      | 338MB   | 951MB  |
+| RAM Usage (library)  | <200MB  | 400MB  |
+| RAM Usage (store)    | 210MB*  | 450MB* |
+| CPU usage while idle | 0%      | 50-70% |
+| Linux support?       | Yes     | No     |
+
+\* Initially, RAM usage was higher for both Heroic and the EGL. After around 10 seconds, the values shown were observed.
+
+### Which games are not supported by Heroic?
+Currently, only games that require activation in another storefront (Uplay, Origin) are unsupported.  
+Legendary recently added support for these with the `activate` command, expect support for this in a future release.

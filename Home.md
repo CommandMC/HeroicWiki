@@ -13,18 +13,19 @@ Support for other storefronts & adding your own games (think Steam's "Add Non-St
 
 Heroic is a community-built, open-source launcher. This means that you can see for yourself what it does in the background and anyone can suggest changes or find optimizations.  
 Because of that, Heroic is way faster than the EGL and uses far less resources.  
-|                      | Heroic  | EGL    |
-| -------------------- | ------- | ------ |
-| Installer size       | 92MB    | 153MB  |
-| First-launch updates | /       | 529MB  |
-| Requires admin?      | No      | Yes    |
-| Disk space used      | 338MB   | 951MB  |
-| RAM Usage (library)  | <200MB  | 400MB  |
-| RAM Usage (store)    | 210MB*  | 450MB* |
-| CPU usage while idle | 0%      | 50-70% |
-| Linux support?       | Yes     | No     |
+|                      | Heroic  | EGL      |
+| -------------------- | ------- | -------- |
+| Installer size       | 92MB    | 153MB    |
+| First-launch updates | /       | 529MB    |
+| Requires admin?      | No      | Yes      |
+| Disk space used      | 338MB   | 951MB    |
+| RAM Usage (library)  | <200MB  | 400MB    |
+| RAM Usage (store)    | 210MB*  | 450MB*   |
+| CPU usage while idle | 0-10%** | 50-70%** |
+| Linux support?       | Yes     | No       |
 
 \* Initially, RAM usage was higher for both Heroic and the EGL. After around 10 seconds, the values shown were observed.
+\** Tested on a Windows 10 VM with 6 CPU cores
 
 ### Which games are not supported by Heroic?
 Currently, only games that require activation in another storefront (Uplay, Origin) are unsupported.  

@@ -1,11 +1,9 @@
 ## List with several Legendary and Wine Workarounds:
 [EpicLinux Wiki](https://github.com/CommandMC/EpicLinux/wiki)
 
-## Heroic Specific
+## Heroic-specific
 
-### SuperHot
-For some reason, SuperHot Launcher won't work with Heroic since it also runs Electron as well so it is necessary to bypass it:
-1. Open the game folder;
-2. Rename SUPERHOT.exe to SUPERHOT.exe.bak;
-3. Rename SH.exe to SUPERHOT.exe;
-4. Rename SH_Data folder to SUPERHOT_data;
+### SUPERHOT
+The SUPERHOT launcher does not work with Heroic, since it also uses some Electron components. Luckily, bypassing it is easy:
+1. Open up the game-specific settings for SUPERHOT
+2. At the "Select an alternative EXE to run" option, type in "SH.exe"

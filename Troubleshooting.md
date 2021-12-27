@@ -5,9 +5,9 @@
 ### Config files
 
 Those are stored under:
-Linux: `~/.config/heroic` (settings, caching and logs) and `~/.config/legendary`  (installed games, metadata, user information, etc)
-Windows: `%APPDATA/heroic` (caching), `~.config/heroic` and `~/.config/legendary` 
-MacOSX: `~/Library/Application Support/heroic` (caching), `~/.config/heroic` and `~/.config/legendary`
+* Linux: `~/.config/heroic` (settings, caching and logs) and `~/.config/legendary`  (installed games, metadata, user information, etc).
+* Windows: `%APPDATA/heroic` (caching), `~.config/heroic` and `~/.config/legendary`.
+* MacOSX: `~/Library/Application Support/heroic` (caching), `~/.config/heroic` and `~/.config/legendary`.
 
 The General settings for Heroic is the file called `config.json`. 
 Caching is stored under the `store` folder.

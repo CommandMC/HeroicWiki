@@ -5,32 +5,21 @@
 ### Config files
 
 Those are stored under:
-`~/.config/heroic` and `~/.config/legendary`
-The General settings for Heroic is the file called `config.json`. Sometimes this file, for some unknown reason so far, can get format issues (with extra brackets for instance) or even corrupted. Fixing it or removing it can fix some issues.
-The Game settings and Game Logs (Installation and PlayLogs) are on the `GameConfig `folder under the Heroic folder.
+Linux: `~/.config/heroic` (settings, caching and logs) and `~/.config/legendary`  (installed games, metadata, user information, etc)
+Windows: `%APPDATA/heroic` (caching), `~.config/heroic` and `~/.config/legendary` 
+MacOSX: `~/Library/Application Support/heroic` (caching), `~/.config/heroic` and `~/.config/legendary`
+
+The General settings for Heroic is the file called `config.json`. 
+Caching is stored under the `store` folder.
+The Game settings and Game Logs (Installation and PlayLogs) are on the `GameConfig `folder.
 
 ### Not Supported Games
 
-Right now Heroic doesn't Support downloading and installing games that need selective download. As far as we know, only **Fortnite** and **Cyberpunk** has that so far. 
-
-If you still need to download those games you can:
-* Open Heroic from the terminal
-* Click Install Game
-* Check the install command
-* Copy the whole command line
-* Open another terminal
-* Paste the Install command
-* Follow the instructions.
+Right now Heroic doesn't Support games that require an external launcher like Origin or Uplay.
 
 ### How to read output from game launch
 
-On Heroic 1.10+, Heroic saves the logs to a file. Now, where it is depends on what OS you're using.
-
-- **Linux: ** `$HOME/.config/heroic/Crash Reports`
-- **Windows: ** `%APPDATA%/heroic/Crashpad`
-
-You also can launch Heroic from the terminal and check if the Launch command is right with the correct wine, prefix, and settings that you have set up. 
-Second, you can go to the GamePage, clicking on the GameCard, and then click on the Settings Button, and on the SubMenu, click on LatestLog.
+Go to the GamePage clicking on the GameCard, and then click on the Tools tab on the top and then click on Latest Log.
 That will open a log file with everything that happened when you tried to launch the game.
 With that, you can start troubleshooting and use it to get help on our Discord Server or on any Linux Community.
 
@@ -59,8 +48,7 @@ If that doesn't work for some reason. Fix it manually by changing the path on th
 ### Heroic doesn't open, never load games after login or shows a Blank Window
 
 Close the App or kill the process if necessary then:
-* Try removing/renaming the Heroic folder: `~/.config/heroic`.
-* Try removing/renaming the Legendary folder: `~/.config/legendary`.
+* Try removing/renaming the Heroic folder and the Legendary folder: `~/.config/legendary`.
 
 And Login again with a NEW SID. It is important that you generate a new SID because after using it the first time it becomes invalid.
 

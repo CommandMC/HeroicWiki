@@ -178,11 +178,14 @@ AXIX 5 = RT // reports RT pressed value between -1 (not pressed) and 1 (fully pr
 
 ## Adding layouts
 
-Layouts are defined in the `src/helper/gamepad.ts` file. For a layout definition we need the following information from https://gamepad-tester.com:
+Layouts are defined in the `src/helper/gamepad.ts` file. For a layout definition we need the following information from https://gamepad-tester.com and some additional info:
 
 - Controller ID: name of the controller as reported by the browser
 - A list of all the `BX` and `AXIS X` elements and the corresponding button/stick/trigger in the real controller
-- Also, you should specify which buttons should map to the valid interactions (mainAction, back, etc)
+- Operating System you are using
+- If the gamepad is connected wireless or via USB
+- You should specify which buttons should map to the valid interactions (mainAction, back, etc)
+- Is the controller a clone of another one? (Like it's an alternative PS3 or Xbox controller?)
 
 Layouts can be added to that file by defining a new function the `checkActionsForXbox` and `checkActionsForPlaystation` function or a new issue can be created with all the required information and we can add that.
 

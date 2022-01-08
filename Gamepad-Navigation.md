@@ -4,7 +4,7 @@ This page covers different topics related to controling Heroic using a gamepad.
 
 # Gamepad API
 
-Heroic uses the [Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API) to detect interactions with the gamepad. Make sure your controller is detected in https://gamepad-tester.com using a chromium-based browser before reporting a controller not working.
+Heroic uses the [Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API) to detect interactions with the gamepad. Make sure your controller is detected in https://gamepad-tester.com using a chromium-based browser (using the Chromium browser directly is prefered) before reporting a controller not working.
 
 # Interactions
 
@@ -98,34 +98,57 @@ AXIS 2 = rightAxisX // -1 = left, 1 = right
 AXIS 3 = rightAxisY (mapped as rightStickUp and rightStickDown) // -1 = up, 1 = down
 ```
 
-### Playstation 3/4/5
+### Playstation 3
 
-Matches any controller id with the words `PS3`, `PS4`, `PS5`, `PLAYSTATION` or `SONY` in it, or product ids `0268` and `0c36`.
+Matches any controller id with the words `PS3`, `PS4`, or `PLAYSTATION` in it, or product id `0268`.
 
 ```
 B0 = X (mapped as mainAction)
 B1 = Circle (mapped as back)
-B2 = Triangle (mapped as altAction)
+B2 = Square
+B3 = Triangle (mapped as altAction)
+B4 = LB
+B5 = RB
+B6 = LT // supports a `.value` method with a value between 0 and 1
+B7 = RT // supports a `.value` method with a value between 0 and 1
+B8 = Select
+B9 = Start
+B10 = L3 // pressing the left stick
+B11 = R3 // pressing the right stick
+B12 = Dpad Up (mapped as padUp)
+B13 = Dpad Down (mapped as padDown)
+B14 = Dpad Left (mapped as padLeft)
+B15 = Dpad Right (mapped as padRight)
+B16 = PS Button
+AXIS 0 = leftAxisX (mapped as leftStickLeft and leftStickRight) // -1 = left, 1 = right
+AXIS 1 = leftAxisY (mapped as leftStickUp and leftStickDown) // -1 = up, 1 = down
+AXIS 2 = rightAxisX // -1 = left, 1 = right
+AXIS 3 = rightAxisY (mapped as rightStickUp and rightStickDown) // -1 = up, 1 = down
+```
+
+### Playstation 3
+
+Matches any controller id with the product id `0c36` in the controller id.
+
+```
+B0 = Circle (mapped as back)
+B1 = Triangle (mapped as altAction)
+B2 = X (mapped as mainAction)
 B3 = Square
 B4 = LB
 B5 = RB
-B6 = LT // gets "pressed" as soon as the trigger is moved down slightly
-B7 = RT // gets "pressed" as soon as the trigger is moved down slightly
+B6 = rightAxisX // supports a `.value` method with a value between 0 (left) and 1 (right)
+B7 = rightAxisY // supports a `.value` method with a value between 0 (up) and 1 (down)
 B8 = Select
 B9 = Start
-B10 = PS Button
-B11 = L3 // pressing the left stick
-B12 = R3 // pressing the right stick
-B13 = Dpad Up (mapped as padUp)
-B14 = Dpad Down (mapped as padDown)
-B15 = Dpad Left (mapped as padLeft)
-B16 = Dpad Right (mapped as padRight)
+B10 = L3 // pressing the left stick
+B11 = R3 // pressing the right stick
+B12 = Dpad Up (mapped as padUp)
+B13 = Dpad Down (mapped as padDown)
+B14 = Dpad Left (mapped as padLeft)
+B15 = Dpad Right (mapped as padRight)
 AXIS 0 = leftAxisX (mapped as leftStickLeft and leftStickRight) // -1 = left, 1 = right
 AXIS 1 = leftAxisY (mapped as leftStickUp and leftStickDown) // -1 = up, 1 = down
-AXIX 2 = LT // reports LT pressed value between -1 (not pressed) and 1 (fully pressed)
-AXIS 3 = rightAxisX // -1 = left, 1 = right
-AXIS 4 = rightAxisY (mapped as rightStickUp and rightStickDown) // -1 = up, 1 = down
-AXIX 5 = RT // reports RT pressed value between -1 (not pressed) and 1 (fully pressed)
 ```
 
 ### GameCube

@@ -126,9 +126,9 @@ AXIS 2 = rightAxisX // -1 = left, 1 = right
 AXIS 3 = rightAxisY (mapped as rightStickUp and rightStickDown) // -1 = up, 1 = down
 ```
 
-### Playstation 3
+### Playstation 5
 
-Matches any controller id with the product id `0c36` in the controller id.
+Matches any controller id with the product id `0ce6` in the controller id.
 
 ```
 B0 = Circle (mapped as back)

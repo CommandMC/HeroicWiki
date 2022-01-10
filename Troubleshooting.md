@@ -5,17 +5,17 @@
 ### Config files
 
 Those are stored under:
-* Linux: `~/.config/heroic` (settings, caching and logs) and `~/.config/legendary`  (installed games, metadata, user information, etc).
-* Windows: `%APPDATA/heroic` (caching), `~.config/heroic` and `~/.config/legendary`.
+* Linux: `~/.config/heroic` (settings, caching and logs) and `~/.config/legendary` (installed games, metadata, user information, etc).
+* Windows: `%AppData%\heroic` (caching), `%UserProfile%\.config\heroic` and `%UserProfile%\.config\legendary`.
 * MacOSX: `~/Library/Application Support/heroic` (caching), `~/.config/heroic` and `~/.config/legendary`.
 
 The General settings for Heroic is the file called `config.json`. 
 Caching is stored under the `store` folder.
-The Game settings and Game Logs (Installation and PlayLogs) are on the `GameConfig `folder.
+The Game settings and Game Logs (Installation and PlayLogs) are in the `GameConfig` folder.
 
 ### Not Supported Games
 
-Right now Heroic doesn't Support games that require an external launcher like Origin or Uplay.
+Right now Heroic doesn't support games that require an external launcher like Origin or Uplay.
 
 ### How to read output from game launch
 

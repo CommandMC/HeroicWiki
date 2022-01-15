@@ -20,7 +20,7 @@ Now, open Steam and add the launch file as a Non-Steam game by performing the fo
 4. Select **BROWSE** on the new window that appears
 5. For File Type, make sure to choose **All Files**
 6. Navigate to `~/HeroicBashLauncher/GameFiles` and choose the game's launch file
-7. If you want to add more games, repeat steps 1-6
+7. If you want to add more games, repeat steps 4-6
 8. Finally, click on **ADD SELECTED PROGRAMS**  
 
 You're all setup!

@@ -27,14 +27,16 @@ Because of that, Heroic uses less resources than the EGL, and in general is a bi
 | CPU Usage when Idle In-game      | 0-2%**  | 0-2%**     |
 | Linux support?                   | Yes     | No         |
 
-### Launcher Launch Time Tests:***
+### Launcher Launch Time Tests:
+Everything non-essential program-wise was closed to prevent interference. EGL and Heroic were set up to load into whatever is the default (EGL goes to EGS, and Heroic goes to the Library in List View).
 
 **For EGL:** The launch time times 16.45 seconds to open EGS. Note that this open the Store, and there's no option to go to the library on startup; as a matter of note, the EGL does have a persistent quick launch sidebar for the last four games you've played that displays on all pages.
 
 **For Heroic:** The Launch time is 14.37 seconds to open Heroic. Note that this opens to the library, and had it opened to the store page, it would've been slower.
 
-### Store Switching Tests:****
-
+### Store Switching Tests:
+All Footnotes above apply, as well as the human factor of "I'm not a robot" so the timings are a little off. For testing, the timer was stopped when all images had loaded onto the store preview.  
+  
 **For EGL:** Switching from the Store to the Library took 2.02 seconds when in List View. In Grid View, this was extended to 2.31 seconds. Doing the reverse (Library to Store) netted 2.02 seconds (List View) and 2.02 seconds (Grid View).
 
 **For Heroic:** Switching from the Store to the Library is practically instant in either List View or Grid View (both are 0.5 seconds or below). Doing the reverse (Library to Store) netted 5.3 seconds (List View) and 5.8 seconds (Grid View).
@@ -44,8 +46,6 @@ The reason EGS is faster in this regard is simply because the launcher was made 
 
 \* Initially, RAM usage was higher for both Heroic and the EGL. After around a minute, these values shown were recorded.  
 \** Tested on a Ryzen 5 1500x (4 cores, 8 threads; Windows counts the threads as cores on Task Manager weirdly) running Windows 10 Pro, and 8GB DDR4 RAM. [All data collected can be found here](https://imgur.com/a/jfV48v7).  
-\*** Everything non-essential program-wise was closed to prevent interference. EGL and Heroic were set up to load into whatever is the default (EGL goes to EGS, and Heroic goes to the Library in List View).  
-\**** All Footnotes above apply, as well as the human factor of "I'm not a robot" so the timings are a little off. For testing, the timer was stopped when all images had loaded onto the store preview.  
 
 ----
 

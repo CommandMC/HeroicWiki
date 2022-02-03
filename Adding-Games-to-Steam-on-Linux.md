@@ -10,9 +10,7 @@ Yes, it's the same launch command you see when you run `heroic` from the termina
 ### Adding your games to Steam
 Once you've run the `setup.sh` file, you can find the launch files as `.sh` files for every installed game in the **GameFiles** directory.
 
-Do note that all the games' launch files will be named after their _AppName_ for convenience. The game's actual name is mentioned in the launch file for reference.
-
-Now, open Steam and add the launch file as a Non-Steam game by performing the following steps:
+Now, open Steam and add the bash file as a Non-Steam game by performing the following steps:
 
 1. Go to **LIBRARY**
 2. Click **ADD A GAME**

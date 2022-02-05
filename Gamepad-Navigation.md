@@ -1,7 +1,5 @@
 This page covers different topics related to controling Heroic using a gamepad.
 
-> WIP until we have the PR merged
-
 # Gamepad API
 
 Heroic uses the [Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API) to detect interactions with the gamepad. Make sure your controller is detected in https://gamepad-tester.com using a chromium-based browser (using the Chromium browser directly is prefered) before reporting a controller not working (Firefox may report different name and layout for the same controller).

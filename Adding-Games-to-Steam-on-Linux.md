@@ -8,9 +8,9 @@ Heroic Bash Launcher automatically creates executable bash files for each instal
 Yes, it's the same launch command you see when you run `heroic` from the terminal and launch a game. Moreover, the parameters auto-update whenever you change the settings of a particular game on Heroic.
 
 ### Adding your games to Steam
-Once you've run the `setup.sh` file, you can find the launch files as `.sh` files for every installed game in the **GameFiles** directory.
+Once you've run the `HeroicBashLauncher` executable, you can find the launch files as `.sh` files for every installed game in the **GameFiles** directory.
 
-Now, open Steam and add the bash file as a Non-Steam game by performing the following steps:
+Now, open Steam and add a bash file (launch file) as a Non-Steam game by performing the following steps:
 
 1. Go to **LIBRARY**
 2. Click **ADD A GAME**

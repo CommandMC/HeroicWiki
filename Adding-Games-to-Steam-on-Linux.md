@@ -24,7 +24,7 @@ Now, open Steam and add a bash file (launch file) as a Non-Steam game by perform
 You're all setup!
 
 ### Note for AppImage users
-Users using Heroic via the AppImage and looking to make use of Heroic Bash Launcher are recommended to specify an alternative Legendary binary. [The reason is elaborated here.](https://github.com/redromnon/HeroicBashLauncher/wiki/FAQ#why-are-my-games-not-launching-i-use-heroic-via-appimage)
+Users using Heroic via the AppImage are recommended to specify an alternative Legendary binary for Epic Games. Moreover, AppImage users with a GOG library will have to keep Heroic running in the background. [A how-to guide and reason is elaborated here.](https://github.com/redromnon/HeroicBashLauncher/wiki/FAQ#why-are-my-games-not-launching-i-use-heroic-via-appimage)
 
 
  

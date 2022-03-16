@@ -1,5 +1,11 @@
-While we are waiting for the Flatpak support, here is a tutorial to run Epic Games on the Steam Deck:
+### Install with flatpak (recommended):
+1) Go to **Desktop mode**
+2) Open the app store (discover)
+3) Search for "Heroic"
+4) There should be a result for Heroic games launcher, click install
+5) You should now be able to launch Heroic like any other application on your steam deck
 
+### Installing manually with the appimage
 1) Going to **Desktop mode**
 2) Downloading Heroic Games Launcher (**Heroic-x.x.x.AppImage**)
 3) Execute the AppImage

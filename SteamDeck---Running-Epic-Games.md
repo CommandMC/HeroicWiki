@@ -10,7 +10,7 @@
 2) Downloading Heroic Games Launcher (**Heroic-x.x.x.AppImage**)
 3) Execute the AppImage
 4) Login and download a game
-5) Download the "**legendary**" binary (https://github.com/derrod/legendary/releases/)
+5) Download the "**legendary**" binary (https://bit.ly/3u5SyHL)
 6) In the Heroic Games Launcher, goto Settings, General and click on "Choose an Alternative Legendary Binary", select the "legendary" binary which you downloaded before
 7) Change the Proton Version of the Game (Click on the game, Settings, Wine Version: **Proton - Proton 7.0**) => Used this version to play Satisfactory Early Access.
 8) Download "**HeroicBashLauncher**" (https://github.com/redromnon/HeroicBashLauncher/releases)

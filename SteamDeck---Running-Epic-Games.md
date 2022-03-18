@@ -13,7 +13,7 @@
 5) Download the "**legendary**" binary (https://bit.ly/3u5SyHL)
 6) In the Heroic Games Launcher, goto Settings, General and click on "Choose an Alternative Legendary Binary", select the "legendary" binary which you downloaded before
 7) Change the Proton Version of the Game (Click on the game, Settings, Wine Version: **Proton - Proton 7.0**) => Used this version to play Satisfactory Early Access.
-8) Download "**HeroicBashLauncher**" (https://github.com/redromnon/HeroicBashLauncher/releases)
+8) Download "**HeroicBashLauncher**" (https://bit.ly/36sTMV8)
 9) Extract it somewhere and run the binary (be sure to let the Heroic Games Launcher open while using it)
 10) You should get file(s) in the "**GameFiles**" folder (example: SatisfactoryEarlyAccess_Heroic.sh)
 11) Follow the tutorial here: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Adding-Games-to-Steam-on-Linux

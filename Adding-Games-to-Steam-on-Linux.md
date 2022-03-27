@@ -9,6 +9,8 @@ It automatically creates executable bash files for each installed game. Each bas
 
 ## Adding your games to Steam
 
+Steam Deck user? [Follow this guide instead.](https://github.com/redromnon/HeroicBashLauncher/wiki/Steam-Deck-(Flatpak)-Guide)
+
 ### Syncing
 Once you've run the **HeroicBashLauncher** executable, the **_AddToSteam_** bash script will be generated that helps sync your Heroic library to Steam. It basically displays a list of installed games and lets you choose games to be added to Steam.
 

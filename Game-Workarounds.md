@@ -1,6 +1,9 @@
 ## List with several Legendary and Wine Workarounds:
 [EpicLinux Wiki](https://github.com/CommandMC/EpicLinux/wiki)
 
+## Save Game paths
+For Cloud Sync to work as expected, where a game saves and syncs is very important to get right. Ensure that Heroic's save location is actually where the game saves! (Windows games, for example, are likely saving directly inside the WINEPREFIX root, for obvious reasons)
+
 ## Heroic-specific
 
 ### SUPERHOT

@@ -19,9 +19,14 @@ The steps to add a new string that requires translations are:
 ### Add the string in your code using the `t` function:
 
 ```js
-const { t } = useTranslation()
+import { useTranslation } from 'react-i18next';
 
-t('some_key.my_key', 'My Default Value');
+const SomeComponent = () => {
+  const { t } = useTranslation();
+
+  const myTranslatedString = t('some_key.my_key', 'My Default Value');
+}
+
 ```
 
 Guidelines:

@@ -5,7 +5,8 @@
 ### Config files
 
 Those are stored under:
-* Linux: `~/.config/heroic` (settings, caching and logs) and `~/.config/legendary` (installed games, metadata, user information, etc).
+* Linux: `~/.config/heroic` (settings, caching, gog installed games and metadata, and logs) and `~/.config/legendary` (epic installed games, metadata, user information, etc).
+* Linux/SteamOS (Flatpak): `~/.var/app/com.heroicgameslauncher.hgl/config/heroic/` and `~/.var/app/com.heroicgameslauncher.hgl/config/legendary/`, 
 * Windows: `%AppData%\heroic` (caching), `%UserProfile%\.config\heroic` and `%UserProfile%\.config\legendary`.
 * MacOSX: `~/Library/Application Support/heroic` (caching), `~/.config/heroic` and `~/.config/legendary`.
 

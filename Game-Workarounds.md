@@ -19,3 +19,8 @@ This game runs good by using Wine Staging, it just needs a few extra steps:
 3. If the game complains about DX12 not being supported, go to the game `Settings` > `Other` and add `-dx11` to the Game Arguments.
 4. The game should open just fine now.
 
+### HITMAN 3
+The game requires to be run on any "FShack" build of Wine or Proton, otherwise it will crash. Once installed, the game will try and download a faulty update, and thus, needs updates disabled.
+1. Open up the game-specific settings for HITMAN 3
+2. Under "Other", go to "Game Arguments", and add `DXVK_CUSTOM_VENDOR_ID=10de %command% --skip-version-check` to the text field.
+

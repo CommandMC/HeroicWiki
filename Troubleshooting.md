@@ -35,6 +35,13 @@ Some games like Borderlands 2 and Borderlands: The Pre-Sequel, need that you ins
 
 Sometimes, after a long time without using Heroic, your credentials might expire, we are working on showing a message about that and ask to login again, but for now, nothing is shown and when trying to launch the game, nothing will happen. So you will need to manually click logout and restart Heroic. Login again and then launches the game. All your games will be there, don't worry about them being uninstalled.
 
+### Wine not found error when launching
+
+If you was using an old version of Heroic, prior to 2.3.0, you might encounter this error and it is simple to solve.
+Just go to the game settings, wine settings, then select a different wine version and then get back to the other one.
+In case you have only one version being showed, try downloading a new version from the Wine Manager.
+This is due to some changes we did on how we handle settings from 2.3.0.
+
 ### Game still shows as installed after uninstalling or uninstalled after installing
 
 Most of the time, this can be fixed by Refreshing the Library (found under the User Submenu).

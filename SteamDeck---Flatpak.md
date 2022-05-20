@@ -1,6 +1,6 @@
 # SteamDeck And Linux Flatpak guide
 
-## Install with flatpak (recommended):
+## Install on SteamDeck with flatpak (recommended):
 1) Go to **Desktop mode**
 2) Open the app store (discover)
 3) Search for "Heroic"
@@ -19,3 +19,6 @@ Due to Flatpak's nature that uses containarization to bring more security to the
 ![image](https://user-images.githubusercontent.com/26871415/167461051-3b2f5cf7-c38e-4a63-bbdb-ce6c0302175f.png)
 3. Looks for the Filesystem section and add the folders you need to access it like on the image above.
 4. Restart Heroic.
+
+## Mangohud doesn't work
+Check if you have installed the flatpak version of Mangodhud: `flatpak install org.freedesktop.Platform.VulkanLayer.MangoHud`

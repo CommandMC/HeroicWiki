@@ -26,10 +26,10 @@ The game requires to be run on any "FShack" build of Wine or Proton, otherwise i
 
 ### Bioshock Collection
 For the game to run we need to skip the launcher and use Wine-GE and DXVK on the prefix. This is valid for all 3 games of the collection.
-1. To skip the launcher go to the game settings
-2. Go to Other Settings
-3. On Select an Alternative EXE to Run select `{GameFolder}/BioshockInfiniteCompleteEdition/Binaries/Win32/ShippingPC-XGame.exe`
-4. On wine settings select the latest WINE-GE (tested on WINE-GE-Proton7-15). If its not available, you can download it using the Wine Manager in Heroic.
-5. Activate DXVK.
-6. Run. The game should open just fine.
+1. To skip the launcher go to the game settings.
+2. Then go to **Other Settings**.
+3. On **Select an Alternative EXE to Run** select `{GameFolder}/Binaries/Win32/ShippingPC-XGame.exe`
+4. On **Wine settings** select the latest **WINE-GE** (tested on WINE-GE-Proton7-15). If it's not available, you can download it using the **Wine Manager** in Heroic.
+5. Activate **DXVK**.
+6. Now the game should open just fine.
 

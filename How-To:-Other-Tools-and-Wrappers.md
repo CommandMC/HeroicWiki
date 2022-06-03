@@ -5,4 +5,4 @@ There is a plan to have a Gamescope setting in Heroic, while that is implemented
 3. On the Advanced Options (Environemnt Variables), put the Gamescope command line you want to use followed by two dashes in the end, for instance: `gamescope -w 1920 -h 1080 -W 3440 -H 1440 -b --`.
 4. If you have other variables, make sure you add it add the end of the input like: `DXVK_HUD=full gamescope ... --`
 5. For now, enabling `mangohud` or `gamemode` might make gamescope not work, so try with those options enabled first. 
-6. For Mangohud you can still add the variable `MANGOHUD=1` to make it work.
+

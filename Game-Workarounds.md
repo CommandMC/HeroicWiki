@@ -31,5 +31,6 @@ For the game to run we need to skip the launcher and use Wine-GE and DXVK on the
 3. On **Select an Alternative EXE to Run** select `{GameFolder}/Binaries/Win32/ShippingPC-XGame.exe`
 4. On **Wine settings** select the latest **WINE-GE** (tested on WINE-GE-Proton7-15). If it's not available, you can download it using the **Wine Manager** in Heroic.
 5. Activate **DXVK**.
-6. Now the game should open just fine.
+6. Disable `ESYNC` and `FSYNC` to avoid texture issues.
+7. Now the game should open just fine.
 

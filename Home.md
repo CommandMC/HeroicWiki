@@ -7,7 +7,7 @@ It is open source under GPLv3 and is maintained by a community of developers tha
 For now, Heroic is mostly a GUI for Legendary (which is a CLI tool that deals with the login and downloading & launching of games).  
 Support for other storefronts & adding your own games (think Steam's "Add Non-Steam Game" feature) is planned in the future.
 
-### Why do you need Heroic?
+### Why should you use _**Heroic?**_
 
 <!-- For now this only compares Heroic and the EGL. Once other stores are supported, they should be added here -->
 
@@ -45,8 +45,7 @@ The reason EGS is faster in this regard is simply because the launcher was made 
 
 
 \* Initially, RAM usage was higher for both Heroic and the EGL. After around a minute, these values shown were recorded.  
-\** Tested on a Ryzen 5 1500x (4 cores, 8 threads; Windows counts the threads as cores on Task Manager weirdly) running Windows 10 Pro, and 8GB DDR4 RAM. [All data collected can be found here](https://imgur.com/a/jfV48v7).  
-
+\** Tested on a Ryzen 5 1500x (4 cores, 8 threads; Windows counts the threads as cores on Task Manager weirdly) running Windows 10 Pro, and 8GB DDR4 RAM. [All data collected can be found here](https://imgur.com/a/jfV48v7), and was run on [2.0.2 Zoro Hotfix #2](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/tag/v2.0.2). This graph will be updated after 2.4.0 gets out of beta, so watch this space!
 ----
 
 ### Which games are not supported by Heroic?
@@ -54,4 +53,6 @@ Currently, only games that require activation in another storefront (Uplay, Orig
 Legendary recently added support for these with the `activate` command, so expect support for this in a future release.
 
 ### Can Heroic use EOS? 
-Yes! Well, _kind of_. Legendary recently added support for it via it's 20.24 version ([see here](https://github.com/derrod/legendary/releases/tag/0.20.24)), but only for Windows.
+Yes! As of 18/07/2022 ([2.4.0 - beta 2](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/tag/v2.4.0-beta.2)), Heroic has made it easy to enable support, as long as DXVK is updated to its latest version, and will apply for that Wine prefix. It can be downloaded via the Heroic Settings and can be found on the Game Page, then in the "Tools" menu. You may also need to install `corefonts` from winetricks.
+
+Legendary had already added support for it via it's 20.24 version on 09/01/2022 ([see here](https://github.com/derrod/legendary/releases/tag/0.20.24)), but it was only for Windows.

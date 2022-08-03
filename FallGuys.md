@@ -18,7 +18,7 @@ Make sure to choose the downloaded wine-ge version.
 ## Adapt Fall Guys
 ### Adapt FallGuys_client.ini
 
-Replace `TargetApplicationPath=FallGuysEACLauncher.exe` with `TargetApplicationPath=FallGuys_client_game.exe`
+Replace `TargetApplicationPath=FallGuysEACLauncher.exe` with `TargetApplicationPath=FallGuys_client_game.exe` in `<path-to-FallGuys>/FallGuys_client.ini`.
 ![FallGuys6](https://user-images.githubusercontent.com/61798668/182596359-234a7ba6-b22a-4ba8-b65d-b65b83dc6a94.png)
 
 ### Copy easyanticheat_x64.so

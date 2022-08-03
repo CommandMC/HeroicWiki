@@ -39,7 +39,7 @@ Copy `<path-to-FallGuys>/EasyAntiCheat/easyanticheat_x64.so` to `<path-to-FallGu
 
 ## Troubleshooting
 
-- Make sure you don't have set any enviroment variable, which is in conflict with `PROTON_EAC_RUNTIME` or similiar in the game and general settings
+- Make sure you **don't** have set any enviroment variable, which is in conflict with `PROTON_EAC_RUNTIME` or similiar in the game and general settings
 ![FallGuys3](https://user-images.githubusercontent.com/61798668/182599115-e937b9fd-b28c-4d43-80d8-1b01cc2b8442.png)
 ![FallGuys10](https://user-images.githubusercontent.com/61798668/182599239-1c3def8d-f3a3-46a3-8bad-3797fa528a4c.png)
 

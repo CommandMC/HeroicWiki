@@ -33,7 +33,7 @@ Copy `<path-to-FallGuys>/EasyAntiCheat/easyanticheat_x64.so` to `<path-to-FallGu
 ![FallGuys8](https://user-images.githubusercontent.com/61798668/182597088-e7a085ba-23ed-4739-87f8-002ed37e5688.png)
 
 ## Enable EOS Overlay
-**Note**: Corefonts maybe need to be installed, via winetricks. Winetricks currently broken on heroic beta. You can installed them manually with `WINEPREFIX='<path-to-FallGuys-Prefix>/FallGuys' PATH='/<path-to-Heroic-Flatpak-Var-Folder>/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/<Wine-ge-version>/bin':$PATH /<path-to-Heroic-Flatpak-Var-Folder>/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/winetricks corefonts`
+**Note**: Corefonts maybe need to be installed, via winetricks. Winetricks currently broken on heroic beta. You can installed them manually with `WINEPREFIX='<path-to-Heroic-Prefixes>/FallGuys' PATH='/<path-to-user-var-folder>/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/<Wine-ge-version>/bin':$PATH /<path-to-user-var-folder>/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/winetricks corefonts`
 
 ![FallGuys9](https://user-images.githubusercontent.com/61798668/182597519-ef5ca4e9-089d-4499-95e3-d7e09b05d062.png)
 

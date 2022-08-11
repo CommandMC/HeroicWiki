@@ -1,4 +1,4 @@
-# Heroic Beta Guide:
+# Heroic Guide:
 
 ## Install latest wine-ge
 
@@ -33,9 +33,18 @@ Copy `<path-to-FallGuys>/EasyAntiCheat/easyanticheat_x64.so` to `<path-to-FallGu
 ![FallGuys8](https://user-images.githubusercontent.com/61798668/182597088-e7a085ba-23ed-4739-87f8-002ed37e5688.png)
 
 ## Enable EOS Overlay
-**Note**: Corefonts maybe need to be installed, via winetricks. Winetricks currently broken on heroic beta. You can installed them manually with `WINEPREFIX='<path-to-Heroic-Prefixes>/FallGuys' PATH='/<path-to-user-var-folder>/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/<Wine-ge-version>/bin':$PATH /<path-to-user-var-folder>/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/winetricks corefonts`
-
 ![FallGuys9](https://user-images.githubusercontent.com/61798668/182597519-ef5ca4e9-089d-4499-95e3-d7e09b05d062.png)
+
+**Note**: Corefonts maybe need to be installed, via winetricks. 
+1. Press the winetricks button on gamesettings > wine.
+![FallGuys](https://user-images.githubusercontent.com/61798668/184160210-9405e2ef-ff6b-4944-999c-23d0a4019f82.png)
+2. Select default prefix and press ok
+![FallGuys2](https://user-images.githubusercontent.com/61798668/184160304-e0e351ea-9355-471f-aa4d-d3b3eb1e977b.png)
+3. Select install a font and press ok
+![FallGuys3](https://user-images.githubusercontent.com/61798668/184160366-05e778bf-fff3-498b-ab25-d20e36df5e21.png)
+4. Select corefonts and press ok. **You don't see any gui progress!** (Installation can take some time ~1m)
+![FallGuys4](https://user-images.githubusercontent.com/61798668/184160421-dd204d2b-91c7-4ec6-b448-99d80ba91de7.png)
+5. Close all winetricks windows after installation
 
 ## Troubleshooting
 

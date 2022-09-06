@@ -13,7 +13,7 @@ Support for other storefronts & adding your own games (think Steam's "Add Non-St
 
 Heroic is a community-built, open-source launcher. This means that anyone can suggest changes or find optimizations, and can check what the code is like under the hood!
   
-Because of that, Heroic uses less resources than the EGL, and in general is a bit snapper:
+Because of that, Heroic uses less resources than the Epic Games Launcher, and is, in general, a lot snapper:
   
 |         Task                     |  Heroic |    EGL     |
 | -------------------------------- | ------- | ---------- |

@@ -24,11 +24,22 @@ AMD FideltyFX Super Resolution, a hardware-assisted upscaling feature on AMD GPU
 # GameMode
 See [Feral GameMode](#feral-gamemode)
 
+# GE
+A common abbreviation of [GloriousEggroll](https://github.com/GloriousEggroll), aka Thomas Crider, author of custom Wine and Proton builds.
+
 # [MangoHud](https://github.com/flightlessmango/MangoHud)
 MangoHud is an overlay for monitoring FPS, temperatures, CPU/GPU load, etc. for Vulkan and OpenGL applications.
+
+# [Proton](https://github.com/ValveSoftware/Proton)
+Valve's fork of [Wine](#wine) with additional components and patches.  Some changes eventually make it into upstream Wine.
 
 # Resizable BAR
 An optional feature on NVIDIA 30xx cards that gives the CPU access to the whole GPU framebuffer at once, which may improve performance on some games.
 
 # [Steam Linux Runtime](https://github.com/ValveSoftware/steam-runtime)
 The Steam Linux runtime is a binary linux environment under which native Linux games can be run to avoid having to manually install all the game's dependencies, or to avoid dependency hell for games that are binary-incompatible with the library versions shipped by your distribution.
+
+# [Wine](https://www.winehq.org/)
+> Wine (originally an acronym for "Wine Is Not an Emulator") is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+
+See also [Proton](#proton)

@@ -16,5 +16,8 @@ See [Feral GameMode](#feral-gamemode)
 # [MangoHud](https://github.com/flightlessmango/MangoHud)
 MangoHud is an overlay for monitoring FPS, temperatures, CPU/GPU load, etc. for Vulkan and OpenGL applications.
 
+# Resizable BAR
+An optional feature on NVIDIA 30xx cards that gives the CPU access to the whole GPU framebuffer at once, which may improve performance on some games.
+
 # [Steam Linux Runtime](https://github.com/ValveSoftware/steam-runtime)
 The Steam Linux runtime is a binary linux environment under which native Linux games can be run to avoid having to manually install all the game's dependencies, or to avoid dependency hell for games that are binary-incompatible with the library versions shipped by your distribution.

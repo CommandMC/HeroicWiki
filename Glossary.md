@@ -3,6 +3,17 @@ Here is a glossary of terms you may encounter when using the Heroic Game Launche
 # EOS Overlay
 Epic Online Services Overlay, the in-game overlay for games from the Epic Games Store.  The EGS counterpart to the Steam Overlay and GOG Galaxy Overlay.
 
+# ESync
+Wine eventfd-based synchronization, a wineserver feature to reduce overhead for synchronization objects.  See the Lutris [How To Esync](https://github.com/lutris/docs/blob/master/HowToEsync.md) guide for how to check whether your system supports ESync.
+
+See also FSync.
+
+# FSync
+
+A more performant ESync, but one that requires kernel-level support.  This is available in the mainline Linux kernel from 5.16 onwards.
+
+See also ESync
+
 # [Feral GameMode](https://github.com/FeralInteractive/gamemode)
 GameMode is
 > a daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS and/or a game process.

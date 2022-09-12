@@ -10,7 +10,7 @@ See also FSync.
 
 # FSync
 
-A more performant ESync, but one that requires kernel-level support.  This is available in the mainline Linux kernel from 5.16 onwards.
+A more performant ESync, but one that requires kernel-level support.  This is available in the mainline Linux kernel from 5.16 onwards[*](https://forums.lutris.net/t/fsync/14179/2).
 
 See also ESync
 

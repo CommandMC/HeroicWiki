@@ -37,14 +37,14 @@ Valve's fork of [Wine](#wine) with additional components and patches.  Some chan
 An optional feature on NVIDIA 30xx cards that gives the CPU access to the whole GPU framebuffer at once, which may improve performance on some games.
 
 # scout
-The codename for Steam Runtime version 2, which uses containers and is used by Proton 5.13 and later.
-
-See also [Steam Linux Runtime](#steam-linux-runtime) and [soldier](#soldier)
-
-# soldier
 The codename for Steam Runtime version 1, which uses `LD_LIBRARY_PATH` and is used for native Linux games and by Proton 5.0 and earlier.
 
 See also [Steam Linux Runtime](#steam-linux-runtime) and [scout](#scout)
+
+# soldier
+The codename for Steam Runtime version 2, which uses containers and is used by Proton 5.13 and later.
+
+See also [Steam Linux Runtime](#steam-linux-runtime) and [soldier](#soldier)
 
 # [Steam Linux Runtime](https://github.com/ValveSoftware/steam-runtime)
 The Steam Linux runtime is a binary linux environment under which native Linux games can be run to avoid having to manually install all the game's dependencies, or to avoid dependency hell for games that are binary-incompatible with the library versions shipped by your distribution.

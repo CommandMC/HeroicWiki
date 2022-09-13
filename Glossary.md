@@ -1,5 +1,15 @@
 Here is a glossary of terms you may encounter when using the Heroic Game Launcher.  (Please keep this list in alphabetical order when adding entries.)
 
+# EAAC
+EA (Electronic Arts) AntiCheat, an anti-cheat system from EA, announced in September 2022.
+
+Not to be confused with [EAC](#eac)
+
+# EAC
+Easy Anti-Cheat, an anti-cheat system commonly used in multi-player games.  Games using EAC almost always require additional workarounds to get working under Wine or Proton, and many are unplayable under Wine/Proton.
+
+Not to be confused with [EAAC](#eaac)
+
 # EOS Overlay
 Epic Online Services Overlay, the in-game overlay for games from the Epic Games Store.  The EGS counterpart to the Steam Overlay and GOG Galaxy Overlay.
 

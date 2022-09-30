@@ -4,7 +4,8 @@ Welcome to the Heroic Games Launcher wiki!
 Heroic Games Launcher, or simply "Heroic", is a native GUI alternative to the Epic Games Launcher (EGL) for Linux, Windows and MacOS.  
 It is open source under GPLv3 and is maintained by a community of developers that work **for free on their free time**.
 
-For now, Heroic is mostly a GUI for Legendary (which is a CLI tool that deals with the login and downloading & launching of games).  
+Currently, Heroic support Epic games (through Legendary, a CLI tool that deals with authentication, downloading, and launching Epic games) and GOG games (through GOGdl, a CLI tool that deals with authentication, downloading, and launching GOG games).
+
 Support for other storefronts & adding your own games (think Steam's "Add Non-Steam Game" feature) is planned in the future.
 
 ### Why should you use _**Heroic?**_

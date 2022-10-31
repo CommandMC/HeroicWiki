@@ -6,7 +6,7 @@ Heroic uses the [Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/G
 
 # Interactions
 
-This are the currently implemented interactions:
+These are the currently implemented interactions:
 
 ## padUp / padDown / padLeft / padRight
 

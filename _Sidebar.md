@@ -13,3 +13,4 @@
   * [Contributing](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Contributing)
   * [Translations](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Translations)
   * [Gamepad Navigation](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Gamepad-Navigation)
+* [Custom Themes](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Custom-Themes)

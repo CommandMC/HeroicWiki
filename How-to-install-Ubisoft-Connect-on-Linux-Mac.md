@@ -10,9 +10,9 @@ Each option has its benefits and cons:
 
 ## Requirements
 
-In both cases, you need to download the Ubisoft Connect installer from their site https://ubisoftconnect.com/en-US/ (use the `Download for PC` option)
+In both cases you need to download the Ubisoft Connect installer from their site https://ubisoftconnect.com/en-US/ (use the `Download for PC` option).
 
-> These instructions were done using Wine-GE-Proton7-34, it may work with Proton/Proton-GE/Wine-staging but maybe some extra step is needed.
+> These instructions were created using Wine-GE-Proton7-34, it may work with Proton/Proton-GE/Wine-staging but maybe some extra step is needed.
 
 ## Installing option 1
 
@@ -59,4 +59,4 @@ Now you can run the game and it will execute the Ubisoft Connect Launcher automa
 
 ## Extra notes:
 - The Ubisoft Connect Launcher added with the `Add Game` cannot be accessed by games installed using Heroic unless installed in the same prefix
-- Individual games may require extra dependencies to be installed or specific configurations and tweaks to run, that is NOT covered in this page, if you need help with this you can ask on our Discord
+- Individual games may require extra dependencies to be installed or specific configurations and tweaks to run, that is NOT covered in this page, if you need help with this you can ask on our Discord.

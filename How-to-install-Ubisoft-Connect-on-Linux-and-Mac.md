@@ -55,7 +55,7 @@ If a Ubisoft game is directly installed by Heroic, trying to run the game will r
 
 Now you can run the game and it will execute the Ubisoft Connect Launcher automatically.
 
-!IMPORTANT! Currently, there's an issue when closing games executed with this approach. After exiting the game, the UbisoftConnect launcher remains open in the taskbar and, in some cases, it CAN NOT be closed manually, rendering Heroic in a state where the `Playing` status of the game never goes away. You can run `pkill -f Ubisoft` in a console to kill all the Ubisoft-related processes to fix this.
+!IMPORTANT! Sometimes, there's an issue when closing games executed with this approach. After exiting the game, the UbisoftConnect launcher remains open in the taskbar and, in some cases, it CAN NOT be closed manually, rendering Heroic in a state where the `Playing` status of the game never goes away. You can run `pkill -f Ubisoft` in a console to kill all the Ubisoft-related processes to fix this.
 
 ## Extra notes:
 - The Ubisoft Connect Launcher added with the `Add Game` cannot be accessed by games installed using Heroic unless installed in the same prefix

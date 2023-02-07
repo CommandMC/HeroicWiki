@@ -2,6 +2,8 @@
 
 > On February 3rd 2023, seems like latest Proton versions (Proton Experimental and Proton 7.0-6) fix the issue (not in Wine-GE/Proton-GE yet)
 
+> On February 2nd 2023, GE released Wine-GE 7-37 and Proton-GE 7-49 with the patch from Proton
+
 
 Most Ubisoft games require the UbisoftConnect launcher to be installed in order to run (there are some rare exceptions).
 

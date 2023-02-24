@@ -1,8 +1,10 @@
-> On February 1st 2023, Ubisoft updated the launcher and now it's broken on Linux https://www.gamingonlinux.com/2023/02/ubisoft-broke-their-games-on-linux-desktop-and-steam-deck/
+> On February 1st 2023, Ubisoft updated the launcher and now it's broken on Linux (and Mac) https://www.gamingonlinux.com/2023/02/ubisoft-broke-their-games-on-linux-desktop-and-steam-deck/
 
 > On February 3rd 2023, seems like latest Proton versions (Proton Experimental and Proton 7.0-6) fix the issue (not in Wine-GE/Proton-GE yet)
 
 > On February 2nd 2023, GE released Wine-GE 7-37 and Proton-GE 7-49 with the patch from Proton
+
+> UbisoftConnect can be installed but will fail to start on MacOS until crossover or wine-staging includes the fix from Proton
 
 
 Most Ubisoft games require the UbisoftConnect launcher to be installed in order to run (there are some rare exceptions).

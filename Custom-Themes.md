@@ -41,8 +41,8 @@ We recommend NOT using them as file names unless you want to extend the built-in
 ## General Tips When Creating Themes
 
 - You can turn on devtools in Heroic by clicking the tray icon > Debug, you can use that to inspect the selectors you need
-- You can check the current themes files for idea on some common selectors and CSS variables for theming https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/src/frontend/themes.css
-- You can check the main CSS files for available CSS variables https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/src/frontend/index.css#L1
+- You can check the current themes files for idea on some common selectors and CSS variables for theming https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/src/frontend/themes.scss
+- You can check the main CSS files for available CSS variables https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/src/frontend/index.scss#L1
 - When editing a theme, you must unselect > reselect it in for Heroic to reload it
 
 ## General Tips When Sharing Themes

@@ -47,6 +47,7 @@ We recommend NOT using them as file names unless you want to extend the built-in
 
 ## General Tips When Sharing Themes
 
+- You can submit and find community themes at https://github.com/Heroic-Games-Launcher/heroic-themes
 - Don't overuse animations/transitions (some animations can impact performance a lot)
 - Use the body class name as the base selector for all rules
 - If linking to external resources, make sure they are optimized in size and quality

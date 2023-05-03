@@ -31,8 +31,8 @@ Type=Application
 X-KDE-SubstituteUID=false
 X-KDE-Username=
 
-{ Hint 1: 'Exec-'line, '/opt/Heroic/heroic' is Debian/Ubuntu-specific, should be streamlined to your distro }
-{ Hint 2: 'Exec-'line, for better compatability (f.e. if you want to start other electron-based apps through hgl) you could append '--use-angle=vulkan'}
+* { Hint 1: 'Exec-'line, '/opt/Heroic/heroic' is Debian/Ubuntu-specific, should be streamlined to your distro }
+* { Hint 2: 'Exec-'line, for better compatability (f.e. if you want to start other electron-based apps through hgl) you could append '--use-angle=vulkan'}
 
 2. 'Heroic-Deck' should be there as new app, look into ~/.local/share/applications/ to start it manually
 
@@ -55,16 +55,16 @@ qdbus  local.org_kde_powerdevil /org/kde/Solid/PowerManagement/Actions/PowerProf
 #kscreen-doctor output.DP-#.scale.#
 env GDK_BACKEND=wayland gamescope -w 1920 -h 1080 -f -Y -R --RT --force-grab-cursor --prefer-vk-device  --adaptive-sync --sharpness 15 -- /opt/Heroic/heroic --ozone-platform=x11 --enable-features=UseOzonePlatform,WaylandWindowDecorations 
 
-{ Hint 1: 'env'-line, if you want 720p for fps reasons, use '-w 1280 -h 720' (or something else)}
-{ Hint 2: 'env'-line, for better compatability (f.e. if you want to start other electron-based apps through hgl) you could append '--use-angle=vulkan'}
-{ Hint 3: 'env'-line, '--force-grab-cursor' / --prefer-vk-device needs a relatively new gamescope binary, '--force-grab-cursor' is needed if you 1. use ozone though wayland 2. use antimicrox 3. want to control a hgl-started electron-based-app through antimicrox}
+* { Hint 1: 'env'-line, if you want 720p for fps reasons, use '-w 1280 -h 720' (or something else)}
+* { Hint 2: 'env'-line, for better compatability (f.e. if you want to start other electron-based apps through hgl) you could append '--use-angle=vulkan'}
+* { Hint 3: 'env'-line, '--force-grab-cursor' / --prefer-vk-device needs a relatively new gamescope binary, '--force-grab-cursor' is needed if you 1. use ozone though wayland 2. use antimicrox 3. want to control a hgl-started electron-based-app through antimicrox}
 
 ### gamescoped hgl & gamemode (& NICE-capability)
 for using gamescope properly with gamemode (and a NICE-capable kernel), just simply 
 'sudo setcap 'CAP_SYS_NICE=eip' /usr/games/gamescope'
 
 
-#### what the hell is 'gamescope' anyways?
+# what the hell is 'gamescope' anyway?
 Gamescope is something only Linux has. 
 It is a microcompositor from Valve that is used on the Steam Deck. Its goal is to provide an isolated compositor that is tailored towards gaming and supports many gaming-centric features such as:
 

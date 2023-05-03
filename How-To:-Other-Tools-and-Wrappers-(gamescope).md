@@ -16,21 +16,21 @@ There is a plan to have a Gamescope setting in Heroic, while that is implemented
 1. edit '~/.local/share/applications/Heroic-Deck.desktop'
 
 [Desktop Entry]
-Categories=App-Starter;
-Comment=An Open Source alternative to the Epic Games launcher
-Exec=env GDK_BACKEND=wayland gamescope -w 1920 -h 1080 -f -Y -R --RT --force-grab-cursor --prefer-vk-device --adaptive-sync --sharpness 15 -- /opt/Heroic/heroic --ozone-platform=x11 --enable-features=UseOzonePlatform,WaylandWindowDecorations
-GenericName=gs_hgl
-Icon=heroic
-MimeType=
-Name=_Heroic_Games
-Path=
-StartupNotify=false
-StartupWMClass=Heroic
-Terminal=false
-TerminalOptions=
-Type=Application
-X-KDE-SubstituteUID=false
-X-KDE-Username=
+`Categories=App-Starter;`
+`Comment=An Open Source alternative to the Epic Games launcher`
+`Exec=env GDK_BACKEND=wayland gamescope -w 1920 -h 1080 -f -Y -R --RT --force-grab-cursor --prefer-vk-device --adaptive-sync --sharpness 15 -- /opt/Heroic/heroic --ozone-platform=x11 --enable-features=UseOzonePlatform,WaylandWindowDecorations`
+`GenericName=gs_hgl`
+`Icon=heroic`
+`MimeType=`
+`Name=_Heroic_Games`
+`Path=`
+`StartupNotify=false`
+`StartupWMClass=Heroic`
+`Terminal=false`
+`TerminalOptions=`
+`Type=Application`
+`X-KDE-SubstituteUID=false`
+`X-KDE-Username=`
 
 * { Hint 1: 'Exec-'line, '/opt/Heroic/heroic' is Debian/Ubuntu-specific, should be streamlined to your distro }
 * { Hint 2: 'Exec-'line, for better compatability (f.e. if you want to start other electron-based apps through hgl) you could append '--use-angle=vulkan'}

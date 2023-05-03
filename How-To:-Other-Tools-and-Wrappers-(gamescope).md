@@ -38,7 +38,8 @@ There is a plan to have a Gamescope setting in Heroic, while that is implemented
 
 2. 'Heroic-Deck' should be there as new app, look into ~/.local/share/applications/ to start it manually
 
-## gamescoped hgl as login-session (through sddm, gdm etc., possibly password-free through editing sddm-config)
+## gamescoped hgl as login-session 
+### (through sddm, gdm etc., possibly password-free through editing sddm-config)
 1. edit '/usr/share/wayland-sessions/Heroic-Deck.desktop'
 `Exec=/usr/lib/x86_64-linux-gnu/libexec/plasma-dbus-run-session-if-needed kwin_wayland --drm /usr/share/bin/heroicdeck`
 `Name=Heroic-Deck 1080p (Wayland)`

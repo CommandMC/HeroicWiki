@@ -9,7 +9,7 @@ It is a microcompositor from Valve that is used on the Steam Deck. Its goal is t
 3.    Limiting framerates.
 4.    ProtonGE: bundeled **FSR / FSHack is gone? simply use Gamescope.**
 
-# Gamescope inside of Heroic 
+# Gamescope inside of Heroic-App
 ## (specific per game/app)
 There is a plan to have a Gamescope setting in Heroic, while that is implemented, you can still use it with Heroic following the steps bellow:
 1. Install [Gamescope](https://github.com/Plagman/gamescope) in your system.
@@ -18,11 +18,12 @@ There is a plan to have a Gamescope setting in Heroic, while that is implemented
 4. If you have other variables, make sure you add it add the end of the input like: `DXVK_HUD=full gamescope ... --`
 5. For now, enabling `mangohud` or `gamemode` might make gamescope not work, so try with those options enabled first. 
 
-# gamescoped HGL 
+# 'gamescoped' Heroic 
 ## (*all* apps / games started through hgl also started through gamescope (including FSR-/hotkey-/etc.-capabilities))
+## (*no window borders anymore*)
 0. Install [Gamescope](https://github.com/Plagman/gamescope) in your system.
 
-## gamescoped HGL - as seperate app
+## 'gamescoped' Heroic - as seperate app
 1. edit '~/.local/share/applications/Heroic-Deck.desktop'
 
 [Desktop Entry]
@@ -47,8 +48,9 @@ There is a plan to have a Gamescope setting in Heroic, while that is implemented
 
 2. 'Heroic-Deck' should be there as new app, look into ~/.local/share/applications/ to start it manually
 
-## gamescoped hgl as login-session 
-### (through sddm, gdm etc., possibly password-free through editing sddm-config)
+## 'gamescoped' Heroic - as 'login-session'
+### simply login to heroic (through sddm, gdm etc., possibly password-free through editing sddm-config; f.e. use as a beamer- or smartphone-ui)
+
 1. edit '/usr/share/wayland-sessions/Heroic-Deck.desktop'
 `Exec=/usr/lib/x86_64-linux-gnu/libexec/plasma-dbus-run-session-if-needed kwin_wayland --drm /usr/share/bin/heroicdeck`
 `Name=Heroic-Deck 1080p (Wayland)`

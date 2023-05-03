@@ -8,7 +8,8 @@ There is a plan to have a Gamescope setting in Heroic, while that is implemented
 4. If you have other variables, make sure you add it add the end of the input like: `DXVK_HUD=full gamescope ... --`
 5. For now, enabling `mangohud` or `gamemode` might make gamescope not work, so try with those options enabled first. 
 
-# gamescoped HGL - *all* apps / games started through hgl also started through gamescope (including FSR-/hotkey-/etc.-capabilities)
+# gamescoped HGL 
+## *all* apps / games started through hgl also started through gamescope (including FSR-/hotkey-/etc.-capabilities)
 0. Install [Gamescope](https://github.com/Plagman/gamescope) in your system.
 
 ## gamescoped HGL - as seperate app
@@ -38,22 +39,22 @@ X-KDE-Username=
 
 ## gamescoped hgl as login-session (through sddm, gdm etc., possibly password-free through editing sddm-config)
 1. edit '/usr/share/wayland-sessions/Heroic-Deck.desktop'
-Exec=/usr/lib/x86_64-linux-gnu/libexec/plasma-dbus-run-session-if-needed kwin_wayland --drm /usr/share/bin/heroicdeck
-Name=Heroic-Deck 1080p (Wayland)
-Name[de]=Heroic-Deck 1080p (Wayland)
-Comment[de]=Heroic-Deck
-X-KDE-PluginInfo-Version=5.27.3
+`Exec=/usr/lib/x86_64-linux-gnu/libexec/plasma-dbus-run-session-if-needed kwin_wayland --drm /usr/share/bin/heroicdeck`
+`Name=Heroic-Deck 1080p (Wayland)`
+`Name[de]=Heroic-Deck 1080p (Wayland)`
+`Comment[de]=Heroic-Deck`
+`X-KDE-PluginInfo-Version=5.27.3`
 
 * { Hint: 'Exec-'line, --drm could be accompanied / replaced by --xwayland --drm --x11-display }
 
 2. edit '/usr/share/bin/heroicdeck'
-#!/bin/bash
-/usr/lib/x86_64-linux-gnu/libexec/org_kde_powerdevil &
-qdbus  local.org_kde_powerdevil /org/kde/Solid/PowerManagement/Actions/PowerProfile setProfile performance
-#older hardware: use lower base-resolution (f.e. 1920x1080 here) for more fps
-#kscreen-doctor output.DP-#.mode.#
-#kscreen-doctor output.DP-#.scale.#
-env GDK_BACKEND=wayland gamescope -w 1920 -h 1080 -f -Y -R --RT --force-grab-cursor --prefer-vk-device  --adaptive-sync --sharpness 15 -- /opt/Heroic/heroic --ozone-platform=x11 --enable-features=UseOzonePlatform,WaylandWindowDecorations 
+`#!/bin/bash`
+`/usr/lib/x86_64-linux-gnu/libexec/org_kde_powerdevil &`
+`qdbus  local.org_kde_powerdevil /org/kde/Solid/PowerManagement/Actions/PowerProfile setProfile performance`
+`#older hardware: use lower base-resolution (f.e. 1920x1080 here) for more fps`
+`#kscreen-doctor output.DP-#.mode.#`
+`#kscreen-doctor output.DP-#.scale.#`
+`env GDK_BACKEND=wayland gamescope -w 1920 -h 1080 -f -Y -R --RT --force-grab-cursor --prefer-vk-device  --adaptive-sync --sharpness 15 -- /opt/Heroic/heroic --ozone-platform=x11 --enable-features=UseOzonePlatform,WaylandWindowDecorations `
 
 * { Hint 1: 'env'-line, if you want 720p for fps reasons, use '-w 1280 -h 720' (or something else)}
 * { Hint 2: 'env'-line, for better compatability (f.e. if you want to start other electron-based apps through hgl) you could append '--use-angle=vulkan'}
@@ -71,5 +72,4 @@ It is a microcompositor from Valve that is used on the Steam Deck. Its goal is t
 1.    Spoofing resolutions.
 2.    Upscaling using AMD FidelityFX™ Super Resolution or NVIDIA Image Scaling.
 3.    Limiting framerates.
-
-4.    ProtonGE: bundeled FSR / FSHack is gone? simply use Gamescope.
+4.    ProtonGE: bundeled **FSR / FSHack is gone? simply use Gamescope.**

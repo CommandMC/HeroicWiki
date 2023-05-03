@@ -8,7 +8,7 @@ There is a plan to have a Gamescope setting in Heroic, while that is implemented
 4. If you have other variables, make sure you add it add the end of the input like: `DXVK_HUD=full gamescope ... --`
 5. For now, enabling `mangohud` or `gamemode` might make gamescope not work, so try with those options enabled first. 
 
-# gamescoped HGK (*all* apps / games started through hgl)
+# gamescoped HGL - *all* apps / games started through hgl also started through gamescope (including FSR-/hotkey-/etc.-capabilities)
 0. Install [Gamescope](https://github.com/Plagman/gamescope) in your system.
 
 ## gamescoped HGL - as seperate app
@@ -44,7 +44,7 @@ Name[de]=Heroic-Deck 1080p (Wayland)
 Comment[de]=Heroic-Deck
 X-KDE-PluginInfo-Version=5.27.3
 
-{ Hint: 'Exec-'line, --drm could be accompanied / replaced by --xwayland --drm --x11-display }
+* { Hint: 'Exec-'line, --drm could be accompanied / replaced by --xwayland --drm --x11-display }
 
 2. edit '/usr/share/bin/heroicdeck'
 #!/bin/bash

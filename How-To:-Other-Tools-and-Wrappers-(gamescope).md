@@ -6,7 +6,7 @@ It is a microcompositor from Valve that is used on the Steam Deck. Its goal is t
 
 1.    Spoofing resolutions.
 2.    Upscaling using **AMD FidelityFX™** Super Resolution or **NVIDIA Image Scaling** (gain fps).
-3.    Limit framerates / support tearing / use open-VR on all you installed through heroic
+3.    Limit framerates / support tearing / use **open-VR** on all you installed through heroic
 4.    ProtonGE: bundeled **FSR / FSHack is gone? simply use Gamescope.**
 
 # Gamescope inside of Heroic-App

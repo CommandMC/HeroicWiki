@@ -1,5 +1,14 @@
 # Gamescope (Linux-specific)
 
+# what is 'gamescope'?
+Gamescope is something only Linux has. 
+It is a microcompositor from Valve that is used on the Steam Deck. Its goal is to provide an isolated compositor that is tailored towards gaming and supports many gaming-centric features such as:
+
+1.    Spoofing resolutions.
+2.    Upscaling using AMD FidelityFX™ Super Resolution or NVIDIA Image Scaling.
+3.    Limiting framerates.
+4.    ProtonGE: bundeled **FSR / FSHack is gone? simply use Gamescope.**
+
 # Gamescope inside of Heroic 
 ## (specific per game/app)
 There is a plan to have a Gamescope setting in Heroic, while that is implemented, you can still use it with Heroic following the steps bellow:
@@ -58,25 +67,15 @@ There is a plan to have a Gamescope setting in Heroic, while that is implemented
 `#kscreen-doctor output.DP-#.scale.#`
 `env GDK_BACKEND=wayland gamescope -w 1920 -h 1080 -f -Y -R --RT --force-grab-cursor --prefer-vk-device  --adaptive-sync --sharpness 15 -- /opt/Heroic/heroic --ozone-platform=x11 --enable-features=UseOzonePlatform,WaylandWindowDecorations `
 
-* { Hint 1: 'env'-line, if you want 720p for fps reasons, use '-w 1280 -h 720' (or something else)}
-* { Hint 2: 'env'-line, for better compatability (f.e. if you want to start other electron-based apps through hgl) you could append '--use-angle=vulkan'}
+* { Hint 1: 'env'-line, if you want 720p for fps reasons, use `'-w 1280 -h 720'` (or something else)}
+* { Hint 2: 'env'-line, for better compatability (f.e. if you want to start other electron-based apps through hgl) you could append `'--use-angle=vulkan'`}
 * { Hint 3: 'env'-line, '--force-grab-cursor' / --prefer-vk-device needs a relatively new gamescope binary, '--force-grab-cursor' is needed if you 1. use ozone though wayland 2. use antimicrox 3. want to control a hgl-started electron-based-app through antimicrox}
 
 ### gamescoped hgl & gamemode (& NICE-capability)
 for using gamescope properly with gamemode (and a NICE-capable kernel), just simply 
-'sudo setcap 'CAP_SYS_NICE=eip' /usr/games/gamescope'
-
+`'sudo setcap 'CAP_SYS_NICE=eip' /usr/games/gamescope'`
 
 ### gamescoped hgl & firejail
 just put in your firejail-code into the line, f.e. (simplified)
 `gamescope -f -- firejail --noprofile --/opt/Heroic/heroic`
-* { Hint: Heroic and apps started through it sometimes need a lot of 'caps', you have to manually sort them out if you want to set --caps for firejail (benefit: not all steam needs are needed here) }
-
-# what the hell is 'gamescope' anyway?
-Gamescope is something only Linux has. 
-It is a microcompositor from Valve that is used on the Steam Deck. Its goal is to provide an isolated compositor that is tailored towards gaming and supports many gaming-centric features such as:
-
-1.    Spoofing resolutions.
-2.    Upscaling using AMD FidelityFX™ Super Resolution or NVIDIA Image Scaling.
-3.    Limiting framerates.
-4.    ProtonGE: bundeled **FSR / FSHack is gone? simply use Gamescope.**
+* { Hint: Heroic and apps started through it sometimes need a lot of 'caps', you have to manually sort them out if you want to set `--caps` for firejail (benefit: not all steam needs are needed here) }

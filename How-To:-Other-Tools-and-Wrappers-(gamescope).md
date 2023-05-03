@@ -67,6 +67,11 @@ for using gamescope properly with gamemode (and a NICE-capable kernel), just sim
 'sudo setcap 'CAP_SYS_NICE=eip' /usr/games/gamescope'
 
 
+### gamescoped hgl & firejail
+just put in your firejail-code into the line, f.e. (simplified)
+`gamescope -f -- firejail --noprofile --/opt/Heroic/heroic`
+* { Hint: Heroic and apps started through it sometimes need a lot of 'caps', you have to manually sort them out if you want to set --caps for firejail (benefit: not all steam needs are needed here) }
+
 # what the hell is 'gamescope' anyway?
 Gamescope is something only Linux has. 
 It is a microcompositor from Valve that is used on the Steam Deck. Its goal is to provide an isolated compositor that is tailored towards gaming and supports many gaming-centric features such as:

@@ -19,8 +19,9 @@ There is a plan to have a Gamescope setting in Heroic, while that is implemented
 5. For now, enabling `mangohud` or `gamemode` might make gamescope not work, so try with those options enabled first. 
 
 # 'gamescoped' Heroic 
-## (*all* apps / games started through hgl also started through gamescope (including FSR-/hotkey-/etc.-capabilities))
-## (*no window borders anymore*)
+(*all* apps / games started through hgl also started through gamescope (including FSR-/hotkey-/etc.-capabilities))
+(*no window borders anymore*)
+
 0. Install [Gamescope](https://github.com/Plagman/gamescope) in your system.
 
 ## 'gamescoped' Heroic - as seperate app

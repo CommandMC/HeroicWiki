@@ -1,6 +1,7 @@
 # Gamescope (Linux-specific)
 
-# Gamescope inside of Heroic (specific per game/app)
+# Gamescope inside of Heroic 
+## (specific per game/app)
 There is a plan to have a Gamescope setting in Heroic, while that is implemented, you can still use it with Heroic following the steps bellow:
 1. Install [Gamescope](https://github.com/Plagman/gamescope) in your system.
 2. In Heroic, open the game settings and go to the **Other** tab.
@@ -9,7 +10,7 @@ There is a plan to have a Gamescope setting in Heroic, while that is implemented
 5. For now, enabling `mangohud` or `gamemode` might make gamescope not work, so try with those options enabled first. 
 
 # gamescoped HGL 
-## *all* apps / games started through hgl also started through gamescope (including FSR-/hotkey-/etc.-capabilities)
+## (*all* apps / games started through hgl also started through gamescope (including FSR-/hotkey-/etc.-capabilities))
 0. Install [Gamescope](https://github.com/Plagman/gamescope) in your system.
 
 ## gamescoped HGL - as seperate app

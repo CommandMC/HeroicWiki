@@ -5,8 +5,8 @@ Gamescope is something only Linux has.
 It is a microcompositor from Valve that is used on the Steam Deck. Its goal is to provide an isolated compositor that is tailored towards gaming and supports many gaming-centric features such as:
 
 1.    Spoofing resolutions.
-2.    Upscaling using AMD FidelityFX™ Super Resolution or NVIDIA Image Scaling.
-3.    Limiting framerates.
+2.    Upscaling using **AMD FidelityFX™** Super Resolution or **NVIDIA Image Scaling** (gain fps).
+3.    Limit framerates / support tearing / use open-VR on all you installed through heroic
 4.    ProtonGE: bundeled **FSR / FSHack is gone? simply use Gamescope.**
 
 # Gamescope inside of Heroic-App
@@ -50,7 +50,7 @@ There is a plan to have a Gamescope setting in Heroic, while that is implemented
 2. 'Heroic-Deck' should be there as new app, look into ~/.local/share/applications/ to start it manually
 
 ## 'gamescoped' Heroic - as 'login-session'
-### simply login to heroic (through sddm, gdm etc., possibly password-free through editing sddm-config; f.e. use as a beamer- or smartphone-ui)
+use Heroic as streamlined gaming-ui or as a beamer- or smartphone-ui with capability of installing native linux-apps by simply 'login' to heroic after you powered on (through sddm, gdm etc., possibly password-free, f.e. through editing sddm-config)
 
 1. edit '/usr/share/wayland-sessions/Heroic-Deck.desktop'
 `Exec=/usr/lib/x86_64-linux-gnu/libexec/plasma-dbus-run-session-if-needed kwin_wayland --drm /usr/share/bin/heroicdeck`

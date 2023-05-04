@@ -2,7 +2,7 @@
 * Troubleshooting
   * [General](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Troubleshooting)
   * [Epic Games alternative login](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-To:-Epic-Alternative-Login)
-* Linux/Steam Deck/macOS Pages
+* Linux/Steam Deck
   * [Glossary](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Glossary)
   * [Game Workarounds](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Game-Workarounds)
   * [Fall Guys](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Fall-Guys)

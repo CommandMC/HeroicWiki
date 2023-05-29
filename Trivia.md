@@ -26,5 +26,6 @@ Here are all the character's names that were used so far:
 * 2.3 Brook
 * 2.4 Chopper
 * 2.5 Yamato
-* 2.7 Trafalgar Law
-* 2.8 Eustass Kid
+* 2.6 Trafalgar Law
+* 2.7 Eustass Kid
+* 2.8 Nico Robin

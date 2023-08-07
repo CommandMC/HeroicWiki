@@ -6,6 +6,8 @@
 
 > UbisoftConnect can be installed but will fail to start on MacOS until crossover or wine-staging includes the fix from Proton
 
+> # On August 2023, Ubisoft Connect was updated and broke again with Wine. Proton experimental, Wine-GE-Proton8-13 or Proton-GE-Proton8-11 are required for Ubisoft games to work.
+
 
 Most Ubisoft games require the UbisoftConnect launcher to be installed in order to run (there are some rare exceptions).
 
@@ -21,9 +23,7 @@ Each option has its benefits and cons:
 
 In both cases you need to download the Ubisoft Connect installer from their site https://ubisoftconnect.com/en-US/ (use the `Download for PC` option).
 
-> These instructions were created using Wine-GE-Proton7-34, it may work with Proton/Proton-GE/Wine-staging but maybe some extra step is needed.
-
-## Installing option 1
+## Installing option 1 (standalone launcher)
 
 - Click `Add Game`
 - Set `Ubisoft Connect` as the App title (after clicking outside the field Heroic should find the image for it)
@@ -33,11 +33,6 @@ In both cases you need to download the Ubisoft Connect installer from their site
 - Navigate to `drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/` and select the `UbisoftConnect.exe` file
 - Click `FINISH`
 - The `Ubisoft Connect` card should show up in your library
-- Go to the settings and click the WINETRICKS button
-- Click `Ok` with the `Select the default prefix` option checked
-- Select `Install a font` and click `Ok`
-- Select `arial` and click `Ok`
-- The Winetricks window will disappear for a moment, when it's back click Cancel until Winetricks is closed
 
 ![image](https://user-images.githubusercontent.com/188464/212219501-b1c0e14c-9369-463d-83cf-2a3a10f279e1.png)
 
@@ -49,7 +44,9 @@ To play games this way you'll have to always first launch Ubisoft Connect and th
 
 Note that to actually run games it may require extra dependencies to be installed using Wine, that is NOT covered in this page.
 
-## Installing option 2
+## Installing option 2 (in game prefix)
+
+### NOTE that this option is not needed anymore, Heroic installs Ubisoft Connect automatically when a Ubisoft game is launched for the first time.
 
 If a Ubisoft game is directly installed by Heroic, trying to run the game will result in no result visible and no output in the logs.
 
@@ -64,7 +61,7 @@ If a Ubisoft game is directly installed by Heroic, trying to run the game will r
 
 Now you can run the game and it will execute the Ubisoft Connect Launcher automatically.
 
-!IMPORTANT! Sometimes, there's an issue when closing games executed with this approach. After exiting the game, the UbisoftConnect launcher remains open in the taskbar and, in some cases, it CAN NOT be closed manually, rendering Heroic in a state where the `Playing` status of the game never goes away. You can run `pkill -f Ubisoft` in a console to kill all the Ubisoft-related processes to fix this.
+!IMPORTANT! Sometimes, there's an issue when closing games executed with this approach. After exiting the game, the UbisoftConnect launcher remains open in the taskbar and, in some cases, it CAN NOT be closed manually, rendering Heroic in a state where the `Playing` status of the game never goes away. You can run `pkill -f Ubisoft -9` in a console to kill all the Ubisoft-related processes to fix this.
 
 ## Extra notes:
 - The Ubisoft Connect Launcher added with the `Add Game` cannot be accessed by games installed using Heroic unless installed in the same prefix

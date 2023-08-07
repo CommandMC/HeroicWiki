@@ -50,11 +50,6 @@ Note that to actually run games it may require extra dependencies to be installe
 
 If a Ubisoft game is directly installed by Heroic, trying to run the game will result in no result visible and no output in the logs.
 
-- Go to the game's settings and click the WINETRICKS button
-- Click `Ok` with the `Select the default prefix` option checked
-- Select `Install a font` and click `Ok`
-- Select `arial` and click `Ok`
-- The Winetricks window will disappear for a moment, when it's back click Cancel until Winetricks is closed
 - Click the `RUN EXE ON PREFIX` button
 - Search for the UbisoftConnectInstaller.exe
 - Complete the installation and close the dialog (you don't need to run Ubisoft Connect to login, you can uncheck that option in the last step)

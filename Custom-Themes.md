@@ -44,7 +44,7 @@ We recommend NOT using them as file names unless you want to extend the built-in
 - You can check the current themes files for idea on some common selectors and CSS variables for theming https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/src/frontend/themes.scss
 - You can check the main CSS files for available CSS variables https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/src/frontend/index.scss#L1
 - When editing a theme, you must unselect > reselect it in for Heroic to reload it
-- CSS supports selectors nesting as a native, but it's different than SASS/SCSS nesting, be sure to use the correct syntax if using nesting
+- CSS supports selectors nesting as a native feature, but it's different than SASS/SCSS nesting, be sure to use the correct syntax if using nesting
 
 ## General Tips When Sharing Themes
 

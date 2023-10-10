@@ -11,6 +11,6 @@
 3. Click on `Run EXE in prefix`.
 ![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/45927311/67727091-254d-4912-87d1-3d5dc3509fb5)
 
-4. Select `EpicOnlineServicesInstaller.exe` inside the FallGuys folder in the location you installed the game to.
+4. Select `EpicOnlineServicesInstaller.exe` inside the EpicOnlineServices folder in the location you installed the game to.
 ![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/45927311/a96b4c50-b866-4361-a070-cab8b364e238)
 

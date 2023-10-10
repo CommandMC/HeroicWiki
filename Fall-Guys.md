@@ -9,12 +9,15 @@
    ![Install modal](https://user-images.githubusercontent.com/34034631/193329538-99186c27-ffd4-4b20-b790-04b8ab647c48.png)
    </details>
 
-3. Check the `EasyAntiCheat Runtime` toggle
+3. Open the game settings
 
-4. Click on `Run EXE in prefix`.
-![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/45927311/67727091-254d-4912-87d1-3d5dc3509fb5)
+4. Check the `EasyAntiCheat Runtime` toggle
+   ![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/45927311/67727091-254d-4912-87d1-3d5dc3509fb5)
 
-5. Select `EpicOnlineServicesInstaller.exe` inside the EpicOnlineServices folder in the location you installed the game to.
-![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/45927311/a96b4c50-b866-4361-a070-cab8b364e238)
+5. Click on `Run EXE in prefix`.
+
+
+6. Select `EpicOnlineServicesInstaller.exe` inside the EpicOnlineServices folder in the location you installed the game to.
+    ![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/45927311/a96b4c50-b866-4361-a070-cab8b364e238)
 
 Now the game should work with no missing files error! Make sure you have the Easy Anti Cheat runtime enabled.

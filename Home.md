@@ -6,7 +6,7 @@ It is open source under GPLv3 and is maintained by a community of developers tha
 
 Currently, Heroic support Epic games (through Legendary, a CLI tool that deals with authentication, downloading, and launching Epic games) and GOG games (through GOGdl, a CLI tool that deals with authentication, downloading, and launching GOG games).
 
-Support for other storefronts & adding your own games (think Steam's "Add Non-Steam Game" feature) is planned in the future.
+Support to add your own games (think Steam's "Add Non-Steam Game" feature) is also available. 
 
 ### Why should you use _**Heroic?**_
 
@@ -45,8 +45,8 @@ All Footnotes above apply, as well as the human factor of "I'm not a robot" so t
 The reason EGS is faster in this regard is simply because the launcher was made to load images at the same rate as anything else on the page, Heroic is slower in this regard. For the curious, if you tweaked the restriction to "loading the page to being recognisably the EGS site", then the numbers are about the same (2.7 seconds for list view, 2.9 seconds for Grid View).
 
 ### Which games are not supported by Heroic?
-Currently, only games that require activation in another storefront (Uplay, Origin) are unsupported.  
-Legendary recently added support for these with the `activate` command, so expect support for this in a future release.
+Currently, only games that require activation [in Origin](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/2859) are unsupported.  
+Legendary recently added support for it with the `activate` command, so expect support for it in a future release.
 
 ### Can Heroic use EOS? 
 Yes! As of 18/07/2022 ([2.4.0 - beta 2](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/tag/v2.4.0-beta.2)), Heroic has made it easy to enable support, as long as DXVK is updated to its latest version, and will apply for that Wine prefix. It can be downloaded via the Heroic Settings and can be found on the Game Page, then in the "Tools" menu. You may also need to install `corefonts` from winetricks.

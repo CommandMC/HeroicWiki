@@ -29,3 +29,6 @@ Here are all the character's names that were used so far:
 * 2.6 Trafalgar Law
 * 2.7 Eustass Kid
 * 2.8 Nico Robin
+* 2.9 Boa Hancock
+* 2.10 Jewelery Bonney
+* 2.11 Kumachi

@@ -12,4 +12,4 @@ To do that you need to follow the instructions below:
 * So Copy only the AUTHORIZATION CODE string and paste it here:
 ![image](https://user-images.githubusercontent.com/26871415/199690129-80ddc882-d6ba-49c8-baef-c1d3d484331f.png)
 
-After that click on Login and you should be logged in on the Epic store your games will be loaded once you get to the library page.
+After that, click on Login and you should be logged in to the Epic store. Your games will be loaded once you get to the library page.

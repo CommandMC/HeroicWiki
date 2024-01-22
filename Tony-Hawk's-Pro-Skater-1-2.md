@@ -9,7 +9,7 @@
 ```
 /home/deck/Games/Heroic/Prefixes/TonyHawksProSkater/drive_c/users/steamuser/AppData/Local/VicariousVisions/
 ```
-it should be
+when it should be:
 ```
 /home/deck/Games/Heroic/Prefixes/TonyHawksProSkater/drive_c/users/steamuser/AppData/Local/VicariousVisions/THPS/Saved/SaveGames
 ```

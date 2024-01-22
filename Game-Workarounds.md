@@ -15,7 +15,7 @@ The SUPERHOT launcher does not work with Heroic, since it also uses some Electro
 ### Redout: Enhanced Edition
 This game runs good by using Wine Staging, it just needs a few extra steps:
 1. Install VcRedist 2015-2018 (using winetricks or downloading from Microsoft Website) on the Wine Prefix.
-2. Go to the game settings, activate DXVK and VKD3D
+2. Go to the game settings and activate DXVK and VKD3D.
 3. If the game complains about DX12 not being supported, go to the game `Settings` > `Other` and add `-dx11` to the Game Arguments.
 4. The game should open just fine now.
 

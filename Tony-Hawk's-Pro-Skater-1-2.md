@@ -1,4 +1,4 @@
-1. Install the game
+1. Install the game.
 2. Download the latest version of Wine-GE from Heroic's Wine Manager:  
    ![Download steps for Wine-GE](https://user-images.githubusercontent.com/34034631/193324230-1520111c-39a5-456a-af94-79992445c806.png)
 3. Make sure to select the correct Wine-GE version

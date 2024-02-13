@@ -10,6 +10,8 @@ This page covers known issues and possible solutions.
 
 ## Problem: Heroic window is blank/glitched
 
+![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/188464/1f5d7a1a-969d-43f1-84dd-d52b31642ab3)
+
 This is a known Electron issue that can affect many Electron apps when the GPU cache gets corrupted.
 
 **Possible solution:**
@@ -24,6 +26,8 @@ If that still doesn't work, add the `--disable-gpu` flag to the shortcut that op
 
 ### Problem: Fall Guys missing files
 
+![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/188464/adfd8d7b-5942-4e1f-b5e4-6c9f07f3854c)
+
 This error should not happen anymore since Heroic 2.13.0. If it still happens, check the manual setup guide https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Fall-Guys
 
 ### Known fixes
@@ -35,7 +39,9 @@ You can use that repository as a guide or you can let Heroic apply them automati
 Other resources for known fixes are https://github.com/CommandMC/EpicLinux/wiki and https://github.com/derrod/legendary/wiki
 
 
-### Problem: Fortnite on Linux/Mac
+### Problem: Fortnite on Linux/Mac (Anticheat denied)
+
+![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/188464/0fcea71d-a137-4ff4-b6ea-611c884371ee)
 
 Fornite does NOT work on anything other than Windows. The game may start but you will get kicked out because of the anticheat not supporting Linux/Mac.
 
@@ -85,6 +91,8 @@ ValueError: EGS ProgramData path does not exist
 
 
 ### Problem: Videos don't play on the SteamDeck (or flatpak in general)
+
+Videos for some games don't play (either skipped or just a black screen)
 
 **Possible Solution:** In most cases, this gets fixed by enabling the `Prefer system libraries` option in the game's settings in Heroic.
 

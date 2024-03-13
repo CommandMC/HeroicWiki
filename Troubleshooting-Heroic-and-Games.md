@@ -67,9 +67,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/.../.config/heroi
 [11578] Failed to execute script 'cli' due to unhandled exception!
 ```
 
-**Solution:** install [wine dependencies](https://discord.com/channels/812703221789097985/1044301598018515105/1044301598018515105)
+**Solution:**
 
-> Note this is only applies if NOT using Heroic Flatpak/Snap
+If not using flatpak this is typically missing wine dependencies: install [wine dependencies](https://discord.com/channels/812703221789097985/1044301598018515105/1044301598018515105)
+
+If using flatpak, this happens for example when heroic gets updated while it's running. Restart Heroic and this should get fixed.
 
 
 ### Problem: `ValueError: EGS ProgramData path does not exist` error in logs
@@ -100,3 +102,10 @@ Videos for some games don't play (either skipped or just a black screen)
 ### Problem: Missing libs for Linux native game
 
 **Possible Solution:** In most cases, this gets fixed by enabling the `Use Steam Runtime` option in the game's settings in Heroic.
+
+
+### Problem: Anti-tamper error
+
+![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/188464/066f2227-95af-4886-96db-41c966ebf508)
+
+**Solution:** This happens because of denuvo after reinstalling or or changing wine versions (or creating new prefixes) multiple times. Waiting a day should reset this security measure.

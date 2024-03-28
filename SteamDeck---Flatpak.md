@@ -22,3 +22,6 @@ Due to Flatpak's nature that uses containarization to bring more security to the
 
 ## Mangohud doesn't work
 Check if you have installed the flatpak version of Mangodhud: `flatpak install org.freedesktop.Platform.VulkanLayer.MangoHud`
+
+## gamescope not available
+Check if you have installed the flatpak version of gamescope: `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope`

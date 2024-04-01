@@ -6,6 +6,7 @@
   * [Glossary](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Glossary)
   * [Game Workarounds](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Game-Workarounds)
   * [Fall Guys](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Fall-Guys)
+  * [GTAV / RDR2](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Rockstar-Games:-Code-134-Error-(workaround))
   * [Tony Hawk's Pro Skater 1+2](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Tony-Hawk's-Pro-Skater-1-2)
   * [EOS Overlay](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/EOS-Overlay)
   * [How To: DOSBOX and SCUMMVM](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-To:-DOSBOX-and-SCUMMVM)

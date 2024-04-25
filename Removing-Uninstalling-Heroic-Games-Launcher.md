@@ -27,9 +27,9 @@ Depending on the Operating System and the method Heroic was installed, the way t
 ## Mac
 
 - Delete the `.app` file from your Applications directory
-- Delete Heroic's config folder: `/Library/Application Support/heroic`
-- If you want, delete the folder where games are installed (defaults to `/users/<your user>/Games/Heroic`)
-- If you want, delete the folder where the prefixes are created (defaults to `/users/<your user>/Games/Heroic/Prefixes`)
+- Delete Heroic's config folder: `/Users/<your user>/Library/Application Support/heroic`
+- If you want, delete the folder where games are installed (defaults to `/Users/<your user>/Games/Heroic`)
+- If you want, delete the folder where the prefixes are created (defaults to `/Users/<your user>/Games/Heroic/Prefixes`)
 
 
 ## Windows

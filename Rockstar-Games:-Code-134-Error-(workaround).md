@@ -22,6 +22,8 @@ ping -n 20 localhost > nul
 ./PlayGTAV.exe %*
 ```
 
+### IMPORTANT: the file MUST be a plain text file, no rich text. If you don't know how to check if a file is plain text, download it from https://gist.github.com/arielj/6309d07463cd7ff6358810d80c79a42c (or right click [this](https://gist.githubusercontent.com/arielj/6309d07463cd7ff6358810d80c79a42c/raw/64b7af8eeffe88123fd6873d872aa33701ae18ef/fix.bat) and download the linked content)
+
   - Don't type the content, copy and paste it
   - Replace the `PlayGTAV.exe` with `PlayRDR2.exe` if you are trying to launch Red Dead Redemption 2
   - This will tell Heroic to: launch the Rockstar Launcher, then wait for 20 seconds, and then launch the game

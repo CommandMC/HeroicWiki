@@ -4,6 +4,7 @@ Since the Rockstar Launcher update that removed the support for older Windows ve
 
 This page describes a workaround to get Rockstar games working again (this is not a final solution but a workaround).
 
+> [!NOTE]  
 > This was tested by users with GTAV and RDR2, and in all systems: Windows, Linux, and MacOS.
 
 ## Steps
@@ -19,16 +20,17 @@ start /B "null" "C:\Program Files\Rockstar Games\Launcher\LauncherPatcher.exe"
 
 ping -n 20 localhost > nul
 
-./PlayGTAV.exe %*
+PlayGTAV.exe %*
 ```
 
-### IMPORTANT: the file MUST be a plain text file, no rich text. If you don't know how to check if a file is plain text, download it from https://gist.github.com/arielj/6309d07463cd7ff6358810d80c79a42c (or right click [this](https://gist.githubusercontent.com/arielj/6309d07463cd7ff6358810d80c79a42c/raw/64b7af8eeffe88123fd6873d872aa33701ae18ef/fix.bat) and download the linked content)
+> [!IMPORTANT]
+> ### The file MUST be a plain text file, no rich text. If you don't know how to check if a file is plain text, download it from https://gist.github.com/arielj/6309d07463cd7ff6358810d80c79a42c (or right click [this](https://gist.githubusercontent.com/arielj/6309d07463cd7ff6358810d80c79a42c/raw/64b7af8eeffe88123fd6873d872aa33701ae18ef/fix.bat) and download the linked content)
 
   - Don't type the content, copy and paste it
   - Replace the `PlayGTAV.exe` with `PlayRDR2.exe` if you are trying to launch Red Dead Redemption 2
   - This will tell Heroic to: launch the Rockstar Launcher, then wait for 20 seconds, and then launch the game
 
-4. Open the game settings in Heroic and set this `fix.bat` file as an alternative exe for the game in the Advanced tab:
+4. Open the game settings in Heroic and set this `fix.bat` file as an alternative exe for the game in the Advanced tab:  
 ![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/188464/9c604a44-5f8b-479f-b47b-86d61b8f6751)
 5. Launch the game
 

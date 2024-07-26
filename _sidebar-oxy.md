@@ -8,6 +8,7 @@
   * [Fall Guys](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Fall-Guys)
   * [GTAV / RDR2](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Rockstar-Games:-Code-134-Error-(workaround))
   * [Tony Hawk's Pro Skater 1+2](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Tony-Hawk's-Pro-Skater-1-2)
+  * [Fallout: London](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Fallout:-London-guide)
   * [EOS Overlay](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/EOS-Overlay)
   * [How To: DOSBOX and SCUMMVM](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-To:-DOSBOX-and-SCUMMVM)
   * [How To: Other Tools and Wrappers](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-To:-Other-Tools-and-Wrappers-(gamescope))

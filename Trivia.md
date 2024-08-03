@@ -32,3 +32,6 @@ Here are all the character's names that were used so far:
 * 2.9 Boa Hancock
 * 2.10 Jewelery Bonney
 * 2.11 Kumachi
+* 2.12 Vegapunk
+* 2.13 Dorry & Broggy
+* 2.14 Flame Emperor Sabo

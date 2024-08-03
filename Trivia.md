@@ -35,3 +35,4 @@ Here are all the character's names that were used so far:
 * 2.12 Vegapunk
 * 2.13 Dorry & Broggy
 * 2.14 Flame Emperor Sabo
+* 2.15 Emeth

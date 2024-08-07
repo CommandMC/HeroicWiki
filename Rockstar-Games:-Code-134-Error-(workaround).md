@@ -1,3 +1,5 @@
+## IMPORTANT: Since August the 7th 2024, this `fix.bat` hack seems to not be needed anymore (at least on Linux where I could confirm this, but should be the same in the other systems)
+
 Since the Rockstar Launcher update that removed the support for older Windows versions, their games stopped working with Heroic showing an error with `code 134`:
 
 ![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/188464/d7399324-92ec-4641-b458-87a171c5768c)

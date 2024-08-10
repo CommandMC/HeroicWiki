@@ -1,5 +1,12 @@
 # SteamDeck And Linux Flatpak guide
 
+## Usage
+It is intended to install and configure games from desktop mode only. Running heroic itself through GameMode is not supported and you may encounter issues doing so. 
+
+The proper way to use Heroic with the Steam Deck is to open heroic in desktop mode, install and update games from there. You may need to play games at least once in desk top mode to confirm that they are functioning properly and in the case where a game requires user interaction on first launch, such as associating your epic account with the game via a web browser pop up.
+
+Once a game is installed, you can add it to steam through the 3 dot menu on the game page, or by selecting "auto add to steam" from the heroic settings on the side bar.
+
 ## Install on SteamDeck with flatpak (recommended):
 1) Go to **Desktop mode**.
 2) Open the app store (Discover).

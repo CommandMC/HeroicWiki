@@ -16,6 +16,10 @@ The locations Heroic will scan and the tools that will be used
 | DOSBox | `io.github.dosbox-staging` | `dosbox` |
 | ScummVM | `org.scummvm.ScummVM` | `scummvm` |
 
+> [!WARNING]
+> The only supported build of DOSBox is DOSBox-Staging.  
+> It is the only version that handles configuration files tailored for usage on Windows
+
 ## Heroic Flatpak
 
 In case of Heroic flatpak you'll need to add permissions allowing Heroic to run commands outside of sandbox.

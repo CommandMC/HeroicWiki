@@ -1,5 +1,4 @@
 This describes how to run dosbox and scummvm games using native builds of those tools.
-Presented way is the only one currently until we add support for that in heroic.
 
 # Automatic native runners
 

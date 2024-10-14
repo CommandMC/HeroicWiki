@@ -70,6 +70,30 @@ Though it is not recommended to use Heroic in Game Mode, you may add the AppImag
 6. Type `--no-sandbox`
 7. Heroic will now launch in Game Mode
 
+## Add to Steam/Game Mode
+
+Non-Steam games to Steam added to Steam will automatically appear in Game Mode under the "Non-Steam" tab. In order to add non-Steam games to Steam, follow the below steps.
+
+### Manual
+
+These steps will cover how to manually add a Heroic game to Steam after it is installed. 
+
+1. In Desktop Mode, open Heroic.
+2. Either install a game or select an already installed game in Heroic.
+3. Click the three vertical dots in the top-right section of the screen.
+4. Click `Add to Steam`
+5. The game will now be added to Steam and appear under the "Non-Steam" tab in Game Mode.
+
+### Automatic
+
+These steps will cover how to automatically add a Heroic game to Steam after it is installed. 
+
+1. In Desktop Mode, open Heroic.
+2. On the left-hand side of the screen, click `Settings`
+3. On the left-hand side of the screen, click `Add games to Steam automatically`
+4. Any newly installed Heroic games will automatically get added to Steam and appear under the "Non-Steam" tab in Game Mode.
+
+
 ## HDR
 
 ### Flatpak
@@ -79,25 +103,25 @@ To enable HDR with the Flatpak version of Heroic, follow the below steps.
 1. Switch to Desktop Mode.
 2. In a folder of your choice, right click anywhere, click `Open Terminal Here`
 3. Type the following command and press enter: 
-   * `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo --user`
+    * `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo --user`
 4. Type the following command and press enter: 
-   * `flatpak remove org.freedesktop.Platform.VulkanLayer.gamescope -y`
+    * `flatpak remove org.freedesktop.Platform.VulkanLayer.gamescope -y`
 5. Type the following command and press enter: 
-   * `git clone https://github.com/flathub/org.freedesktop.Platform.VulkanLayer.gamescope.git`
+    * `git clone https://github.com/flathub/org.freedesktop.Platform.VulkanLayer.gamescope.git`
 6. Type the following command and press enter: 
-   * `cd org.freedesktop.Platform.VulkanLayer.gamescope` 
+    * `cd org.freedesktop.Platform.VulkanLayer.gamescope` 
 7. Type the following command and press enter: 
-   * `git checkout 2a8ab98c2881d5a1262712093d051434a1a7d6f4` 
+    * `git checkout 2a8ab98c2881d5a1262712093d051434a1a7d6f4` 
 8. Type the following command and press enter: 
-   * `sed -i 's|https://freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz|https://distributions.freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz|' "modules/libevdev.yml"`
+    * `sed -i 's|https://freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz|https://distributions.freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz|' "modules/libevdev.yml"`
 9. Type the following command and press enter: 
-   * `sed -i 's|https://freedesktop.org/software/libevdev/libevdev-$version.tar.xz|https://distributions.freedesktop.org/software/libevdev/libevdev-$version.tar.xz|' "modules/libevdev.yml"`
+    * `sed -i 's|https://freedesktop.org/software/libevdev/libevdev-$version.tar.xz|https://distributions.freedesktop.org/software/libevdev/libevdev-$version.tar.xz|' "modules/libevdev.yml"`
 10. Type the following command and press enter: 
-   * `flatpak install org.flatpak.Builder --user -y` 
+    * `flatpak install org.flatpak.Builder --user -y` 
 11. Type the following command and press enter: 
-   * `flatpak run org.flatpak.Builder --user --jobs=4 --install ./_build ./org.freedesktop.Platform.VulkanLayer.gamescope.yml --user -y` 
+    * `flatpak run org.flatpak.Builder --user --jobs=4 --install ./_build ./org.freedesktop.Platform.VulkanLayer.gamescope.yml --user -y` 
 12. Type the following command and press enter: 
-   * `flatpak mask --user org.freedesktop.Platform.VulkanLayer.gamescope` 
+    * `flatpak mask --user org.freedesktop.Platform.VulkanLayer.gamescope` 
 13. The Flatpak Gamescope will now be installed and HDR will now work in Game Mode
 
 ### AppImage

@@ -121,6 +121,8 @@ These steps will cover how to automatically add a Heroic game to Steam after it 
 
 ### Flatpak
 
+The Heroic Flatpak requires the Gamescope Flatpak to enable HDR. However, the Flatpak Gamescope version must match the version of the natively installed Gamescope. At this time, the Steam Deck Gamescope is on version `3.13.16.8-1`. This section will cover how to roll back the Gamescope Flatpak to version `3.14.2` in order to match the natively installed version. As the natively version updates with SteamOS updates, this section will need to be updated to roll back to the matching Gamescope Flatpak. As of October 13th, 2024, this section is up to date with SteamOS 3.5.
+
 To enable HDR with the Flatpak version of Heroic, follow the below steps.
 
 1. Switch to Desktop Mode.

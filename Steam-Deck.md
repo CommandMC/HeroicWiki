@@ -12,12 +12,11 @@ Once a game is installed, you can add it to steam through the 3 dot menu on the 
 
 To install Heroic Games Launcher using the Flatpak, follow the below steps. The Flatpak is the recommended packaging method to use Heroic Games Launcher on the Steam Deck. 
 
-## Install on SteamDeck with Flatpak (recommended):
-1) Switch to **Desktop mode**.
-2) Open the app store (Discover).
-3) Search for "Heroic".
-4) There should be a result for Heroic Games Launcher. Click install.
-5) You should now be able to launch Heroic like any other application on your Steam Deck!
+1. Switch to **Desktop mode**.
+2. Open the app store (Discover).
+3. Search for "Heroic".
+4. There should be a result for Heroic Games Launcher. Click install.
+5. You should now be able to launch Heroic like any other application on your Steam Deck!
 
 ### Flatpak: Give permissions to SD Card, other partitions, external drives, etc.
 

@@ -86,7 +86,7 @@ To install Heroic Games Launcher using the AppImage, follow the below steps.
 Though it is not recommended to use Heroic in Game Mode, you may add the AppImage to Game Mode by following the below steps. If you are using Heroic in Game Mode, it is highly recommended you only do so to launch your games. Installing, updating, and managing your games should be done in Desktop Mode. 
 
 1. Switch to Desktop Mode, right click the Heroic AppImage, and click `Add to Steam`
-2. Switch to Game Mode, Open the Heroic shortcut by clicking it once.
+2. Switch to Game Mode, open the Heroic shortcut by clicking it once.
 3. Click the `Gear` icon on the right-hand side of the screen.
 4. Click `Properties`
 5. On the left-hand side of the screen, click `Shortcut`

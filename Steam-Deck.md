@@ -1,5 +1,24 @@
 # Steam Deck
 
+## Table of Contents
+
+
+- [Usage](#usage)
+- [How to Install Heroic Games Launcher](#how-to-install-heroic-games-launcher)
+   - [Flatpak **(Recommended)**](#flatpak-recommended)
+       - [Flatpak Permissions](#flatpak-permissions)
+   - [AppImage](#appimage)
+       - [Game Mode](#game-mode)
+   - [How to Add Heroic Games to Steam/Game Mode](#how-to-add-heroic-games-to-steam-game-mode)
+       - [Manual](#manual)
+       - [Automatic](#automatic)
+   - [HDR](#hdr)
+       - [Flatpak](#flatpak)
+       - [AppImage](#AppImage)
+   - [Common Issues](#common-issues)
+       - [Mangohud does not work](#mangohud-does-not-work)
+       - [Gamescope not available](#gamescope-not-available)
+
 ## Usage
 
 It is intended to install and configure games from desktop mode only. Running Heroic itself through Game Mode is not supported and you may encounter issues doing so. 
@@ -8,7 +27,9 @@ The proper way to use Heroic with the Steam Deck is to open Heroic in desktop mo
 
 Once a game is installed, you can add it to steam through the 3 dot menu on the game page, or by selecting "auto add to steam" from the heroic settings on the side bar.
 
-## Flatpak (Recommended)
+## How to Install Heroic Games Launcher
+
+### Flatpak (Recommended)
 
 To install Heroic Games Launcher using the Flatpak, follow the below steps. The Flatpak is the recommended packaging method to use Heroic Games Launcher on the Steam Deck. 
 
@@ -18,7 +39,9 @@ To install Heroic Games Launcher using the Flatpak, follow the below steps. The 
 4. There should be a result for Heroic Games Launcher. Click install.
 5. You should now be able to launch Heroic like any other application on your Steam Deck!
 
-### Flatpak: Give permissions to SD Card, other partitions, external drives, etc.
+#### Flatpak Permissions
+
+Purpose: Give permissions to SD Card, other partitions, external drives, etc.
 
 Flatpak's containerization while intended for increased security does limit Heroic's permissions to several system's features and folders. It is necessary to give extra permissions to Heroic. 
 
@@ -44,7 +67,7 @@ In this case we will need to install Flatseal from the Discover or another Linux
 3. Looks for the Filesystem section and add the folders you need to access like shown on the image above.
 4. Restart Heroic.
 
-## AppImage
+### AppImage
 
 To install Heroic Games Launcher using the AppImage, follow the below steps. 
 
@@ -58,19 +81,19 @@ To install Heroic Games Launcher using the AppImage, follow the below steps.
 5. Right click the AppImage, click `Properties`, `Permissions`, check `Is Exectuable`
 6. Double click the AppImage to open Heroic
 
-### Game Mode
+#### Game Mode
 
 Though it is not recommended to use Heroic in Game Mode, you may add the AppImage to Game Mode by following the below steps. If you are using Heroic in Game Mode, it is highly recommended you only do so to launch your games. Installing, updating, and managing your games should be done in Desktop Mode. 
 
-1. Open the Heroic shortcut by clicking it once
-2. Click the `Gear` icon on the right-hand side of the screen
+1. Open the Heroic shortcut by clicking it once.
+2. Click the `Gear` icon on the right-hand side of the screen.
 3. Click `Properties`
 4. On the left-hand side of the screen, click `Shortcut`
 5. Scroll down to `Launch Options`
 6. Type `--no-sandbox`
-7. Heroic will now launch in Game Mode
+7. Heroic will now launch in Game Mode.
 
-## Add to Steam/Game Mode
+## How to Add Heroic Games to Steam/Game Mode
 
 Non-Steam games added to Steam will automatically appear in Game Mode under the "Non-Steam" tab. In order to add non-Steam games to Steam, follow the below steps.
 

@@ -72,7 +72,7 @@ Though it is not recommended to use Heroic in Game Mode, you may add the AppImag
 
 ## Add to Steam/Game Mode
 
-Non-Steam games to Steam added to Steam will automatically appear in Game Mode under the "Non-Steam" tab. In order to add non-Steam games to Steam, follow the below steps.
+Non-Steam games added to Steam will automatically appear in Game Mode under the "Non-Steam" tab. In order to add non-Steam games to Steam, follow the below steps.
 
 ### Manual
 

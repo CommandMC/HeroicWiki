@@ -128,8 +128,10 @@ To enable HDR with the Flatpak version of Heroic, follow the below steps.
 
 1. Switch to Desktop Mode.
 2. In a folder of your choice, right click anywhere, click `Open Terminal Here`
-3. Type the following command and press enter: 
-    * `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo --user`
+3. The following command will set a sudo password. If this is your first time setting a sudo password, make sure it is secure and that you **do not** forget it. if you have already set a sudo password, skip to Step 4.
+    * `passwd`
+    * Konsole will prompt you to create a password, any characters typed here will not display in the terminal. Once you have typed a password, press enter and Konsole will ask you to type it again to confirm. 
+    * Some of the commands after this step will request a sudo password, type the password you created here for the respective step. 
 4. Type the following command and press enter: 
     * `flatpak remove org.freedesktop.Platform.VulkanLayer.gamescope -y`
 5. Type the following command and press enter: 
@@ -143,11 +145,11 @@ To enable HDR with the Flatpak version of Heroic, follow the below steps.
 9. Type the following command and press enter: 
     * `sed -i 's|https://freedesktop.org/software/libevdev/libevdev-$version.tar.xz|https://distributions.freedesktop.org/software/libevdev/libevdev-$version.tar.xz|' "modules/libevdev.yml"`
 10. Type the following command and press enter: 
-    * `flatpak install org.flatpak.Builder --user -y` 
+    * `flatpak install org.flatpak.Builder -y` 
 11. Type the following command and press enter: 
-    * `flatpak run org.flatpak.Builder --user --jobs=4 --install ./_build ./org.freedesktop.Platform.VulkanLayer.gamescope.yml --user -y` 
+    * `flatpak run org.flatpak.Builder --jobs=4 --install ./_build ./org.freedesktop.Platform.VulkanLayer.gamescope.yml -y` 
 12. Type the following command and press enter: 
-    * `flatpak mask --user org.freedesktop.Platform.VulkanLayer.gamescope` 
+    * `flatpak mask org.freedesktop.Platform.VulkanLayer.gamescope` 
 13. The Flatpak Gamescope will now be installed and HDR will now work in Game Mode
 
 ### AppImage

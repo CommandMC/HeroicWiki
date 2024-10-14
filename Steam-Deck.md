@@ -79,7 +79,7 @@ To install Heroic Games Launcher using the AppImage, follow the below steps.
 4. Move the newly downloaded AppImage to the `/home/deck/Applications` folder
    * If you do not have an `Applications` folder, it is recommended you create one but you may place the AppImage wherever you would like
 5. Right click the AppImage, click `Properties`, `Permissions`, check `Is Exectuable`
-6. Double click the AppImage to open Heroic
+6. Double click the AppImage to open Heroic.
 
 #### Game Mode
 

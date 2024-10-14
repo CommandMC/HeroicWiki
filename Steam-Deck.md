@@ -9,7 +9,7 @@
        - [Flatpak Permissions](#flatpak-permissions)
    - [AppImage](#appimage)
        - [Game Mode](#game-mode)
-   - [How to Add Heroic Games to Steam/Game Mode](#how-to-add-heroic-games-to-steam-game-mode)
+   - [How to Add Heroic Games to Steam/Game Mode](#how-to-add-heroic-games-to-steamgame-mode)
        - [Manual](#manual)
        - [Automatic](#automatic)
    - [HDR](#hdr)

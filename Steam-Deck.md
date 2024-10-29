@@ -122,35 +122,19 @@ These steps will cover how to automatically add a Heroic game to Steam after it 
 
 ### Flatpak
 
-The Heroic Flatpak requires the Gamescope Flatpak to enable HDR. However, the Flatpak Gamescope version must match the version of the natively installed Gamescope. At this time, the Steam Deck Gamescope is on version `3.13.16.8-1`. This section will cover how to roll back the Gamescope Flatpak to version `3.14.2` in order to match the natively installed version. As the natively version updates with SteamOS updates, this section will need to be updated to roll back to the matching Gamescope Flatpak. As of October 13th, 2024, this section is up to date with SteamOS 3.5.
+The Heroic Flatpak requires the Gamescope Flatpak to enable HDR. However, the Flatpak Gamescope version must match the version of the natively installed Gamescope. As of October 29th, 2024, the Steam Deck Gamescope is on version `3.15.13-2`. The natively installed Gamescope is close enough to the latest version of the Flatpak meaning the only step required to enable HDR is to install the Flatpak Gamescope. 
 
 To enable HDR with the Flatpak version of Heroic, follow the below steps.
 
 1. Switch to Desktop Mode.
-2. In a folder of your choice, right click anywhere, click `Open Terminal Here`
+2. Open Konsole.
 3. The following command will set a sudo password. If this is your first time setting a sudo password, make sure it is secure and that you **do not** forget it. if you have already set a sudo password, skip to Step 4.
     * `passwd`
     * Konsole will prompt you to create a password, any characters typed here will not display in the terminal. Once you have typed a password, press enter and Konsole will ask you to type it again to confirm. 
-    * Some of the commands after this step will request a sudo password, type the password you created here for the respective step. 
+    * If the commands after this step request a sudo password, type the password you created here for the respective step. 
 4. Type the following command and press enter: 
-    * `flatpak remove org.freedesktop.Platform.VulkanLayer.gamescope -y`
-5. Type the following command and press enter: 
-    * `git clone https://github.com/flathub/org.freedesktop.Platform.VulkanLayer.gamescope.git`
-6. Type the following command and press enter: 
-    * `cd org.freedesktop.Platform.VulkanLayer.gamescope` 
-7. Type the following command and press enter: 
-    * `git checkout 2a8ab98c2881d5a1262712093d051434a1a7d6f4` 
-8. Type the following command and press enter: 
-    * `sed -i 's|https://freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz|https://distributions.freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz|' "modules/libevdev.yml"`
-9. Type the following command and press enter: 
-    * `sed -i 's|https://freedesktop.org/software/libevdev/libevdev-$version.tar.xz|https://distributions.freedesktop.org/software/libevdev/libevdev-$version.tar.xz|' "modules/libevdev.yml"`
-10. Type the following command and press enter: 
-    * `flatpak install org.flatpak.Builder -y` 
-11. Type the following command and press enter: 
-    * `flatpak run org.flatpak.Builder --jobs=4 --install ./_build ./org.freedesktop.Platform.VulkanLayer.gamescope.yml -y` 
-12. Type the following command and press enter: 
-    * `flatpak mask org.freedesktop.Platform.VulkanLayer.gamescope` 
-13. The Flatpak Gamescope will now be installed and HDR will now work in Game Mode
+    * `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope -y`
+5. The Flatpak Gamescope will now be installed and HDR will now work in Game Mode
 
 ### AppImage
 

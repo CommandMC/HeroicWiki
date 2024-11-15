@@ -7,6 +7,7 @@
   * [EOS Overlay](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/EOS-Overlay)
   * [How To: DOSBOX and SCUMMVM](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-To:-DOSBOX-and-SCUMMVM)
   * [How To: Other Tools and Wrappers](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-To:-Other-Tools-and-Wrappers-(gamescope))
+  * [How To: Discord Rich Presence RPC Support](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-To:-Discord-Rich-Presence-RPC-Support)
 * Linux, macOS, and Steam Deck
   * [Steam Deck](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Steam-Deck)
 * Game Fixes

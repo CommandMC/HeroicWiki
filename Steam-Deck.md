@@ -122,7 +122,7 @@ These steps will cover how to automatically add a Heroic game to Steam after it 
 
 ### Flatpak
 
-The Heroic Flatpak requires the Gamescope Flatpak to enable HDR. However, the Flatpak Gamescope version must match the version of the natively installed Gamescope. As of October 29th, 2024, the Steam Deck Gamescope is on version `3.15.13-2`. The natively installed Gamescope is close enough to the latest version of the Flatpak meaning the only step required to enable HDR is to install the Flatpak Gamescope. 
+The Heroic Flatpak requires the Gamescope Flatpak to enable HDR. However, the Flatpak Gamescope version must match the version of the natively installed Gamescope. As of October 29th, 2024, the Steam Deck Gamescope is on version `3.15.13-2`. The natively installed Gamescope is close enough to the latest version of the Flatpak meaning the only step required to enable HDR is to install the Flatpak Gamescope. This section will also cover how to identify the currently installed Gamescope version. 
 
 To enable HDR with the Flatpak version of Heroic, follow the below steps.
 
@@ -132,10 +132,13 @@ To enable HDR with the Flatpak version of Heroic, follow the below steps.
     * `passwd`
     * Konsole will prompt you to create a password, any characters typed here will not display in the terminal. Once you have typed a password, press enter and Konsole will ask you to type it again to confirm. 
     * If the commands after this step request a sudo password, type the password you created here for the respective step. 
-4. Type the following command and press enter: 
+4. Type the following command and press enter:
+    * `gamescope --version`
+    *  As of October 29th, 2024, the Gamescope version currently installed should be `3.15.13-2`, note this down for the next step.  
+5. Type the following command and press enter: 
     * `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope --system -y`
-    * If you see a list, select `runtime/org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/24.08` by typing the respective number. For example, if it is the third item in the list, type `3` and press enter. 
-5. The Flatpak Gamescope will now be installed and HDR will now work in Game Mode.
+    * If you see a list of Gamescope versions, select the version closest to the version you located in Step 4. For example, as of October 29th, the Gamescope version currently installed should be `3.15.13-2`. Currently, the closest Flatpak version in the list should be `24.08`. Locate `runtime/org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/24.08` in the list and confirm your selection by typing the respective number. For example, if it is the third item in the list, type `3` and press enter. 
+6. The Flatpak Gamescope will now be installed and HDR will now work in Game Mode.
 
 **Optional: Freezing Updates**
 

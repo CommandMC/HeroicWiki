@@ -9,6 +9,11 @@
    ![Install modal](https://user-images.githubusercontent.com/34034631/193329538-99186c27-ffd4-4b20-b790-04b8ab647c48.png)
    </details>
 
+
+## That should be all, but if, for any reason, you get a Missing Files error, do the next steps:
+
+> Note these steps should be executed automatically by Heroic's [known-fixes](https://github.com/Heroic-Games-Launcher/known-fixes/blob/main/epic/0a2d9f6403244d12969e11da6713137b-epic.json) feature, you shouldn't need to do this manually 
+
 3. Open the game settings.
 
 4. Check the `EasyAntiCheat Runtime` toggle and click on `Run EXE in prefix`.

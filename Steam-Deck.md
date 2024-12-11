@@ -122,7 +122,13 @@ These steps will cover how to automatically add a Heroic game to Steam after it 
 
 ### Flatpak
 
-The Heroic Flatpak requires the Gamescope Flatpak to enable HDR. However, the Flatpak Gamescope version must match the version of the natively installed Gamescope. As of October 29th, 2024, the Steam Deck Gamescope is on version `3.15.13-2`. The natively installed Gamescope is close enough to the latest version of the Flatpak meaning the only step required to enable HDR is to install the Flatpak Gamescope.
+- [Installing Gamescope](#installing-gamescope]
+- [Optional: Freezing Gamescope Updates)(#optional-freezing-gamescope-updates)
+- [Validating Gamescope's Version](#validating-gamescopes-version)
+
+#### Installing Gamescope
+
+The Heroic Flatpak requires the Gamescope Flatpak to enable HDR. However, the Flatpak Gamescope version must match the version of the natively installed Gamescope. As of December 11th, 2024, the Steam Deck Gamescope is on version `3.15.14`. The natively installed Gamescope is close enough to the latest version of the Flatpak meaning the only step required to enable HDR is to install the Flatpak Gamescope.
 
 To enable HDR with the Flatpak version of Heroic, follow the below steps.
 
@@ -133,7 +139,7 @@ To enable HDR with the Flatpak version of Heroic, follow the below steps.
     * Locate `runtime/org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/24.08` in the list and confirm your selection by typing the respective number. For example, if it is the third item in the list, type `3` and press enter. 
 4. The Flatpak Gamescope will now be installed and HDR will now work in Game Mode.
 
-**Optional: Freezing Updates**
+#### Optional - Freezing Gamescope Updates
 
 If the Gamescope Flatpak updates and is no longer in sync with the natively installed Gamescope, HDR may stop working. As an optional step, you may mask the Gamescope Flatpak in order to "freeze" its updates.
 
@@ -146,6 +152,17 @@ If the Gamescope Flatpak updates and is no longer in sync with the natively inst
 To unmask the Gamescope Flatpak, use the following command:
 
 `sudo flatpak --remove mask org.freedesktop.Platform.VulkanLayer.gamescope`
+
+#### Validating Gamescope's Version
+
+1. Switch to Desktop Mode.
+2. Open Konsole.
+3. Type the following command and press enter:
+    * `gamescope --version`
+    *  As of December 11th, 2024, the Gamescope version currently installed should be `3.15.14`, note this down for the next step.  
+4. Open [https://flathub.org/apps/org.freedesktop.Platform.VulkanLayer.gamescope](https://flathub.org/apps/org.freedesktop.Platform.VulkanLayer.gamescope) in a web browser of your choice.
+5. Locate the version number at the top of the page and compare it to the version number you gathered in Step 3. 
+    * As of December 11th, 2024, the version gathered in Step 3 should be `3.15.14` and the version on the link above should be `3.14.24`. These versions are close enough for the Gamescope Flatpak to work through the Heroic Games Launcher. 
 
 ### AppImage
 

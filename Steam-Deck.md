@@ -122,8 +122,8 @@ These steps will cover how to automatically add a Heroic game to Steam after it 
 
 ### Flatpak
 
-- [Installing Gamescope](#installing-gamescope]
-- [Optional: Freezing Gamescope Updates)(#optional-freezing-gamescope-updates)
+- [Installing Gamescope](#installing-gamescope)
+- [Optional: Freezing Gamescope Updates](#optional-freezing-gamescope-updates)
 - [Validating Gamescope's Version](#validating-gamescopes-version)
 
 #### Installing Gamescope

@@ -139,7 +139,7 @@ To enable HDR with the Flatpak version of Heroic, follow the below steps.
     * Locate `runtime/org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/24.08` in the list and confirm your selection by typing the respective number. For example, if it is the third item in the list, type `3` and press enter. 
 4. The Flatpak Gamescope will now be installed and HDR will now work in Game Mode.
 
-#### Optional - Freezing Gamescope Updates
+#### Optional: Freezing Gamescope Updates
 
 If the Gamescope Flatpak updates and is no longer in sync with the natively installed Gamescope, HDR may stop working. As an optional step, you may mask the Gamescope Flatpak in order to "freeze" its updates.
 

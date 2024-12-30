@@ -6,12 +6,14 @@ Since the latest update of the Rockstar launcher, these steps are needed to run 
 
 - Download the custom `EpicGamesLauncher.exe` file from https://github.com/Etaash-mathamsetty/heroic-epic-integration/releases (this is NOT the real Epic Games Launcher, it's just a wrapper exe with the same file name)
 - Put the `EpicGamesLauncher.exe` file in the install directory of the game (next to the `PlayGTAV.exe` or `PlayRDR2.exe` files)
-- Create a text file called `fix.bat` in the install directory (next to the `PlayGTAV.exe`) with this content `start "" EpicGamesLauncher.exe PlayGTAV.exe %*` (replace with `PlayRDR2.exe` as needed)
+- Create a text file called `fix.bat` in the install directory (next to the `PlayGTAV.exe`) with this content `start "" EpicGamesLauncher.exe PlayGTAV.exe %*` (replace with `PlayRDR2.exe` as needed) (1)
 - In the game's settings in Heroic, in the `Advanced` tab, select the created `fix.bat` file in the `Select an alternative EXE to run` field
 
 Then run the game.
 
 The Rockstar Launcher should open, and, while loading, it should launch the game without getting to the main screen of the Rockstar Launcher.
+
+(1) Make sure the file is a plain text file and not a rich text file
 
 ## Rockstar Games on MacOS
 

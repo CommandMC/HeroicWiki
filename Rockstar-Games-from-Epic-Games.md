@@ -22,6 +22,10 @@ To run GTAV on Mac, the free `wine-crossover` wine that can be installed with He
 
 > I haven't seen any confirmation of running Red Dead Redemption 2 on Mac, feel free to update this if that information is known
 
+## GTAV Online
+
+This will ONLY work on Windows. Rockstar added Battleye anticheat without enabling the Linux support https://www.gamingonlinux.com/2024/09/grand-theft-auto-v-gets-battleye-anti-cheat-breaks-online-play-on-steam-deck-linux/. This means online **does NOT work** on Linux nor MacOS and **there's nothing that can be done to fix that**.
+
 ## "com.epicgames.launcher" protocol issue (only on Windows)
 
 > [!NOTE]  

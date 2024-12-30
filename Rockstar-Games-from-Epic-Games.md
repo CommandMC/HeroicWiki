@@ -1,6 +1,6 @@
 This page covers different problems related to launching Rockstar Games owned in Epic.
 
-## Rockstar Launcher opens with the option to buy the game
+## Rockstar Launcher opens showing the option to buy the game / Says the game is not owned
 
 Since the latest update of the Rockstar launcher, these steps are needed to run games like GTAV or RDR2:
 

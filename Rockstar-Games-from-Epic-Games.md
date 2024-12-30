@@ -1,4 +1,4 @@
-This page covers 2 problems related to launching Rockstar Games owned in Epic.
+This page covers different problems related to launching Rockstar Games owned in Epic.
 
 ## Rockstar Launcher opens with the option to buy the game
 
@@ -12,6 +12,15 @@ Since the latest update of the Rockstar launcher, these steps are needed to run 
 Then run the game.
 
 The Rockstar Launcher should open, and, while loading, it should launch the game without getting to the main screen of the Rockstar Launcher.
+
+## Rockstar Games on MacOS
+
+To run GTAV on Mac, the free `wine-crossover` wine that can be installed with Heroic doesn't work. There are 2 options:
+
+- Using the paid version of Crossover
+- Using Whisky, check the guide on their site https://docs.getwhisky.app/game-support/grand-theft-auto-5.html
+
+> I haven't seen any confirmation of running Red Dead Redemption 2 on Mac, feel free to update this if that information is known
 
 ## "com.epicgames.launcher" protocol issue (only on Windows)
 

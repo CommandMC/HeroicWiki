@@ -13,7 +13,7 @@
 * Game Fixes
   * [Game Workarounds](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Game-Workarounds)
   * [Fall Guys](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Fall-Guys)
-  * [GTAV / RDR2](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Rockstar-Games-from-Epic-Games)
+  * [Rockstar Games (GTAV / RDR2 / etc)](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Rockstar-Games-from-Epic-Games)
   * [Tony Hawk's Pro Skater 1+2](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Tony-Hawk's-Pro-Skater-1-2)
   * [Fallout: London](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Fallout:-London-guide)
   + [Microsoft Visual C++ Runtime](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Installing-Visual-C---Runtime)

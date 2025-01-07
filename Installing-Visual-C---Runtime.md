@@ -43,7 +43,7 @@ When using Crossover, winetricks cannot be used. In this case you'll have to use
 
 > I haven't used whisky so I don't know if it supports winetricks or if it needs a different process. Feel free to edit this page to add this information.
 
-### With wine-crossover / wine-staging / wineskin (or other wine)
+### With wine-crossover / wine-staging / wineskin / gptk (or other wine)
 
 For these tools, the same options that are available for Linux can be used: with winetricks or with the `Run EXE in Prefix` option
 

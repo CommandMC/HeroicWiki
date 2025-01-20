@@ -1,65 +1,49 @@
-Some Electronic Arts games require the EA App ([link](https://www.ea.com/ea-app)). Those games show up in the Library as `Not Supported`:
+# EA Games
 
-![image](https://user-images.githubusercontent.com/188464/212543333-533ed0b7-3b69-4a3e-846f-97705da81239.png)
+## EA Games through Epic Games 
 
-This page explains the steps to install the EA App on Linux and how to link your Epic account with your EA account so the games show up in the EA App collection.
+Some Electronic Arts games require the EA App ([link](https://www.ea.com/ea-app)). The description page for these games will contain "Third-Party Manager EA app". When installing EA games from Epic, Heroic will automatically install the EA application. 
 
-## Requirements
+<img src="https://github.com/user-attachments/assets/173caae3-8a68-4597-b044-bb45bc5c89b7" height="300">
 
-You have to download the EA App installer for Windows from https://www.ea.com/ea-app
+At this time, Heroic will only manage the EA application for EA games bought from the Epic store. If you have an EA game bought directly from EA, you may follow the steps on this page to sideload the EA application.
 
-## Install EA App
+## EA Games through the EA Application
 
-- Click `Add Game`
-- Set `EA App` as the title
-- Note: If you have to link your Epic and EA accounts, select Wine or Wine-Staging in the `Wine version` selector, DO NOT use Wine-GE/Proton-GE or it won't work, you can use Wine-GE/Proton here if you don't need the linking
-- Click `RUN INSTALLER FIRST`
-- Select the `EAAppInstaller.exe` file downloaded from EA's site
-- After the installation, the EA App will start but will be broken (missing content) because of missing dependencies, kill the process
-- Click the folder icon in the `Select Executable` field and look for this file `.../Prefixes/EA App/drive_c/Program Files/Electronic Arts/EA Desktop/EA Desktop/EADesktop.exe`
-- Click Finish, now the EA App should appear in your library
+### How to Install the EA App
 
-We have to install some dependencies to fix the app before using it:
+1. Download the `Windows EA App` installer, [https://www.ea.com/ea-app#downloads](https://www.ea.com/ea-app#downloads)
+2. Open the Heroic Games Launcher
+3. Click `Add Game`
+4. Write `EA App` in the `Game/App Title` field
+5. Click `Show Wine Settings` and select a Proton-GE version of your choice, typically you can select the latest numbered version
+6. Click `RUN INSTALLER FIRST`
+7. Select the `EAAppInstaller.exe` file downloaded from EA's site in Step 1
+8. When you reach the login screen, exit out of the EA application
+9. Click `Set Executable` and navigate to the prefix folder
+    * By default, this path will be `$HOME/Games/Heroic/Prefixes/default/EA App`
+10. Locate the `EADesktop.exe` in the following folder:
+    * By default, this path will be `$HOME/Games/Heroic/Prefixes/default/EA App/drive_c/Program Files/Electronic Arts/EA Desktop/EA Desktop/EADesktop.exe`
+11. Click `Open` and click `Finish`
+12. Locate the `EA App` in the Heroic library and click `Play Now`
+13. You may proceed to the next section to learn how to install your EA games
 
-- Go to the app's settings and click `WINETRICKS`
-- Click `Ok` with the Select the default prefix option checked
-- Select `Install a font` and click `Ok`
-- Select `arial` and click `Ok`
-- (If you are using Wine-GE/Proton-GE you can skip the next steps, this seems to be needed only for Wine/Wine-Staging)
-- After the font is installed, click `Cancel`
-- Select `Install a Windows DLL or Component` and click `Ok`
-- Select `d3dcompiler_47` and click `Ok`
+### How to Install EA Games
 
-After it's done installing, click `Cancel` until Winetricks closes
+**Note:** When installing games through the EA application, EA games will be installed to the following location: `$HOME/Games/Heroic/Prefixes/default/EA App/drive_c/Program Files/EA Games`.
 
-## Login into the EA App
-
-Now you should be able to run the app with the `Play` button, do that and Login.
-
-## Link the Epic account with the EA account
-
-If your games from Epic DO NOT show up in the EA App's collection, you need to link the accounts.
-
-> For this to work you need the EA App to be installed using Wine or Wine-Staging. With Wine-GE it does not set the `link2ea` protocol and trying to link accounts fail with this error `wine: failed to open "link2ea://launchgame/<appName>?AUTH_PASSWORD=....`
-
-You need some pieces of information:
-
-- The `legendary path`: check Heroic's logs, you should see a line like `(09:34:37) INFO:    [Legendary]:        Legendary location: /home/some/path/legendary` at the top, we'll need the path
-- The `app name` for any of your EA games: run the command `/home/some/path/legendary list -T` and look for any EA game, you'll see something like ` * Star Wars Squadrons (App name: bobcat | Version: None)`, the name `bobcat` is what we'll use in this case
-- The `wine prefix`: click the EA App card in the library and it will show the `WinePrefix folder` there, would be something like `/some/path/Prefixes/EA App`
-- The `wine path`: you should be using Wine or Wine-Staging, so this should be `/usr/bin/wine`, if you are not or you have wine in another path, check the EA App's log in heroic and it should show the path in the first line after `Wine Command:`
-
-Now, with all this information we have to run this command, replace `<...>` with the corresponding information listed above:
-
-```
-<legendary path> launch <app name> --origin --wine "<wine path>" --wine-prefix "<wine prefix>"
-```
-
-> With the information from the examples, this command would be `/home/some/path/legendary launch bobcat --origin --wine "/usr/bin/wine" --wine-prefix "/some/path/Prefixes/EA App"`
-
-After running that command, the EA App should open and it should ask you to link your Epic and EA accounts and your games should show up in there for you to install them.
-
-## Notes:
-
-- Make sure you logged in into the EA App before trying to link the accounts
-- Once the accounts are linked, you can use any Wine version to install the EA App if you need a specific Wine to run any of the games
+1. Locate the `EA App` in the Heroic library and click `Play Now`
+2. Sign in to the EA application if you have not done so already
+3. Install a game of your choice
+4. When the installation is complete, close out of the EA App
+5. Open the Heroic Games Launcher
+6. Click `Add Game`
+7. In the `Game/App Title` field, type the name of the game
+8. Click `Show Wine Settings`
+9. Under `Show Wine Settings`, select a Proton-GE version of your choice, typically you can select the latest numbered version
+10. Under Show Wine settings`, select the `WinePrefix` field and select the EA App prefix created in the [How to Install the EA App](#how-to-install-the-ea-app) section
+    * By default, this path will be `$HOME/Games/Heroic/Prefixes/default/EA App`
+11. Click `Select Executable` and navigate to the folder of the game you installed in Step 3
+    * By default, this path will be `$HOME/Games/Heroic/Prefixes/default/EA App/drive_c/Program Files/EA Games/GAMENAME`
+12. Select the game executable, click `Open`, click `Finish`
+13. Locate the newly installed EA game in the Heroic library and click `Play Now`, your game will now be playable directly through the Heroic Games Launcher

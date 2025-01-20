@@ -41,7 +41,7 @@ At this time, Heroic will only manage the EA application for EA games bought fro
 7. In the `Game/App Title` field, type the name of the game
 8. Click `Show Wine Settings`
 9. Under `Show Wine Settings`, select a Proton-GE version of your choice, typically you can select the latest numbered version
-10. Under Show Wine settings`, select the `WinePrefix` field and select the EA App prefix created in the [How to Install the EA App](#how-to-install-the-ea-app) section
+10. Under `Show Wine settings`, select the `WinePrefix` field and select the EA App prefix created in the [How to Install the EA App](#how-to-install-the-ea-app) section
     * By default, this path will be `$HOME/Games/Heroic/Prefixes/default/EA App`
 11. Click `Select Executable` and navigate to the folder of the game you installed in Step 3
     * By default, this path will be `$HOME/Games/Heroic/Prefixes/default/EA App/drive_c/Program Files/EA Games/GAMENAME`

@@ -8,8 +8,12 @@
   * [How To: DOSBOX and SCUMMVM](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-To:-DOSBOX-and-SCUMMVM)
   * [How To: Other Tools and Wrappers](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-To:-Other-Tools-and-Wrappers-(gamescope))
   * [How To: Discord Rich Presence RPC Support](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-To:-Discord-Rich-Presence-RPC-Support)
-* Linux, macOS, and Steam Deck
-  * [Steam Deck](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Steam-Deck)
+* Platforms
+  * Linux and Steam Deck
+     * [How to install EA Games on Linux](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-to-install-EA-Games-on-Linux)
+     * [Steam Deck](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Steam-Deck)
+  * MacOS
+  * Windows
 * Game Fixes
   * [Game Workarounds](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Game-Workarounds)
   * [Fall Guys](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Fall-Guys)

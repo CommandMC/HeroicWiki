@@ -2,7 +2,7 @@
 
 ## EA Games through Epic Games 
 
-Some Electronic Arts games require the EA App ([link](https://www.ea.com/ea-app)). The description page for these games will contain "Third-Party Manager EA app". When installing EA games from Epic, Heroic will automatically install the EA application. 
+Some Electronic Arts games require the EA App ([link](https://www.ea.com/ea-app)). The description page for these games will contain "Third-Party Manager EA app". When installing EA games from Epic, Heroic will automatically install and manage the EA application. 
 
 <img src="https://github.com/user-attachments/assets/173caae3-8a68-4597-b044-bb45bc5c89b7" height="300">
 

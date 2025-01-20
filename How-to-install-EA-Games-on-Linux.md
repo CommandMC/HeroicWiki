@@ -22,7 +22,7 @@ At this time, Heroic will only manage the EA application for EA games bought fro
 8. When you reach the login screen, exit out of the EA application
 9. Click `Set Executable` and navigate to the prefix folder
     * By default, this path will be `$HOME/Games/Heroic/Prefixes/default/EA App`
-10. Locate the `EADesktop.exe` in the following folder:
+10. Locate the `EADesktop.exe` in the EA prefix folder:
     * By default, this path will be `$HOME/Games/Heroic/Prefixes/default/EA App/drive_c/Program Files/Electronic Arts/EA Desktop/EA Desktop/EADesktop.exe`
 11. Click `Open` and click `Finish`
 12. Locate the `EA App` in the Heroic library and click `Play Now`

@@ -34,3 +34,19 @@ For the game to run we need to skip the launcher and use Wine-GE and DXVK on the
 6. Disable `ESYNC` and `FSYNC` to avoid texture issues.
 7. Now the game should open just fine.
 
+### Heroes of Might and Magic 3: Complete (from GOG)
+
+There seems to be a problem with the game's `xdd.dll` file in the installation folder, it seems to be incompatible with Wine's ddraw. That makes the game fail to open.
+
+There are 2 solutions for the problem
+
+*Option 1: Replace `xdd.dll`*
+- Run the game once so the prefix is created
+- Look for the `ddraw.dll` inside the prefix's `windows/syswow64/` folder
+- Copy that file in the game's install directory as `xdd.dll`, replacing the file that's in there
+
+*Option 2: Modify `Heroes3.exe`*
+- Run this command to modify the content of the `Heroes3.exe` executable to use `ddraw.dll` instead of `xdd.dll`:
+- `sed --in-place 's/xdd\.dll../ddraw.dll/' Heroes3.exe`
+
+Based on [this GOG forum post](https://www.gog.com/forum/heroes_of_might_and_magic_series/if_you_cant_get_homm3_to_work_after_the_latest_update_on_linux_with_wine_read_this/post3).

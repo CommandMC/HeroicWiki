@@ -51,7 +51,7 @@ If you are not using the Heroic Flatpak, the [Flatpak Permissions](#flatpak-perm
       * <img src="https://github.com/user-attachments/assets/c69d76b8-9043-4155-a928-c62b6e307270" height="300">
 7. Installation Page: 
    * Typically, if a game offers both Linux and Windows installation options, you will want to select the Windows option. In some cases, the Linux version will work but typically the Linux version may require older libraries or may be outright broken.
-   * On the installation page, you may select both the game's installation path and the game's prefix. The game installation page will contain the primary contents of the game. The prefix is equivalent to a "virtual Windows C: Drive" and will contain any dependencies and game saves. 
+   * On the installation page, you may select both the game's installation path and the game's prefix. The game installation folder will contain the primary contents of the game. The prefix is equivalent to a "virtual Windows C: Drive" and will contain any dependencies and game saves. 
    * Click `Show Wine Settings` and select the Proton-GE version you installed in Step 4.
    * Once you are satisfied with the options on the installation page, you may press `Install`
 8. Once the game is finished installing, you may play the game.
@@ -69,7 +69,7 @@ These steps will cover how to manually add a Heroic game to Steam after it is in
 1. Open the Heroic Games Launcher.
 2. Either install a game or select an already installed game in Heroic.
 3. Click the three vertical dots in the top-right section of the screen.
-4. Click `Add to Steam`.
+4. Click `Add to Steam`
       * <img src="https://github.com/user-attachments/assets/234336b2-4854-4e8d-9bc8-79015159fd97" height="300">
 5. The game will now be added to Steam and appear under the "Non-Steam" tab in Game Mode.
 
@@ -78,8 +78,8 @@ These steps will cover how to manually add a Heroic game to Steam after it is in
 These steps will cover how to automatically add a Heroic game to Steam after it is installed. 
 
 1. Open the Heroic Games Launcher.
-2. On the left-hand side of the screen, click `Settings`.
-3. On the left-hand side of the screen, click `Add games to Steam automatically`.
+2. On the left-hand side of the screen, click `Settings`
+3. On the left-hand side of the screen, click `Add games to Steam automatically`
       * <img src="https://github.com/user-attachments/assets/ef13d55d-dafa-4111-b7a1-75a360b0d408" height="300">
 4. Any newly installed Heroic games will automatically get added to Steam and appear under the "Non-Steam" tab in Game Mode.
 
@@ -90,7 +90,7 @@ If the front-end you are using supports desktop files, you can create desktop fi
 1. Open the Heroic Games Launcher.
 2. Either install a game or select an already installed game in Heroic.
 3. Click the three vertical dots in the top-right section of the screen.
-4. Click `Add Shortcut`.
+4. Click `Add Shortcut`
       * <img src="https://github.com/user-attachments/assets/bfa56aac-6fe7-45ca-accd-9c599084dced" height="300">
 5. A desktop file for the game will be added to the desktop, you may move these to a folder of your choice.
       * <img src="https://github.com/user-attachments/assets/e4ee666b-41d9-4b78-81da-8ea672968ee1" height="300">

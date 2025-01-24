@@ -12,8 +12,6 @@
 - [How to Add Heroic Games to Non-Steam Front-Ends](#how-to-add-heroic-games-to-non-steam-front-ends)
 - [Flatpak Permissions](#flatpak-permissions)
    - [Flatseal](#flatseal)
-   - [Command Line](#command-line)
-   - [KDE](#kde)
 - [Troubleshooting](#troubleshooting)
 
 ## How To Install Heroic Games Launcher
@@ -101,7 +99,7 @@ If the front-end you are using supports desktop files, you can create desktop fi
 
 By design, Flatpaks are sandboxed applications with limited access to your filesystem and host system. This ensures increased security. For more information, see [https://docs.flatpak.org/en/latest/sandbox-permissions.html](https://docs.flatpak.org/en/latest/sandbox-permissions.html). However, sometimes, you may want to grant a Flatpak additional permissions to access a folder it may not have access to otherwise. For Heroic, this would allow you to install games in additional locations or grant Heroic permissions to access additional folders. 
 
-This section will cover how to grant Heroic additional permissions. Select **one** of the below methods.
+This section will cover how to grant Heroic additional permissions.
 
 ### Flatseal
 
@@ -109,7 +107,7 @@ Flatseal is an application that allows you to easily manage Flatpaks and their p
 
 1. Open your software manager and search for "Flatseal", double check that the software manager is installing the Flatpak version and install the application.
    * If you are on KDE (SteamOS), the software manager is named "Discover". If you are on GNOME, the software manager is named "Software".
-   * Alternatively, you can open a terminal and type `flatpak install com.heroicgameslauncher.hgl` to install the Heroic Games Launcher Flatpak. 
+   * Alternatively, you can open a terminal and type `flatpak install com.github.tchx84.Flatseal` to install the Heroic Games Launcher Flatpak. 
 2. Open Flatseal and select `Heroic Games Launcher` on the left-hand side of the screen.
 3. Scroll down to `Filesystem`
    * <img src="https://github.com/user-attachments/assets/011145d0-0c31-40ae-aef1-6f440f5cc418" height="300"> 
@@ -119,42 +117,6 @@ Flatseal is an application that allows you to easily manage Flatpaks and their p
    * Added paths will have a blue triangle to the right which will state `Changed by the user` if you hover over the blue triangle.
    * <img src="https://github.com/user-attachments/assets/61e7215f-6553-477f-8edf-74c96086b6ef" height="300">
 5. Restart the Heroic Games Launcher if it was open prior to making any permission changes. Once Heroic is restarted, Heroic will now have access to whichever folder you added in Flatseal.
-
-### Command Line
-
-This section will **only** cover how to grant Heroic access to additional folders. For a full list of permissions you can grant via the command line, see [https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-override](https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-override). 
-
-1. Open a terminal of your choice.
-   * If you are on SteamOS, you may open Konsole. 
-2. Use the following template: 
-   * `flatpak override com.heroicgameslauncher.hgl --filesystem=/PATH/TO/FOLDER`
-   * For example, if you are trying to grant Heroic access to `~/Applications`, type `flatpak override com.heroicgameslauncher.hgl --filesystem=~/Applications`
-      * If the path has a space, make sure to use quotes. For example, `flatpak override com.heroicgameslauncher.hgl --filesystem="/mnt/ntsf1/My Harddrive"`
-   * If you get `error: Permission denied`, add `sudo` in front of the command: 
-      * `sudo flatpak override com.heroicgameslauncher.hgl --filesystem=/PATH/TO/FOLDER`
-   * <img src="https://github.com/user-attachments/assets/bbb7579c-06d4-49a0-b22d-1010d0fcb9e4" height="300"> 
-3. Once you have adjusted the template command to your path, press enter.
-4. Restart the Heroic Games Launcher if it was open prior to making any permission changes. Once Heroic is restarted, Heroic will now have access to whichever folder you added via command line.
-
-If you would like to revoke Heroic's access to a folder, use the following command: 
-
-`flatpak override override com.heroicgameslauncher.hgl --nofilesystem=/PATH/TO/FOLDER`
-
-### KDE
-
-If you are on KDE (Steam Deck included), you may use KDE's built in Flatpak permissions manager to grant Heroic access to additional folders.
-
-1. Open the `System Settings`
-2. Under `Personalization`, click `Applications`
-   * <img src="https://github.com/user-attachments/assets/f4b3dac8-a80a-4233-8b6b-023c8fb977ec" height="300"> 
-3. Click `Flatpak Permission Settings`, click `Heroic Games Launcher`, scroll down to `Filesystem Access`
-   * <img src="https://github.com/user-attachments/assets/b94cb4a4-be69-4dae-85ae-420d51a9f4c5" height="300"> 
-4. Click `Add New` and type the name of the folder you would like to grant Heroic access to
-   * If you are trying to grant Heroic access to an external storage device, keep in mind these external storage devices are mounted as file paths on Linux. Heroic has access to `/media` and `/run/media` by default. However, if there is another storage path, you may add that in Flatseal. 
-   * If you are trying to grant Heroic access to a folder in your home folder, you may type `~` as a substitute for `home`. For example, if you are trying to grant Heroic access to `$HOME/Applications`, you may type `~/Applications` instead.
-5. Click the drop-down and select `read/write`, click `OK`
-   * <img src="https://github.com/user-attachments/assets/31fc0738-2363-4ec8-b389-c59a11bf16e3" height="300"> 
-6. Restart the Heroic Games Launcher if it was open prior to making any permission changes. Once Heroic is restarted, Heroic will now have access to whichever folder you added via command line.
 
 ## Troubleshooting
 

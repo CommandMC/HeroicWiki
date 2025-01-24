@@ -14,6 +14,8 @@
    - [KDE](#kde)
 - [Troubleshooting](#troubleshooting)
 
+## How To Install Heroic Games Launcher
+
 1. If you do not already have Flatpak installed, see [https://flatpak.org/setup/](https://flatpak.org/setup/) for instructions.
    * If you are on SteamOS (Steam Deck) or Bazzite, Flatpaks are pre-installed.
 2. Open your software manager and search for "Heroic Games Launcher", double check that the software manager is installing the Flatpak version and install the application.

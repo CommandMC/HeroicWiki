@@ -47,3 +47,14 @@ At this time, Heroic will only manage the EA application for EA games bought fro
     * By default, this path will be `$HOME/Games/Heroic/Prefixes/default/EA App/drive_c/Program Files/EA Games/GAMENAME`
 12. Select the game executable, click `Open`, click `Finish`
 13. Locate the newly installed EA game in the Heroic library and click `Play Now`, your game will now be playable directly through the Heroic Games Launcher
+
+### Repair EA App
+
+If the EA app suddenly stops working after an update, you will need to re-run the EA installer. This section will cover how to do so. 
+
+1. Download the latest `Windows EA App` installer, [https://www.ea.com/ea-app#downloads](https://www.ea.com/ea-app#downloads)
+2. In your Heroic library, locate the `EA App`
+3. Open the `Settings`
+4. Click `Run EXE on prefix`
+5. Select the `Windows EA App` installer you downloaded in Step 1 and wait for it to finish installing.
+6. EA will now be re-installed and repaired. 

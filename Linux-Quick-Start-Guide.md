@@ -107,7 +107,7 @@ Flatseal is an application that allows you to easily manage Flatpaks and their p
 
 1. Open your software manager and search for "Flatseal", double check that the software manager is installing the Flatpak version and install the application.
    * If you are on KDE (SteamOS), the software manager is named "Discover". If you are on GNOME, the software manager is named "Software".
-   * Alternatively, you can open a terminal and type `flatpak install com.github.tchx84.Flatseal` to install the Heroic Games Launcher Flatpak. 
+   * Alternatively, you can open a terminal and type `flatpak install com.github.tchx84.Flatseal` to install the Flatseal Flatpak. 
 2. Open Flatseal and select `Heroic Games Launcher` on the left-hand side of the screen.
 3. Scroll down to `Filesystem`
    * <img src="https://github.com/user-attachments/assets/011145d0-0c31-40ae-aef1-6f440f5cc418" height="300"> 

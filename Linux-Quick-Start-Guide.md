@@ -106,7 +106,7 @@ Flatseal is an application that allows you to easily manage Flatpaks and their p
    * If you are trying to grant Heroic access to a folder in your home folder, you may type `~` as a substitute for `home`. For example, if you are trying to grant Heroic access to `$HOME/Applications`, you may type `~/Applications` instead.
    * Added paths will have a blue triangle to the right which will state `Changed by the user` if you hover over the blue triangle.
    * <img src="https://github.com/user-attachments/assets/61e7215f-6553-477f-8edf-74c96086b6ef" height="300">
-5. Restart the Heroic Games Launcher if it was open prior to making any permission changes. Once Heroic is restarted, Heroic will now access to whichever folder you added in Flatseal.
+5. Restart the Heroic Games Launcher if it was open prior to making any permission changes. Once Heroic is restarted, Heroic will now have access to whichever folder you added in Flatseal.
 
 ### Command Line
 
@@ -122,7 +122,7 @@ This section will **only** cover how to grant Heroic access to additional folder
       * `sudo flatpak override com.heroicgameslauncher.hgl --filesystem=/PATH/TO/FOLDER`
    * <img src="https://github.com/user-attachments/assets/bbb7579c-06d4-49a0-b22d-1010d0fcb9e4" height="300"> 
 3. Once you have adjusted the template command to your path, press enter.
-4. Restart the Heroic Games Launcher if it was open prior to making any permission changes. Once Heroic is restarted, Heroic will now access to whichever folder you added via command line.
+4. Restart the Heroic Games Launcher if it was open prior to making any permission changes. Once Heroic is restarted, Heroic will now have access to whichever folder you added via command line.
 
 If you would like to revoke Heroic's access to a folder, use the following command: 
 
@@ -142,7 +142,7 @@ If you are on KDE (Steam Deck included), you may use KDE's built in Flatpak perm
    * If you are trying to grant Heroic access to a folder in your home folder, you may type `~` as a substitute for `home`. For example, if you are trying to grant Heroic access to `$HOME/Applications`, you may type `~/Applications` instead.
 5. Click the drop-down and select `read/write`, click `OK`
    * <img src="https://github.com/user-attachments/assets/31fc0738-2363-4ec8-b389-c59a11bf16e3" height="300"> 
-6. Restart the Heroic Games Launcher if it was open prior to making any permission changes. Once Heroic is restarted, Heroic will now access to whichever folder you added via command line.
+6. Restart the Heroic Games Launcher if it was open prior to making any permission changes. Once Heroic is restarted, Heroic will now have access to whichever folder you added via command line.
 
 ## Troubleshooting
 

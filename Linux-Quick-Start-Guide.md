@@ -11,7 +11,7 @@
 - [Flatpak Permissions](#flatpak-permissions)
    - [Flatseal](#flatseal)
    - [Command Line](#command-line)
-   - [KDE)(#kde)
+   - [KDE](#kde)
 - [Troubleshooting](#troubleshooting)
 
 1. If you do not already have Flatpak installed, see [https://flatpak.org/setup/](https://flatpak.org/setup/) for instructions.

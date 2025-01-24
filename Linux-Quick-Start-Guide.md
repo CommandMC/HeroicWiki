@@ -120,7 +120,7 @@ Flatseal is an application that allows you to easily manage Flatpaks and their p
 
 ## Troubleshooting
 
-If you suddenly notice any issues with Heroic, open a terminal of your choice and enter the command below:
+If you installed Heroic as a Flatpak and suddenly notice any issues with Heroic, open a terminal of your choice and enter the command below. The command **will not** remove or clear** any data or configurations.  
 
 ```
 flatpak update && flatpak install --reinstall com.heroicgameslauncher.hgl

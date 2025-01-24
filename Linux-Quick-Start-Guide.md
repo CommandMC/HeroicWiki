@@ -60,7 +60,9 @@ You do not necessarily need to update to the latest Proton-GE version when it re
 
 ## How to Add Heroic Games to Steam
 
-Non-Steam games added to Steam will automatically appear in Game Mode under the "Non-Steam" tab. In order to add non-Steam games to Steam, follow the below steps.
+If you are on a Steam Deck, non-Steam games added to Steam will automatically appear in Game Mode under the "Non-Steam" tab.
+
+In order to add non-Steam games to Steam, follow the below steps.
 
 ### Manual
 
@@ -71,7 +73,7 @@ These steps will cover how to manually add a Heroic game to Steam after it is in
 3. Click the three vertical dots in the top-right section of the screen.
 4. Click `Add to Steam`
       * <img src="https://github.com/user-attachments/assets/234336b2-4854-4e8d-9bc8-79015159fd97" height="300">
-5. The game will now be added to Steam and appear under the "Non-Steam" tab in Game Mode.
+5. The game will now be added to Steam.
 
 ### Automatic
 
@@ -81,7 +83,7 @@ These steps will cover how to automatically add a Heroic game to Steam after it 
 2. On the left-hand side of the screen, click `Settings`
 3. On the left-hand side of the screen, click `Add games to Steam automatically`
       * <img src="https://github.com/user-attachments/assets/ef13d55d-dafa-4111-b7a1-75a360b0d408" height="300">
-4. Any newly installed Heroic games will automatically get added to Steam and appear under the "Non-Steam" tab in Game Mode.
+4. Any newly installed Heroic games will automatically get added to Steam.
 
 ## How to Add Heroic Games to Non-Steam Front-Ends
 

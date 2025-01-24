@@ -56,7 +56,9 @@ If you are not using the Heroic Flatpak, the [Flatpak Permissions](#flatpak-perm
    * Once you are satisfied with the options on the installation page, you may press `Install`
 8. Once the game is finished installing, you may play the game.
 
-For future installations, you do not need to repeat the Umu and Proton-GE steps above. However, new Proton-GE versions release every few months or so. These releases may contain game-specific fixes and general improvements to Proton. You do not necessarily need to update to the latest Proton-GE version when it releases but it is typically a good idea to keep up with new releases and to not lag too far behind. When installing new Proton-GE versions, you do not necessarily need to apply these versions to already installed games but rather ensure you are selecting the latest version when you are installing new games. 
+For future installations, you do not need to repeat the Umu and Proton-GE steps above. However, new Proton-GE versions release every few months or so. These releases may contain game-specific fixes and general improvements to Proton. 
+
+You do not necessarily need to update to the latest Proton-GE version when it releases but it is typically a good idea to keep up with new releases and to not lag too far behind. When installing new Proton-GE versions, you do not necessarily need to apply these versions to already installed games but rather ensure you are selecting the latest version when you are installing new games. 
 
 ## How to Add Heroic Games to Steam
 

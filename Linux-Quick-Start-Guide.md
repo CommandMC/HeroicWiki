@@ -3,6 +3,8 @@
 ## Table of Contents
 
 - [How To Install Heroic Games Launcher](#how-to-install-heroic-games-launcher)
+   - [Flatpak](#flatpak)
+   - [Non-Flatpak](#non-flatpak)
 - [First Steps](#first-steps)
 - [How to Add Heroic Games to Steam](#how-to-add-heroic-games-to-steam)
    - [Manual](#manual)
@@ -16,12 +18,20 @@
 
 ## How To Install Heroic Games Launcher
 
+### Flatpak
+
 1. If you do not already have Flatpak installed, see [https://flatpak.org/setup/](https://flatpak.org/setup/) for instructions.
    * If you are on SteamOS (Steam Deck) or Bazzite, Flatpaks are pre-installed.
 2. Open your software manager and search for "Heroic Games Launcher", double check that the software manager is installing the Flatpak version and install the application.
    * If you are on KDE (SteamOS), the software manager is named "Discover". If you are on GNOME, the software manager is named "Software".
    * Alternatively, you can open a terminal and type `flatpak install com.heroicgameslauncher.hgl` to install the Heroic Games Launcher Flatpak. 
 3. Once Heroic Games Launcher is installed, open the application and proceed to the next section.
+
+### Non-Flatpak
+
+Heroic is also available as an AppImage and several other formats. To download one of these formats instead, see [https://heroicgameslauncher.com/downloads](https://heroicgameslauncher.com/downloads). Once you have downloaded Heroic, proceed to the next section.
+
+If you are not using the Heroic Flatpak, the [Flatpak Permissions](#flatpak-permissions) section **will not** apply to your install. 
 
 ## First Steps
 

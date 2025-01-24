@@ -10,6 +10,7 @@
   * [How To: Discord Rich Presence RPC Support](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-To:-Discord-Rich-Presence-RPC-Support)
 * Platforms
   * Linux and Steam Deck
+     * [Linux Quick Start Guide](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Linux-Quick-Start-Guide)
      * [How to install EA Games on Linux](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-to-install-EA-Games-on-Linux)
      * [Steam Deck](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Steam-Deck)
   * MacOS

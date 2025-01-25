@@ -99,9 +99,7 @@ If the front-end you are using supports desktop files, you can create desktop fi
 
 ## Flatpak Permissions
 
-By design, Flatpaks are sandboxed applications with limited access to your filesystem and host system. This ensures increased security. For more information, see [https://docs.flatpak.org/en/latest/sandbox-permissions.html](https://docs.flatpak.org/en/latest/sandbox-permissions.html). However, sometimes, you may want to grant a Flatpak additional permissions to access a folder it may not have access to otherwise. For Heroic, this would allow you to install games in additional locations or grant Heroic permissions to access additional folders. 
-
-This section will cover how to grant Heroic additional permissions.
+By design, Flatpaks are sandboxed applications with limited access to your filesystem and host system. This ensures increased security. For more information, see [https://docs.flatpak.org/en/latest/sandbox-permissions.html](https://docs.flatpak.org/en/latest/sandbox-permissions.html). However, sometimes, you may want to grant a Flatpak additional permissions to access a folder it may not have access to otherwise. For Heroic, this would allow you to install games in additional locations or grant Heroic permissions to access additional folders. This section will cover how to use Flatseal to grant Heroic these permissions.
 
 ### Flatseal
 

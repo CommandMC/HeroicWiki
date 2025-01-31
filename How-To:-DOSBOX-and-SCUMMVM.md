@@ -34,7 +34,7 @@ In case of the Heroic Flatpak, you will need to add permissions to allow Heroic 
    * If you are on KDE (SteamOS), the software manager is named "Discover". If you are on GNOME, the software manager is named "Software".
    * Alternatively, you can open a terminal and type `flatpak install io.github.dosbox-staging` to install the DOSBOX Staging Flatpak. 
 2. Open your software manager and search for "Flatseal", double check that the software manager is installing the Flatpak version and install the application.
-   * If you are on KDE (SteamOS), the software manager is named "Discover". If you are on GNOME, the software manager is named "Software".
+   * If you are on KDE (SteamOS included), the software manager is named "Discover". If you are on GNOME, the software manager is named "Software".
    * Alternatively, you can open a terminal and type `flatpak install com.github.tchx84.Flatseal` to install the Flatseal Flatpak. 
 3. Open Flatseal and select `Heroic Games Launcher` on the left-hand side of the screen.
 4. Scroll down to `Session Bus`, `Talks`, click the `+` icon and type the following:

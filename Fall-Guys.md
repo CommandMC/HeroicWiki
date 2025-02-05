@@ -1,3 +1,6 @@
+# As of February 5th 2025, Fall Guys was updated migrating from EAC to EOS as the anticheat solution. In the process, they removed the support for Linux so the game is currently unplayable on Linux systems. Thus, the following guide is outdated and shouldn't be used
+
+
 1. Download the latest version of Wine-GE from Heroic's Wine Manager:  
    ![Download steps for Wine-GE](https://user-images.githubusercontent.com/34034631/193324230-1520111c-39a5-456a-af94-79992445c806.png)
 

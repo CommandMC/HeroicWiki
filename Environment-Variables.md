@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
 - [umu](#umu)
 - [External Documentation](#external-documentation)
-- [%command%]
+- [%command%](#command)
 - [Commonly Used Environment Variables](#commonly-used-environment-variables)
 - [How to Set Environment Variables](#how-to-set-environment-variables)
    - [How to Debug Using Environment Variables](#how-to-debug-using-environment-variables)

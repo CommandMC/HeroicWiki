@@ -68,6 +68,8 @@ On occasion, you may see users suggesting environment variables for Steam games 
 
 Using the second example in the image above, `WINEDLLOVERRIDES="winhttp=n,b" %command%`, Heroic does not need a `=` or `%command`. It also does not need quotes surrounding `winhttp=n,b`. In the Heroic Games Launcher, you will need to set `WINEDLLOVERRIDES` as the `NAME` field and `winhttp=n,b` **without quotes** as the `Value` field. For a step by step guide, see below. 
 
+Though Heroic Games Launcher does not require an `=`, these will often be included when sharing environment variables to clearly convey that the left side of the `=` is the `NAME` field and the right side is the `Value` field. 
+
 1. Open the Heroic Games Launcher. 
 2. Select a game and open the game's page.
 3. In the top right, click the `Settings` button.

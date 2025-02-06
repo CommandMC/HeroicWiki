@@ -58,10 +58,10 @@ As noted in the introduction, `%command%` is **specifically for Steam**. **Do no
 
 ## How to Convert Steam Environment Variables to Heroic
 
+On occasion, you may see users suggesting environment variables for Steam games as shown in the images below. However, these need to be converted slightly in order to be used in the Heroic Games Launcher.
+
 * <img src="https://github.com/user-attachments/assets/4eb4c6f4-d1fb-46af-a9f5-c8415f5cae0b" width="500">
 * <img src="https://github.com/user-attachments/assets/36346d8b-9ae5-44f5-affd-43f39849e511" height="200">
-
-On occasion, you may see users suggesting environment variables for Steam games. However, these need to be converted slightly in order to be used in the Heroic Games Launcher.
 
 Using the second example in the image above, `WINEDLLOVERRIDES="winhttp=n,b" %command%`, Heroic does not need an `=` or `%command`. In the Heroic Games Launcher, you will need to set `WINEDLLOVERRIDES` as the `NAME` field and `"winhttp=n,b"` as the `Value` field. For a step by step guide, see below. 
 

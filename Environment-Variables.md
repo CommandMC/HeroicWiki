@@ -78,6 +78,6 @@ If you are using `WINEDEBUG=+fixme` or any debug variables, follow the below ste
 4. Once you have investigated the log, you can remove the environment variable by returning to the `Advanced` tab in the game's settings and clicking the `-` button.
    * <img src="https://github.com/user-attachments/assets/4b656678-fc5d-4920-921e-cbeaeae721bc" height="300">
 
-If you have not debugged a log before, typically locating error messages or repeating messages and using a search engine of your choice is a good way to begin. If you are still struggling to debug your log, join the [Heroic Games Launcher Discord](https://discord.com/invite/rHJ2uqdquK) and create a support post with your log attached.
+If you have not debugged a log before, typically locating error messages or repeating messages and copying these messages into a search engine of your choice is a good way to begin. If you are still struggling to debug your log, join the [Heroic Games Launcher Discord](https://discord.com/invite/rHJ2uqdquK) and create a support post with your log attached.
 
 ***

@@ -3,12 +3,11 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [umu](#umu)
 - [External Documentation](#external-documentation)
 - [%command%](#command)
 - [Commonly Used Environment Variables](#commonly-used-environment-variables)
 - [How to Set Environment Variables](#how-to-set-environment-variables)
-   - [How to Debug Using Environment Variables](#how-to-debug-using-environment-variables)
+- [How to Convert Steam Environment Variables to Heroic](#how-to-convert-steam-environment-variables-to-heroic)
 
 ## Introduction
 
@@ -18,17 +17,7 @@ Do note many guides online will include tutorials on how to set environment vari
 
 Another important thing to keep in mind is that many guides can be frivolous with setting environment variables. These can be seen as a "magic bullet" to fix a game but in some cases, these environment variables can be unnecessary which can either not fix the game at all or mask the actual issue at hand. 
 
-Typically the most common use-case for an environment variable is debugging. In these cases, you will set an environment variable that prints out a verbose log which can allow you to further investigate the issue at hand. After you have resolved the issue, you can disable the environment variable. 
-
-## umu
-
-[umu](https://github.com/Open-Wine-Components/umu-launcher) is a tool that allows the Steam runtime to work outside of Steam. It's best utilized in conjunction with Proton-GE or umu-Proton. However, umu can also be used with vanilla Proton. 
-
-If an environment variable successfully fixes a game, it can be upstreamed to the [umu database](https://github.com/Open-Wine-Components/umu-database) and the [umu protonfixes](https://github.com/Open-Wine-Components/umu-protonfixes) repository. Once these fixes are upstreamed, the fixes are automatically applied to your game. In these cases, the environment variable will be handled by umu entirely and **do not** need to be handled by the user. 
-
-You can view the [umu database](https://github.com/Open-Wine-Components/umu-database) to see the list of fixes currently being applied when using umu. 
-
-The umu database and proton-fixes repository are user-driven. If you have discovered a fix, create both a database entry and proton-fixes entry for your game. Once these are approved and merged, these fixes are applied to the game automatically **for any** user who installs the game. 
+Typically the most common use-case for an environment variable is debugging. In these cases, you will set an environment variable that prints out a verbose log which can allow you to further investigate the issue at hand. After you have resolved the issue, you can disable the environment variable. For specific instructions on debugging using environment variables, see [How to Debug Games Using Environment Variables)[https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-to-Debug-Games-Using-Environment-Variables]
 
 ## External Documentation
 
@@ -67,26 +56,26 @@ As noted in the introduction, `%command%` is **specifically for Steam**. **Do no
    * <img src="https://github.com/user-attachments/assets/2311ef00-7db8-414f-8f6d-387fb5b6ae0a" height="300">
 7. Your environment variable(s) will now be applied to this game in specific. 
 
-### How to Debug Using Environment Variables
+## How to Convert Steam Environment Variables to Heroic
 
-If you are using `WINEDEBUG=+fixme` or any debug variables, follow the below steps to locate the verbose log:
+* <img src="https://github.com/user-attachments/assets/4eb4c6f4-d1fb-46af-a9f5-c8415f5cae0b" width="500">
+* <img src="https://github.com/user-attachments/assets/36346d8b-9ae5-44f5-affd-43f39849e511" height="200">
 
-1. Launch the game so it produces a new verbose log. After you have launched the game (even if it crashes), close out of it and open the Heroic Games Launcher. 
-2. Open the game's page, click `Report a problem running this game`.
-   * <img src="https://github.com/user-attachments/assets/83def3f6-1ad4-4685-ac5d-5a20c12fe7e8" height="300">
-3. Either click `SHOW LOG FILE IN FOLDER` or `UPLOAD LOG FILE`, the first will open the directory of the log, the latter will upload the log to a website that you can then share with someone if you are receiving support.
-4. Once you have investigated the log, you can remove the environment variable by returning to the `Advanced` tab in the game's settings and clicking the `-` button.
-   * <img src="https://github.com/user-attachments/assets/4b656678-fc5d-4920-921e-cbeaeae721bc" height="300">
+On occasion, you may see users suggesting environment variables for Steam games. However, these need to be converted slightly in order to be used in the Heroic Games Launcher.
 
-Alternatively, you can open the directory of the log directly, the file paths are listed below:
+Using the second example in the image above, `WINEDLLOVERRIDES="winhttp=n,b" %command%`, Heroic does not need an `=` or `%command`. In the Heroic Games Launcher, you will need to set `WINEDLLOVERRIDES` as the `NAME` field and `"winhttp=n,b"` as the `Value` field. For a step by step guide, see below. 
 
-* Flatpak:
-  * `$HOME/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig`
-  * Locate the `-lastPlay` log with the newest timestamp.
-* Non-Flatpak (AppImage, DEB, RPM, etc.):
-  * `$HOME/.config/heroic/GamesConfig`
-  * Locate the `-lastPlay` log with the newest timestamp.
-
-If you have not debugged a log before, typically locating error messages or repeating messages and copying these messages into a search engine of your choice is a good way to begin. If you are still struggling to debug your log, join the [Heroic Games Launcher Discord](https://discord.com/invite/rHJ2uqdquK) and create a support post with your log attached.
+1. Open the Heroic Games Launcher. 
+2. Select a game and open the game's page.
+3. In the top right, click the `Settings` button.
+   * <img src="https://github.com/user-attachments/assets/4b03ffe5-3c30-490b-bf53-38edad2c2e85" height="300">
+4. Click the `Advanced` tab and scroll down to the `Environment Variables` section.
+   * <img src="https://github.com/user-attachments/assets/fb9d5948-10c3-4268-b245-63a009e7fd6b" height="300">
+   * <img src="https://github.com/user-attachments/assets/bdf60c91-5739-46ba-b5ed-600488cdf3a5" height="300">
+5. Using `WINEDLLOVERRIDES="winhttp=n,b" %command%` as an example, in the Heroic Games Launcher, it will look like the below image:
+   * `WINEDLLOVERRIDES` is in the `NAME` field and `"winhttp=n,b"` is in the `Value` field.
+   * <img src="https://github.com/user-attachments/assets/38b93e72-7e74-44c7-aca3-f65265640e25" height="300">
+6. Click the green `+` icon to save the environment variable.
+7. Your environment variable will now be applied to this game in specific. 
 
 ***

@@ -12,6 +12,7 @@
   * Linux and Steam Deck
      * [Linux Quick Start Guide](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Linux-Quick-Start-Guide)
      * [Environment Variables](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Environment-Variables)
+       * [How to Debug Games Using Environment Variables](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-to-Debug-Games-Using-Environment-Variables)
      * [How to install EA Games on Linux](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-to-install-EA-Games-on-Linux)
      * [Steam Deck](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Steam-Deck)
   * MacOS

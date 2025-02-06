@@ -40,7 +40,7 @@ As noted in the introduction, `%command%` is **specifically for Steam**. **Do no
 * `WINEDLLOVERRIDE=DLLNAME=n,b`
    * The `n` and `b` stand for `native` and `built-in`. This environment variable tells Proton to first check for any DLLs in the game's directory. If this fails or if it cannot find a DLL, it falls back to the DLL bundled with Proton.
    * For more information, see [Wine Environment Variables](https://gitlab.winehq.org/wine/wine/-/wikis/Wine-User's-Guide#environment-variables)
-   * WINEDLLOVERRIDES is a common environment variable used for modding games.
+   * `WINEDLLOVERRIDES` is a common environment variable used for modding games.
 
 ## How to Set Environment Variables
 

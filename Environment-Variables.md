@@ -40,6 +40,7 @@ As noted in the introduction, `%command%` is **specifically for Steam**. **Do no
 * `WINEDLLOVERRIDE="DLLNAME=n,b"`
    * The `n` and `b` stand for `native` and `built-in`. This environment variable tells Proton to first check for any DLLs in the game's directory. If this fails or if it cannot find a DLL, it falls back to the DLL bundled with Proton.
    * For more information, see [Wine Environment Variables](https://gitlab.winehq.org/wine/wine/-/wikis/Wine-User's-Guide#environment-variables)
+   * WINEDLLOVERRIDES is a common environment variable used for modding games.
 
 ## How to Set Environment Variables
 
@@ -63,7 +64,7 @@ On occasion, you may see users suggesting environment variables for Steam games 
 * <img src="https://github.com/user-attachments/assets/4eb4c6f4-d1fb-46af-a9f5-c8415f5cae0b" width="500">
 * <img src="https://github.com/user-attachments/assets/36346d8b-9ae5-44f5-affd-43f39849e511" height="200">
 
-Using the second example in the image above, `WINEDLLOVERRIDES="winhttp=n,b" %command%`, Heroic does not need an `=` or `%command`. In the Heroic Games Launcher, you will need to set `WINEDLLOVERRIDES` as the `NAME` field and `"winhttp=n,b"` as the `Value` field. For a step by step guide, see below. 
+Using the second example in the image above, `WINEDLLOVERRIDES="winhttp=n,b" %command%`, Heroic does not need a `=` or `%command`. It also does not need quotes surrounding `winhttp=n,b`. In the Heroic Games Launcher, you will need to set `WINEDLLOVERRIDES` as the `NAME` field and `winhttp=n,b` **without quotes** as the `Value` field. For a step by step guide, see below. 
 
 1. Open the Heroic Games Launcher. 
 2. Select a game and open the game's page.
@@ -73,9 +74,12 @@ Using the second example in the image above, `WINEDLLOVERRIDES="winhttp=n,b" %co
    * <img src="https://github.com/user-attachments/assets/fb9d5948-10c3-4268-b245-63a009e7fd6b" height="300">
    * <img src="https://github.com/user-attachments/assets/bdf60c91-5739-46ba-b5ed-600488cdf3a5" height="300">
 5. Using `WINEDLLOVERRIDES="winhttp=n,b" %command%` as an example, in the Heroic Games Launcher, it will look like the below image:
-   * `WINEDLLOVERRIDES` is in the `NAME` field and `"winhttp=n,b"` is in the `Value` field.
-   * <img src="https://github.com/user-attachments/assets/38b93e72-7e74-44c7-aca3-f65265640e25" height="300">
+   * `WINEDLLOVERRIDES` is in the `NAME` field and `winhttp=n,b` is in the `Value` field.
+   * <img src="https://github.com/user-attachments/assets/60f1fcb6-d77e-47c5-ac64-73c3c747b845" height="300">
 6. Click the green `+` icon to save the environment variable.
 7. Your environment variable will now be applied to this game in specific. 
+
+
+
 
 ***

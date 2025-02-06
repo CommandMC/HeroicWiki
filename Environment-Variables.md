@@ -41,7 +41,7 @@ The umu database and proton-fixes repository are user-driven. If you have discov
 
 ## %command% 
 
-As noted in the introduction, `%command% is **specifically for Steam**. **Do not** use `%command%` when setting environment variables in the Heroic Games Launcher. 
+As noted in the introduction, `%command%` is **specifically for Steam**. **Do not** use `%command%` when setting environment variables in the Heroic Games Launcher. 
 
 
 ## Commonly Used Environment Variables

@@ -33,11 +33,11 @@ The umu database and proton-fixes repository are user-driven. If you have discov
 ## External Documentation
 
 * [DXVK Debug Variables](https://github.com/doitsujin/dxvk/blob/master/README.md#debugging)
+* [Proton Environment Variables](https://github.com/ValveSoftware/Proton#runtime-config-options)
+* [VKD3D Environment Variables](https://github.com/HansKristian-Work/vkd3d-proton#environment-variables)
 * [Wine Debug Variables](https://gitlab.winehq.org/wine/wine/-/wikis/Debug-Channels#examples)
 * [Wine DLL Overrides](https://gitlab.winehq.org/wine/wine/-/wikis/Wine-User's-Guide#dll-overrides)
 * [Wine Environment Variables](https://gitlab.winehq.org/wine/wine/-/wikis/Wine-User's-Guide#environment-variables)
-* [Proton Environment Variables](https://github.com/ValveSoftware/Proton#runtime-config-options)
-* [VKD3D Environment Variables](https://github.com/HansKristian-Work/vkd3d-proton#environment-variables)
 
 ## %command% 
 

@@ -22,7 +22,7 @@ Typically the most common use-case for an environment variable is debugging. In 
 
 ## umu
 
-[umu](https://github.com/Open-Wine-Components/umu-launcher) is a tool that allows the Steam runtime to work outside of Steam. It should be used in conjunction with Proton-GE. 
+[umu](https://github.com/Open-Wine-Components/umu-launcher) is a tool that allows the Steam runtime to work outside of Steam. It's best utilized in conjunction with Proton-GE or umu-Proton. However, umu can also be used with vanilla Proton. 
 
 If an environment variable successfully fixes a game, it can be upstreamed to the [umu database](https://github.com/Open-Wine-Components/umu-database) and the [umu protonfixes](https://github.com/Open-Wine-Components/umu-protonfixes) repository. Once these fixes are upstreamed, the fixes are automatically applied to your game. In these cases, the environment variable will be handled by umu entirely and **do not** need to be handled by the user. 
 

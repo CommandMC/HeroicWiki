@@ -37,12 +37,14 @@ As noted in the introduction, `%command%` is **specifically for Steam**. **Do no
 
 * `WINEDEBUG=+fixme`
    * Outputs verbose logging information.
-* `WINEDLLOVERRIDE="DLLNAME=n,b"`
+* `WINEDLLOVERRIDE=DLLNAME=n,b`
    * The `n` and `b` stand for `native` and `built-in`. This environment variable tells Proton to first check for any DLLs in the game's directory. If this fails or if it cannot find a DLL, it falls back to the DLL bundled with Proton.
    * For more information, see [Wine Environment Variables](https://gitlab.winehq.org/wine/wine/-/wikis/Wine-User's-Guide#environment-variables)
    * WINEDLLOVERRIDES is a common environment variable used for modding games.
 
 ## How to Set Environment Variables
+
+Though Heroic Games Launcher does not require an `=`, these will often be included when sharing environment variables to clearly convey that the left side of the `=` is the `NAME` field and the right side is the `Value` field. 
 
 1. Open the Heroic Games Launcher.
 2. Select a game and open the game's page.

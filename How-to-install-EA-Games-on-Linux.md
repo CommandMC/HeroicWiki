@@ -1,5 +1,16 @@
 # EA Games
 
+## Table of Contents
+
+- [EA Games through Epic Games](#ea-games-through-epic-games)
+- [EA Games through the EA Application](#ea-games-through-the-ea-application)
+    - [How to Install the EA Application](#how-to-install-the-ea-application)
+    - [How to Install EA Games](#how-to-install-ea-games)
+- [How to Debug EA Games](#how-to-debug-ea-games)
+    - [How to Repair the EA Application](#how-to-repair-the-ea-application)
+
+***
+
 ## EA Games through Epic Games 
 
 Some Electronic Arts games require the EA App ([link](https://www.ea.com/ea-app)). The description page for these games will contain "Third-Party Manager EA app". When installing EA games from Epic, Heroic will automatically install and manage the EA application. 
@@ -8,9 +19,11 @@ Some Electronic Arts games require the EA App ([link](https://www.ea.com/ea-app)
 
 At this time, Heroic will only manage the EA application for EA games bought from the Epic store. If you have an EA game bought directly from EA, you may follow the steps on this page to sideload the EA application.
 
+***
+
 ## EA Games through the EA Application
 
-### How to Install the EA App
+### How to Install the EA Application
 
 1. Download the `Windows EA App` installer, [https://www.ea.com/ea-app#downloads](https://www.ea.com/ea-app#downloads)
 2. Open the Heroic Games Launcher
@@ -48,9 +61,15 @@ At this time, Heroic will only manage the EA application for EA games bought fro
 12. Select the game executable, click `Open`, click `Finish`
 13. Locate the newly installed EA game in the Heroic library and click `Play Now`, your game will now be playable directly through the Heroic Games Launcher
 
-### Repair EA App
+***
+
+## How to Debug EA Games
+
+### How to Repair the EA Application
 
 If the EA app suddenly stops working after an update, you will need to re-run the EA installer. This section will cover how to do so. 
+
+This section is applicable for EA games both bought through Epic and directly from the EA store.  
 
 1. Download the latest `Windows EA App` installer, [https://www.ea.com/ea-app#downloads](https://www.ea.com/ea-app#downloads)
 2. In your Heroic library, locate the `EA App`

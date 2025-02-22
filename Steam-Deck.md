@@ -176,6 +176,6 @@ Check if you have installed the Flatpak version of Mangodhud: `flatpak install o
 
 ### Gamescope not available
 
-Check if you have installed the Flatpak version of Gamescope: `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope`
+Check if you have installed the Flatpak version of Gamescope: `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/23.08`
 
 If you are on a Steam Deck, the Flatpak version of Gamescope must match the natively installed version. If these versions do not match, you may experience increased crashing in other Flatpaks. 

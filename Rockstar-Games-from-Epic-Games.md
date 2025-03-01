@@ -16,6 +16,14 @@ The Rockstar Launcher should open, and, while loading, it should launch the game
 (1) Make sure the file is a plain text file and not a rich text file
 (2) I haven't seen confirmation of the file name for other games like Red Dead Redemption 1, but it's probably a similar pattern
 
+## Denied Anticheat message for GTAV on Linux and Mac
+
+Rockstar updated the game's anticheat solution and did NOT allow running GTA Online on either Mac nor Linux. Because of this, when trying to install GTAV, an dialog will show up explaining this and won't allow the installation of the game.
+
+The story mode does work though, and you can configure Heroic to not block the installation of games with broken anticheat support going to General Settings (in the sidebar) > Advanced > Toggle on the setting "Allow installation of games with broken or denied anticheat".
+
+After that, the game can be installed (though Online mode will still not work).
+
 ## Rockstar Games on MacOS
 
 To run GTAV on Mac, the free `wine-crossover` wine that can be installed with Heroic doesn't work. There are 2 options:

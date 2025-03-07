@@ -24,7 +24,7 @@ The story mode does work though, and you can configure Heroic to not block the i
 
 After that, the game can be installed (though Online mode will still not work).
 
-## GTAV Enhanced
+## GTA V Enhanced Edition
 
 On linux, you'll need a special version of GE-Proton https://github.com/telqor/proton-ge-custom/releases/tag/GE-Proton9-25-GTA
 - download the `tar.gz` file from there

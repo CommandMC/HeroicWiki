@@ -24,6 +24,13 @@ The story mode does work though, and you can configure Heroic to not block the i
 
 After that, the game can be installed (though Online mode will still not work).
 
+## GTAV Enhanced
+
+On linux, you'll need a special version of GE-Proton https://github.com/telqor/proton-ge-custom/releases/tag/GE-Proton9-25-GTA
+- download the `tar.gz` file from there
+- extract the folder in Heroic's `tools` folder (`~/.config/heroic/tools/proton/GE-Proton9-25-GTA`) or in `~/.steam/root/compatibilitytools.d/GE-Proton9-25-GTA/`
+- then it will show up as an option in the game's settings `wine version` selector
+
 ## Rockstar Games on MacOS
 
 To run GTAV on Mac, the free `wine-crossover` wine that can be installed with Heroic doesn't work. There are 2 options:

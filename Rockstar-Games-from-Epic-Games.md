@@ -26,10 +26,7 @@ After that, the game can be installed (though Online mode will still not work).
 
 ## GTA V Enhanced Edition
 
-On linux, you'll need a special version of GE-Proton https://github.com/telqor/proton-ge-custom/releases/tag/GE-Proton9-25-GTA
-- download the `tar.gz` file from there
-- extract the folder in Heroic's `tools` folder (`~/.config/heroic/tools/proton/GE-Proton9-25-GTA`) or in `~/.steam/root/compatibilitytools.d/GE-Proton9-25-GTA/`
-- then it will show up as an option in the game's settings `wine version` selector
+On Linux, you'll need GE-Proton9-26 or newer.
 
 ## Rockstar Games on MacOS
 

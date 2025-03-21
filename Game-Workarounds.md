@@ -42,7 +42,7 @@ There are 2 solutions for the problem
 
 *Option 1: Replace `xdd.dll`*
 - Run the game once so the prefix is created
-- Look for the `ddraw.dll` inside the prefix's `windows/syswow64/` folder
+- Look for the `ddraw.dll` inside the prefix's `drive_c/windows/syswow64/` folder
 - Copy that file in the game's install directory as `xdd.dll`, replacing the file that's in there
 
 *Option 2: Modify `Heroes3.exe`*

@@ -37,22 +37,20 @@ If you are not using the Heroic Flatpak, the [Flatpak Permissions](#flatpak-perm
 2. On the left-hand side of the screen, click the `Log in` button and log into your Epic, GOG, or Amazon account. If you have accounts for all three, you may log into all three on this menu.
    * <img src="https://github.com/user-attachments/assets/3912af10-616f-4d3c-b8af-d83f6cc23e33" height="300">
    * Once you have logged into your desired accounts, your Heroic library will now contain games from the various stores. However, make sure to follow all of the steps in this section before you start to install any games.
-3. On the left-hand side of the screen, click `Settings`, `Advanced`, and check `Use UMU as Proton runtime` under `Experimental Features`
-   * <img src="https://github.com/user-attachments/assets/162f9fcd-f99c-47d6-bb97-c0ef8e838756" height="300">
-4. On the left-hand side of the screen, click `Wine Manager`, click `Proton-GE` at the top of the screen, and download either the latest numbered Proton-GE version or `Proton-GE Latest`
+3. On the left-hand side of the screen, click `Wine Manager`, click `Proton-GE` at the top of the screen, and download either the latest numbered Proton-GE version or `Proton-GE Latest`
    * <img src="https://github.com/user-attachments/assets/40405bb9-d6b8-4027-a856-093657c64055" height="300">
-5. You may now proceed to install games from your library. On the left-hand side of the screen, click `Library` (this will only appear if you have logged into an account), select a game to install.
-6. If you are on the library view, click the small down arrow to install the game. If you are on the game page, click the `Install` button to install the game. 
+4. You may now proceed to install games from your library. On the left-hand side of the screen, click `Library` (this will only appear if you have logged into an account), select a game to install.
+5. If you are on the library view, click the small down arrow to install the game. If you are on the game page, click the `Install` button to install the game. 
    * **Library View**
       * <img src="https://github.com/user-attachments/assets/40077b9c-c8c7-4183-a960-169ccde9d123" height="300">
    * **Game Page**
       * <img src="https://github.com/user-attachments/assets/c69d76b8-9043-4155-a928-c62b6e307270" height="300">
-7. Installation Page: 
+6. Installation Page: 
    * Typically, if a game offers both Linux and Windows installation options, you will want to select the Windows option. In some cases, the Linux version will work but typically the Linux version may require older libraries or may be outright broken.
    * On the installation page, you may select both the game's installation path and the game's prefix. The game installation folder will contain the primary contents of the game. The prefix is equivalent to a "virtual Windows C: Drive" and will contain any dependencies and game saves. 
    * Click `Show Wine Settings` and select the Proton-GE version you installed in Step 4.
    * Once you are satisfied with the options on the installation page, you may press `Install`
-8. Once the game is finished installing, you may play the game.
+7. Once the game is finished installing, you may play the game.
 
 For future installations, you do not need to repeat the Umu and Proton-GE steps above. However, new Proton-GE versions release every few months or so. These releases may contain game-specific fixes and general improvements to Proton. 
 

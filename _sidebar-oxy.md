@@ -24,6 +24,7 @@
   * [Rockstar Games (GTAV / RDR2 / etc)](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Rockstar-Games-from-Epic-Games)
   * [Tony Hawk's Pro Skater 1+2](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Tony-Hawk's-Pro-Skater-1-2)
   * [Fallout: London](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Fallout:-London-guide)
+  * [Paradox Launcher for native Linux games from GOG](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Paradox-Launcher-for-native-Linux-games-from-GOG)
   + [Microsoft Visual C++ Runtime](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Installing-Visual-C---Runtime)
 * Contributing
   * [Contributing](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Contributing)

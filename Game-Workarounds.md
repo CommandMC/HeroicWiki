@@ -6,11 +6,6 @@ For Cloud Sync to work as expected, where a game saves and syncs is very importa
 
 ## Heroic-specific
 
-### Marvel Rivals
-
-1. Set the alternative EXE to be `<pathToGame>/MarvelRivalsjKtnW/MarvelRivals_Launcher.exe`
-2. Add an environment variable for `SteamDeck=1`
-
 ### Humankind
 
 If your game is crashing on launch, you need to enable the EOS overlay.

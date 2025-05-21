@@ -26,6 +26,7 @@
   * [Fallout: London](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Fallout:-London-guide)
   * [Paradox Launcher for native Linux games from GOG](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Paradox-Launcher-for-native-Linux-games-from-GOG)
   + [Microsoft Visual C++ Runtime](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Installing-Visual-C---Runtime)
+  + [Anime Games](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Anime-Games)
 * Contributing
   * [Contributing](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Contributing)
   * [Translations](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Translations)

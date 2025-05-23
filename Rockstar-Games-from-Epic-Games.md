@@ -2,19 +2,28 @@ This page covers different problems related to launching Rockstar Games owned in
 
 ## Rockstar Launcher opens showing the option to buy the game / Says the game is not owned
 
-Since the latest update of the Rockstar launcher, these steps are needed to run games like GTAV or RDR2:
+> IMPORTANT: Starting Heroic 2.17, all this process should be automated. If it's not, you can configure the `Environment Variables` of the game to include `USE_FAKE_EPIC_EXE=true` in the Advanced tab in the game's settings:
 
-- Download the custom `EpicGamesLauncher.exe` file from https://github.com/Etaash-mathamsetty/heroic-epic-integration/releases (this is NOT the real Epic Games Launcher, it's just a wrapper exe with the same file name)
-- Put the `EpicGamesLauncher.exe` file in the install directory of the game (next to the `PlayGTAV.exe` or `PlayRDR2.exe` files)
-- Create a text file (1) called `fix.bat` in the install directory (next to the `PlayGTAV.exe`) with this content `start "" EpicGamesLauncher.exe PlayGTAV.exe %*` (replace with `PlayRDR2.exe` as needed) (2)
-- In the game's settings in Heroic, in the `Advanced` tab, select the created `fix.bat` file in the `Select an alternative EXE to run` field
+![image](https://github.com/user-attachments/assets/5cad053a-8b97-4158-99af-215ce363da64)
 
-Then run the game.
+> IMPORTANT: the content below this line is the manual process if, for any reason, Heroic is not doing it and adding the env variable doesn't fix it
 
-The Rockstar Launcher should open, and, while loading, it should launch the game without getting to the main screen of the Rockstar Launcher.
+<details>
+  <summary>Old manual steps</summary>
+  Since the latest update of the Rockstar launcher, these steps are needed to run games like GTAV or RDR2:
 
-(1) Make sure the file is a plain text file and not a rich text file
-(2) I haven't seen confirmation of the file name for other games like Red Dead Redemption 1, but it's probably a similar pattern
+  - Download the custom `EpicGamesLauncher.exe` file from https://github.com/Etaash-mathamsetty/heroic-epic-integration/releases (this is NOT the real Epic Games Launcher, it's just a wrapper exe with the same file name)
+  - Put the `EpicGamesLauncher.exe` file in the install directory of the game (next to the `PlayGTAV.exe` or `PlayRDR2.exe` files)
+  - Create a text file (1) called `fix.bat` in the install directory (next to the `PlayGTAV.exe`) with this content `start "" EpicGamesLauncher.exe PlayGTAV.exe %*` (replace with `PlayRDR2.exe` as needed) (2)
+  - In the game's settings in Heroic, in the `Advanced` tab, select the created `fix.bat` file in the `Select an alternative EXE to run` field
+
+  Then run the game.
+
+  The Rockstar Launcher should open, and, while loading, it should launch the game without getting to the main screen of the Rockstar Launcher.
+
+  (1) Make sure the file is a plain text file and not a rich text file
+  (2) I haven't seen confirmation of the file name for other games like Red Dead Redemption 1, but it's probably a similar pattern
+</details>
 
 ## Denied Anticheat message for GTAV on Linux and Mac
 

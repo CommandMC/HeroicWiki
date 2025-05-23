@@ -2,7 +2,7 @@ This page covers different problems related to launching Rockstar Games owned in
 
 ## Rockstar Launcher opens showing the option to buy the game / Says the game is not owned
 
-> IMPORTANT: Starting Heroic 2.17, all this process should be automated. If it's not, you can configure the `Environment Variables` of the game to include `USE_FAKE_EPIC_EXE=true` in the Advanced tab in the game's settings:
+> IMPORTANT: Starting Heroic 2.17, all this process should be automated for GTAV and RDR2. If it's not, you can configure the `Environment Variables` of the game to include `USE_FAKE_EPIC_EXE=true` in the Advanced tab in the game's settings:
 
 ![image](https://github.com/user-attachments/assets/5cad053a-8b97-4158-99af-215ce363da64)
 

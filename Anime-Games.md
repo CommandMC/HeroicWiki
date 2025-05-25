@@ -1,6 +1,6 @@
 # Genshin Impact
 
-Since around April 2023, Genshin Impact has been playable in Linux. As of HoyoPlay Launcher v1.5.2, a runner based on Wine 10 must be used. The launcher can technically run with GE-Proton, but the game's anticheat behaves differently when using stock Proton versus GE-Proton, so stock Proton (e.g., Proton 10) is required to run the actual game.
+Since around April 2023, Genshin Impact has been playable in Linux. As of HoyoPlay Launcher v1.5.2, a runner based on Wine 10 must be used. The launcher can technically run with GE-Proton, but the game's anticheat behaves differently when using stock Proton versus GE-Proton, so stock Proton (e.g., Proton 10) installed via Steam is required to run the actual game.
 
 1. Set the game's runner to Proton 10 or newer.
 2. Ensure that umu is enabled.

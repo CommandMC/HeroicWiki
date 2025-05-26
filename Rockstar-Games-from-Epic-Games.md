@@ -35,7 +35,7 @@ After that, the game can be installed (though Online mode will still not work).
 
 ## GTA V Enhanced Edition
 
-On Linux, you'll need GE-Proton9-27.
+On Linux, you'll need GE-Proton9-27 or newer. It's recommended to use the latest available version.
 
 ## Rockstar Games on MacOS
 

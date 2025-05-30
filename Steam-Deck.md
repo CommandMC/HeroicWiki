@@ -172,10 +172,10 @@ HDR will work out of the box with the AppImage.
 
 ### Mangohud does not work
 
-Check if you have installed the Flatpak version of Mangodhud: `flatpak install org.freedesktop.Platform.VulkanLayer.MangoHud`
+Check if you have installed the Flatpak version of Mangodhud: `flatpak install org.freedesktop.Platform.VulkanLayer.MangoHud`, make sure to install the one that uses the flatpak runtime `24.08`.
 
 ### Gamescope not available
 
-Check if you have installed the Flatpak version of Gamescope: `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/23.08`
+Check if you have installed the Flatpak version of Gamescope: `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/24.08`
 
 If you are on a Steam Deck, the Flatpak version of Gamescope must match the natively installed version. If these versions do not match, you may experience increased crashing in other Flatpaks. 

@@ -27,6 +27,7 @@
   * [Paradox Launcher for native Linux games from GOG](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Paradox-Launcher-for-native-Linux-games-from-GOG)
   + [Microsoft Visual C++ Runtime](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Installing-Visual-C---Runtime)
   + [Anime Games](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Anime-Games)
+  + [Marvel Rivals](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Marvel-Rivals)
 * Contributing
   * [Contributing](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Contributing)
   * [Translations](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Translations)

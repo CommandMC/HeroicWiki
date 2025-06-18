@@ -33,11 +33,9 @@ On Linux, you'll need GE-Proton9-27 or newer. It's recommended to use the latest
 
 ## Rockstar Games on MacOS
 
-To run GTAV on Mac, neither the free `wine-crossover` wine nor the game porting toolkit that can be installed with Heroic work.
+To run GTAV or RDR2 on Mac, neither the free `wine-crossover` wine nor the game porting toolkit that can be installed with Heroic work.
 
-The only option to run GTAV on Mac to use the paid version of [Crossover](https://www.codeweavers.com).
-
-> I haven't seen any confirmation of running Red Dead Redemption 2 on Mac, feel free to update this if that information is known
+The only option that works on Mac is to use the paid version of [Crossover](https://www.codeweavers.com).
 
 ## GTAV Online
 

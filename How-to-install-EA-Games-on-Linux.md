@@ -63,7 +63,7 @@ At this time, Heroic will only manage the EA application for EA games bought fro
 
 ***
 
-## How to Debug EA Games
+## Troubleshoot EA Games
 
 ### How to Repair the EA Application
 
@@ -77,3 +77,7 @@ This section is applicable for EA games both bought through Epic and directly fr
 4. Click `Run EXE on prefix`
 5. Select the `Windows EA App` installer you downloaded in Step 1 and wait for it to finish installing.
 6. EA will now be re-installed and repaired. 
+
+### `Invalid name` Error
+
+This error means the EA App was NOT installed properly in the prefix/bottle.

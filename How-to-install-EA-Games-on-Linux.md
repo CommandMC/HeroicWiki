@@ -8,6 +8,7 @@
     - [How to Install EA Games](#how-to-install-ea-games)
 - [How to Debug EA Games](#how-to-debug-ea-games)
     - [How to Repair the EA Application](#how-to-repair-the-ea-application)
+    - [`Invalid Name` Error](#invalid-name-error)
 
 ***
 

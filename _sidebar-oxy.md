@@ -17,6 +17,7 @@
      * [How to install EA Games on Linux](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-to-install-EA-Games-on-Linux)
      * [Steam Deck](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Steam-Deck)
   * MacOS
+     * [EA App games on Mac](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/EA-Games-on-Mac)
   * Windows
 * Game Fixes
   * [Game Workarounds](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Game-Workarounds)

@@ -37,7 +37,7 @@ When using Crossover, winetricks cannot be used. In this case you'll have to use
 - Open Crossover
 - Select the corresponding Bottle on the left sidebar
 - Click the `Install application into bottle` button in the right sidebar
-- Search for C++ Runtime and install the package
+- Search for Visual C++ and install the package (Visual C++ 2015-2022 at the time of writing this)
 
 ### With Whisky
 

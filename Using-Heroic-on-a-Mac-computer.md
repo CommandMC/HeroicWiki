@@ -1,12 +1,12 @@
 ## OS Version
 
-We always recommend using the latest version of the OS, the tools Heroic uses require usually either the latest of the previous version of the OS to even run.
+We always recommend using the latest version of the OS, the tools Heroic uses require usually either the latest or the previous version of the OS to even run.
 
-## Compatibilty Layers
+## Compatibility Layers
 
 Heroic supports different compatibility layer for MacOS. These tools are used to run Windows builds of games.
 
-Mac gaming is not as mature as linux or windows, so you might need to try different compatibility layers for some games or do some tweaking (one game may not work with GPTK but work with Wine-Crossover, or be usable with Wine-Staging but have better performance with Crossover, you'll have to play around with the options.
+Mac gaming is not as mature as linux or Windows, so you might need to try different compatibility layers for some games or do some tweaking (one game may not work with GPTK but work with Wine-Crossover, or be usable with Wine-Staging but have better performance with the commercial Crossover, you'll have to play around with the options and find out what works better in your case).
 
 ### Wine-Crossover
 
@@ -26,7 +26,7 @@ Heroic allows installing Wine-Staging/Wine-Devel builds from https://github.com/
 
 ### Game Porting Toolkit (GPTK)
 
-Heroic allows installing Game Porting Toolkit builds from https://github.com/Gcenx/game-porting-toolkit/releases. This is based on [Apple's Game Porting Toolkit](https://developer.apple.com/games/game-porting-toolkit). It's meant to be used for modern games that require DX11 or DX12 and only runs in Apple Silicon chips.
+Heroic allows installing Game Porting Toolkit builds from https://github.com/Gcenx/game-porting-toolkit/releases. This is based on [Apple's Game Porting Toolkit](https://developer.apple.com/games/game-porting-toolkit). It's meant to be used for modern games that require DX11 or DX12 and only runs on Apple Silicon chips.
 
 ### Whisky
 
@@ -51,7 +51,7 @@ Here are some resources you can check too (keep in mind everything is crowd-sour
 - [AppleGamingWiki](https://www.applegamingwiki.com/wiki/Home)
 - [My personal tests for an M4 mac](https://docs.google.com/spreadsheets/d/1qvM4HpYLrDCi69nejKF3NIbqxr3RJZV3qQM9mL0u2Y0/edit?gid=1924600756#gid=1924600756)
 - [My personal tests for an Intel mac](https://docs.google.com/spreadsheets/d/1qvM4HpYLrDCi69nejKF3NIbqxr3RJZV3qQM9mL0u2Y0/edit?gid=1942809985#gid=1942809985)
-- There might be more, reach out through discord if you want to add more information here
+- There might be more, reach out through Discord if you want to add more information here
 
 ## Apple Silicon (M chips)
 

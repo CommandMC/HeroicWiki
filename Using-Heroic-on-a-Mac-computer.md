@@ -81,6 +81,6 @@ cabextract not installed! Winetricks might fail to install some packages or even
 zenity not installed! Winetricks might fail to install some packages or even open
 ```
 
-- `zenity` is needed to run the GUI interface of winetricks, you can ignore it for the known-fixes to work but you might want it if you want to manually play around with things heroic does not provide easy access to
 - `cabextract` is needed to install important known-fixes packages like `d3dcompiler`, the easiest way to get it installed is through Homebrew, we recommend [installing Homebrew](https://brew.sh) and then [installing the cabextract package](https://formulae.brew.sh/formula/cabextract#default).
+- `zenity` is needed to run the GUI interface of winetricks, you can ignore it for the known-fixes to work but you might want it if you want to manually play around with things heroic does not provide easy access to, you can install it with Homebrew running `brew install zenity`
 - TODO: `7z` can also be installed with Homebrew, but the message never goes aways, it's something to investigate more and update this page as needed

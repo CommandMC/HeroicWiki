@@ -1,5 +1,5 @@
 We're happy to receive contributions anytime!
-You can help the project by helping [translate](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Translations) it, [sponsor](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/Support.md) it, test new features, or of course, by directly contributing code!
+You can help the project by helping [translate](Translations.md) it, [sponsor](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/Support.md) it, test new features, or of course, by directly contributing code!
 
 ## Development
 
@@ -18,4 +18,4 @@ Please note, all of this project this is really recent and relatively untested c
 So, it really helps to have testers helping diagnose the issue. Heroic is still a small team, and there's only so many things we can do at a time.
 
 ## Translations and Localisation
-See [Translations](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Translations).
+See [Translations](Translations.md).

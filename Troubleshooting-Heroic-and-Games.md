@@ -28,7 +28,7 @@ If that still doesn't work, add the `--disable-gpu` flag to the shortcut that op
 
 ![image](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/assets/188464/adfd8d7b-5942-4e1f-b5e4-6c9f07f3854c)
 
-This error should not happen anymore since Heroic 2.13.0. If it still happens, check the manual setup guide https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Fall-Guys
+This error should not happen anymore since Heroic 2.13.0. If it still happens, check [the manual setup guide](Fall-Guys.md)
 
 ### Known fixes
 

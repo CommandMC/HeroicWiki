@@ -17,7 +17,7 @@ Do note many guides online will include tutorials on how to set environment vari
 
 Another important thing to keep in mind is that many guides can be frivolous with setting environment variables. These can be seen as a "magic bullet" to fix a game but in some cases, these environment variables can be unnecessary which can either not fix the game at all or mask the actual issue at hand. 
 
-Typically the most common use-case for an environment variable is debugging. In these cases, you will set an environment variable that prints out a verbose log which can allow you to further investigate the issue at hand. After you have resolved the issue, you can disable the environment variable. For specific instructions on debugging using environment variables, see [How to Debug Games Using Environment Variables)[https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-to-Debug-Games-Using-Environment-Variables]
+Typically the most common use-case for an environment variable is debugging. In these cases, you will set an environment variable that prints out a verbose log which can allow you to further investigate the issue at hand. After you have resolved the issue, you can disable the environment variable. For specific instructions on debugging using environment variables, see [How to Debug Games Using Environment Variables](How-to-Debug-Games-Using-Environment-Variables.md)
 
 ## External Documentation
 

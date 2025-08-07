@@ -9,7 +9,7 @@
 
 ## Introduction
 
-This page is a continuation of the environment variables page, [https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Environment-Variables](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Environment-Variables) with a specific focus on how to debug games using environment variables. 
+This page is a continuation of [the environment variables page](Environment-Variables.md) with a specific focus on how to debug games using environment variables. 
 
 ## Environment Variables
 
@@ -17,7 +17,7 @@ This page is a continuation of the environment variables page, [https://github.c
 
 When using `WINEDEBUG=+fixme`, follow the below steps to locate the verbose log:
 
-1. See [How to Set Environment Variables](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Environment-Variables#how-to-convert-steam-environment-variables-to-heroic) to learn how to apply the `WINEDEBUG=+fixme` environment variable. 
+1. See [How to Set Environment Variables](Environment-Variables.md#how-to-convert-steam-environment-variables-to-heroic) to learn how to apply the `WINEDEBUG=+fixme` environment variable. 
 2. Launch the game so it produces a new verbose log. After you have launched the game (even if it crashes), close out of it and open the Heroic Games Launcher. 
 3. Open the game's page, click `Report a problem running this game`.
    * <img src="https://github.com/user-attachments/assets/83def3f6-1ad4-4685-ac5d-5a20c12fe7e8" height="300">
@@ -40,7 +40,7 @@ If you have not debugged a log before, typically locating error messages or repe
 
 When using `PROTON_LOG=1`, follow the below steps to locate the verbose log:
 
-1. See [How to Set Environment Variables](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Environment-Variables#how-to-convert-steam-environment-variables-to-heroic) to learn how to apply the `PROTON_LOG=1` environment variable.
+1. See [How to Set Environment Variables](Environment-Variables.md#how-to-convert-steam-environment-variables-to-heroic) to learn how to apply the `PROTON_LOG=1` environment variable.
 2. Launch the game so it produces a new verbose log. After you have launched the game (even if it crashes), close out of it.
 3. To locate the log, navigate to one of the file paths below depending on how you installed Heroic.
     * Flatpak:

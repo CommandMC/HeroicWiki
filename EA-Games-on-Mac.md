@@ -2,4 +2,4 @@
 
 ## You can follow the Linux guide for manual installation options and general troubleshoot
 
-https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/How-to-install-EA-Games-on-Linux
+[How to install EA Games on Linux](How-to-install-EA-Games-on-Linux.md)
